@@ -2,14 +2,17 @@
 
 ## One-time setup
 
-Local development works before a Cloudflare account or GitHub repository exists. `wrangler.jsonc` intentionally contains a placeholder database UUID. Before the first deployment:
+This repository is configured for production at **https://kvisko.davorzdralo.workers.dev**. The production D1 database is `kvisko`, created in Western Europe. Its UUID is committed in `wrangler.jsonc`; the local preview ID remains separate so existing local games are preserved.
+
+For a fork or a different Cloudflare account, create your own database and replace the production UUID:
 
 1. Create a Cloudflare account with Workers Free enabled.
 2. From this project, run:
 
 ```sh
 npx wrangler login
-npx wrangler d1 create kvisko
+# If the browser callback cannot reach localhost, use: npx wrangler login --device
+npx wrangler d1 create kvisko --update-config=false
 ```
 
 3. Put the returned `database_id` into `wrangler.jsonc`. The database ID is configuration, not a secret; keep it in the repository. Keep credentials/API tokens out of source control.
@@ -22,17 +25,26 @@ npm run db:remote
 npm run deploy
 ```
 
-`db:remote` applies ordered schema migrations and upserts the content. `deploy` uploads the Worker, assets and Cron Trigger. Check `/healthz`, all four quiz cards, play/resume and the credits page at the returned Workers URL. A custom domain is optional; domain registration is a separate cost. No real deployment or Cloudflare resources are created by the local porting work.
+`db:remote` applies ordered schema migrations and upserts the content. `deploy` uploads the Worker, assets and Cron Trigger. Check `/healthz`, all four quiz cards, play/resume and the credits page at the returned Workers URL. A custom domain is optional; domain registration is a separate cost.
 
-## Future GitHub automation
+## GitHub Actions
 
-Once the GitHub repo exists, add an Actions workflow triggered by pushes/merges to **master**, plus a PR workflow that only validates. The intended order is:
+`.github/workflows/deploy.yml` runs on pull requests targeting **master**, pushes to **master**, and manual dispatch. GitHub Actions is the only automatic deployment system; leave Workers Builds disconnected.
 
-1. Check out source; set up Node 24 with npm caching; run `npm ci`.
-2. Run `npm test` (no Cloudflare token needed).
-3. On master only: run `npm run db:remote`, then `npm run deploy`.
+1. The validation job installs locked dependencies on Node 24 and runs `npm test`, including local D1 integration tests and a deployment dry run. It receives no Cloudflare credentials.
+2. After validation succeeds, master pushes and manual master runs apply migrations and content upserts, then deploy the Worker, static assets and Cron Trigger.
+3. The deployment checks `/healthz`, then exercises all four production quizzes and every bundled quiz image using `scripts/smoke.py`. These checks create test games in production; they expire normally.
 
-Store a least-privilege Cloudflare API token as `CLOUDFLARE_API_TOKEN`, scoped to the intended account with **Workers Scripts: Edit** and **D1: Edit** permissions. Provide `CLOUDFLARE_ACCOUNT_ID` through repository variables/environment. Do not expose deployment secrets to fork PR builds. Serialize production deployments with an Actions concurrency group and `cancel-in-progress: false` so a migration cannot be interrupted by a newer push. Prefer a protected production environment if approval gates are desired.
+Deployments share a concurrency group with `cancel-in-progress: false` so migrations and deployments never overlap. Official checkout/setup-node actions are pinned to commit SHAs. The workflow has read-only repository permissions. Pull requests cannot deploy or access Cloudflare credentials. The deployed URL appears in the workflow summary.
+
+Configure both repository **Actions secrets**:
+
+- `CLOUDFLARE_ACCOUNT_ID`: the target account ID.
+- `CLOUDFLARE_API_TOKEN`: the dedicated account-owned deployment token.
+
+The currently selected legacy permissions are **Workers Scripts Write**, **D1 Write**, and **Account Settings Read**. These remain supported. For a new token using Cloudflare's granular roles, use Workers Editor scoped to the existing `kvisko` Worker, plus database permissions needed to execute migrations/seed SQL. Creating a new Worker requires Workers product-level Admin; deploying an existing one requires Editor. Never commit token values.
+
+The workflow can be rerun from the Actions page after fixing a configuration/permission problem. Manual runs deploy only when master is selected. No custom domain or zone-routing permissions are needed for the workers.dev address.
 
 Schema changes must remain compatible with the previously deployed Worker while migrations run. A failed deploy can leave a migrated database behind; code rollback does not roll back schema or seed changes. Add new migration files instead of modifying applied files. Content upserts are repeatable; existing sessions retain their snapshots. Avoid enabling both Workers Builds and Actions deployment for the same branch.
 

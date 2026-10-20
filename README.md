@@ -4,6 +4,8 @@ Little questions, big discoveries. A picture quiz for children using **Cloudflar
 
 Four quizzes are included: **249 world flags, 40 familiar animals, 72 fruit/vegetables/plants, and 40 dog breeds**. Each game samples 30 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
 
+Play at **[kvisko.davorzdralo.workers.dev](https://kvisko.davorzdralo.workers.dev/)**. Pushes and merges to `master` run tests, migrate D1 and deploy automatically through GitHub Actions. Pull requests run tests only.
+
 ## Run locally
 
 Use Node.js **24 LTS** (minimum 22.18) and npm:
@@ -66,7 +68,7 @@ This creates games in the selected database. `npm run build` only bundles and va
 - `data/seed.sql`: generated, repeatable content upserts, applied separately from schema migrations.
 - `web/`: unchanged frontend, photos, flags, credits and static security headers.
 - `tests/`: local Workers/D1 integration tests.
-- `docs/design.md`: architecture and API; `docs/cloudflare.md`: deployment and future GitHub CI setup.
+- `docs/design.md`: architecture and API; `docs/cloudflare.md`: production deployment and GitHub Actions setup.
 
 After editing content, run `npm run content:generate`, `npm run db:local`, then `npm test`. The generator checks unique IDs/labels and local image paths. Upserts add/update subjects; removing subjects requires an explicit migration to remove their database rows. Existing games keep their snapshots. A new quiz also needs a card in `web/index.html` and matching UI copy in `web/app.js`.
 

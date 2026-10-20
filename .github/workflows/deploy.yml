@@ -1,0 +1,90 @@
+name: CI and deploy
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  WRANGLER_SEND_METRICS: "false"
+
+jobs:
+  check:
+    name: Test Worker and D1
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - run: npm test
+
+  deploy:
+    name: Deploy to Cloudflare
+    needs: check
+    if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: cloudflare-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci
+      - name: Migrate and seed production D1
+        run: npm run db:remote
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      - name: Deploy Worker and assets
+        id: publish
+        shell: bash
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npm run deploy 2>&1 | tee "$RUNNER_TEMP/kvisko-deploy.log"
+          python3 - <<'PY'
+          import os, re
+          from pathlib import Path
+          log = (Path(os.environ['RUNNER_TEMP']) / 'kvisko-deploy.log').read_text()
+          urls = re.findall(r'https://kvisko\.[a-z0-9-]+\.workers\.dev', log)
+          if not urls:
+              raise SystemExit('Deployment did not report a workers.dev URL')
+          url = urls[-1]
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'url={url}\n')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write(f'Deployed Kvisko: [{url}]({url})\n')
+          PY
+      - name: Verify production readiness
+        env:
+          BASE_URL: ${{ steps.publish.outputs.url }}
+        run: |
+          for attempt in {1..30}; do
+            if curl --fail --silent --show-error --max-time 10 "$BASE_URL/healthz"; then
+              exit 0
+            fi
+            sleep 2
+          done
+          exit 1
+      - name: Exercise all production quizzes and images
+        run: python3 scripts/smoke.py
+        env:
+          BASE_URL: ${{ steps.publish.outputs.url }}
