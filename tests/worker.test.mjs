@@ -34,9 +34,9 @@ async function api(path, body, expected = 200) {
   return result;
 }
 
-test('all four packs: complete games, scoring, resume, retries and independent random samples', async () => {
+test('all five packs: complete games, scoring, resume, retries and independent random samples', async () => {
   const quizzes = await api('/api/quizzes');
-  assert.equal(quizzes.length, 4);
+  assert.equal(quizzes.length, 5);
   for (const quiz of quizzes) {
     let state = await api('/api/sessions', { quiz_id: quiz.id }, 201);
     const path = `/api/sessions/${state.id}`;

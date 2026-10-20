@@ -1,0 +1,202 @@
+[
+  {
+    "id": "stop",
+    "label": "Стоп",
+    "image_url": "/traffic/stop.svg"
+  },
+  {
+    "id": "give-way",
+    "label": "Уступи првенство",
+    "image_url": "/traffic/give-way.svg"
+  },
+  {
+    "id": "no-entry",
+    "label": "Забрањен улаз",
+    "image_url": "/traffic/no-entry.svg"
+  },
+  {
+    "id": "no-bicycles",
+    "label": "Забрањено за бицикле",
+    "image_url": "/traffic/no-bicycles.svg"
+  },
+  {
+    "id": "no-pedestrians",
+    "label": "Забрањено за пешаке",
+    "image_url": "/traffic/no-pedestrians.svg"
+  },
+  {
+    "id": "no-parking",
+    "label": "Забрањено паркирање",
+    "image_url": "/traffic/no-parking.svg"
+  },
+  {
+    "id": "no-stopping",
+    "label": "Забрањено заустављање",
+    "image_url": "/traffic/no-stopping.svg"
+  },
+  {
+    "id": "cycle-path",
+    "label": "Бициклистичка стаза",
+    "image_url": "/traffic/cycle-path.svg"
+  },
+  {
+    "id": "footpath",
+    "label": "Пешачка стаза",
+    "image_url": "/traffic/footpath.svg"
+  },
+  {
+    "id": "straight",
+    "label": "Обавезно право",
+    "image_url": "/traffic/straight.svg"
+  },
+  {
+    "id": "turn-right",
+    "label": "Обавезно десно",
+    "image_url": "/traffic/turn-right.svg"
+  },
+  {
+    "id": "turn-left",
+    "label": "Обавезно лево",
+    "image_url": "/traffic/turn-left.svg"
+  },
+  {
+    "id": "one-way",
+    "label": "Једносмерна улица",
+    "image_url": "/traffic/one-way.svg"
+  },
+  {
+    "id": "priority-road",
+    "label": "Пут са првенством пролаза",
+    "image_url": "/traffic/priority-road.svg"
+  },
+  {
+    "id": "dead-end",
+    "label": "Слепа улица",
+    "image_url": "/traffic/dead-end.svg"
+  },
+  {
+    "id": "parking",
+    "label": "Паркинг",
+    "image_url": "/traffic/parking.svg"
+  },
+  {
+    "id": "hospital",
+    "label": "Болница",
+    "image_url": "/traffic/hospital.svg"
+  },
+  {
+    "id": "first-aid",
+    "label": "Прва помоћ",
+    "image_url": "/traffic/first-aid.svg"
+  },
+  {
+    "id": "petrol",
+    "label": "Бензинска станица",
+    "image_url": "/traffic/petrol.svg"
+  },
+  {
+    "id": "bus-stop",
+    "label": "Аутобуско стајалиште",
+    "image_url": "/traffic/bus-stop.svg"
+  },
+  {
+    "id": "children",
+    "label": "Деца на путу",
+    "image_url": "/traffic/children.svg"
+  },
+  {
+    "id": "roadworks",
+    "label": "Радови на путу",
+    "image_url": "/traffic/roadworks.svg"
+  },
+  {
+    "id": "slippery",
+    "label": "Клизав пут",
+    "image_url": "/traffic/slippery.svg"
+  },
+  {
+    "id": "cattle",
+    "label": "Домаће животиње на путу",
+    "image_url": "/traffic/cattle.svg"
+  },
+  {
+    "id": "wild-animals",
+    "label": "Дивље животиње на путу",
+    "image_url": "/traffic/wild-animals.svg"
+  },
+  {
+    "id": "rail-barrier",
+    "label": "Пружни прелаз са рампом",
+    "image_url": "/traffic/rail-barrier.svg"
+  },
+  {
+    "id": "rail-no-barrier",
+    "label": "Пружни прелаз без рампе",
+    "image_url": "/traffic/rail-no-barrier.svg"
+  },
+  {
+    "id": "speed-limit",
+    "label": "Ограничење брзине 40",
+    "image_url": "/traffic/speed-limit.svg"
+  },
+  {
+    "id": "danger",
+    "label": "Опасност на путу",
+    "image_url": "/traffic/danger.svg"
+  },
+  {
+    "id": "bend-right",
+    "label": "Кривина удесно",
+    "image_url": "/traffic/bend-right.svg"
+  },
+  {
+    "id": "pedestrian-crossing",
+    "label": "Знак за пешачки прелаз",
+    "image_url": "/traffic/pedestrian-crossing.svg"
+  },
+  {
+    "id": "tram",
+    "label": "Трамвајска пруга",
+    "image_url": "/traffic/tram.svg"
+  },
+  {
+    "id": "restaurant",
+    "label": "Ресторан",
+    "image_url": "/traffic/restaurant.svg"
+  },
+  {
+    "id": "roundabout",
+    "label": "Кружни ток",
+    "image_url": "/traffic/roundabout.svg"
+  },
+  {
+    "id": "light-red",
+    "label": "Црвено светло на семафору",
+    "image_url": "/traffic/light-red.svg"
+  },
+  {
+    "id": "light-yellow",
+    "label": "Жуто светло на семафору",
+    "image_url": "/traffic/light-yellow.svg"
+  },
+  {
+    "id": "light-green",
+    "label": "Зелено светло на семафору",
+    "image_url": "/traffic/light-green.svg"
+  },
+  {
+    "id": "pedestrian-red",
+    "label": "Црвено светло за пешаке",
+    "image_url": "/traffic/pedestrian-red.svg"
+  },
+  {
+    "id": "pedestrian-green",
+    "label": "Зелено светло за пешаке",
+    "image_url": "/traffic/pedestrian-green.svg"
+  },
+  {
+    "id": "zebra-crossing",
+    "label": "Зебра на коловозу",
+    "image_url": "/traffic/zebra-crossing.svg"
+  }
+]

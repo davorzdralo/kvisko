@@ -3,6 +3,7 @@
 import concurrent.futures
 import json
 import os
+import xml.etree.ElementTree as ET
 from pathlib import Path
 import urllib.request
 import urllib.error
@@ -14,6 +15,7 @@ PACKS = {
     'animals': ('animals', 'Животиње', 'Која је ово животиња?'),
     'plants': ('plants', 'Воће, поврће и биљке', 'Шта је на овој слици?'),
     'dog-breeds': ('dogs', 'Расе паса', 'Које је расе овај пас?'),
+    'traffic-signs': ('traffic', 'Саобраћај', 'Шта показује ова слика?'),
 }
 
 def request(path, body=None, expected=200):
@@ -52,7 +54,10 @@ def check_quiz(quiz_id, filename, title, prompt):
     assert quiz['question_count'] == len(bank) and quiz['title'] == title
     for subject in bank.values():
         image = request(subject['image_url'])
-        assert image.startswith((b'<svg', b'\xff\xd8', b'\x89PNG')), subject['image_url']
+        if subject['image_url'].endswith('.svg'):
+            assert ET.fromstring(image).tag == '{http://www.w3.org/2000/svg}svg', subject['image_url']
+        else:
+            assert image.startswith((b'\xff\xd8', b'\x89PNG')), subject['image_url']
     s = request('/api/sessions', {'quiz_id': quiz_id}, 201)
     path = f"/api/sessions/{s['id']}"
     assert s['total'] == quiz['round_length']

@@ -51,7 +51,8 @@ function render(nextState) {
   state = nextState;
   pendingState = null;
   answered = false;
-  const photoQuiz = state.quiz_id !== 'world-flags';
+  const photoQuiz = !['world-flags', 'traffic-signs'].includes(state.quiz_id);
+  $('game').classList.toggle('sign-game', state.quiz_id === 'traffic-signs');
   $('game').classList.toggle('photo-game', photoQuiz);
   $('quiz-title').textContent = state.quiz_title;
   if (state.complete) {
@@ -69,7 +70,8 @@ function render(nextState) {
       'world-flags': 'Пут око света, заставу по заставу.',
       animals: 'Упознајемо животињски свет, слику по слику.',
       plants: 'Од баште до ливаде, слику по слику.',
-      'dog-breeds': 'Упознајемо псе, расу по расу.'
+      'dog-breeds': 'Упознајемо псе, расу по расу.',
+      'traffic-signs': 'Упознајемо знакове, семафоре и пешачке прелазе.'
     }[state.quiz_id] || 'Још једна пустоловина пуна открића.';
     $('result-message').textContent = state.score === state.total ? 'Сви одговори су тачни! Радозналост те је одвела далеко.' : 'Свако питање је прилика да научиш нешто ново. Хоћемо ли у још једну пустоловину?';
     $('result-title').focus();
@@ -213,7 +215,7 @@ async function initialize() {
       if (!quiz) { button.textContent = 'Ускоро'; continue; }
       const count = document.querySelector(`[data-count="${quiz.id}"]`);
       const noun = quiz.round_length % 10 === 1 && quiz.round_length % 100 !== 11 ? 'питање' : 'питања';
-      const forms = { animals: ['животиња', 'животиње', 'животиња'], 'world-flags': ['застава', 'заставе', 'застава'], plants: ['појам', 'појма', 'појмова'], 'dog-breeds': ['раса', 'расе', 'раса'] }[quiz.id];
+      const forms = { animals: ['животиња', 'животиње', 'животиња'], 'world-flags': ['застава', 'заставе', 'застава'], plants: ['појам', 'појма', 'појмова'], 'dog-breeds': ['раса', 'расе', 'раса'], 'traffic-signs': ['појам', 'појма', 'појмова'] }[quiz.id];
       const last = quiz.question_count % 10, lastTwo = quiz.question_count % 100;
       const form = last === 1 && lastTwo !== 11 ? 0 : last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14) ? 1 : 2;
       count.textContent = `${quiz.round_length} ${noun} · ${quiz.question_count} ${forms[form]}`;

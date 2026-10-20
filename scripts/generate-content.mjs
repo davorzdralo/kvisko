@@ -17,7 +17,7 @@ for (const pack of packs) {
   const values = [];
   for (const subject of subjects) {
     if (!subject.id || !subject.label || ids.has(subject.id) || labels.has(subject.label)) throw new Error(`Invalid/duplicate subject: ${pack.id}/${subject.id}`);
-    if (!/^\/(flags|animals|plants|dogs)\/[a-zA-Z0-9_.-]+$/.test(subject.image_url)) throw new Error(`Invalid image: ${subject.image_url}`);
+    if (!/^\/(flags|animals|plants|dogs|traffic)\/[a-zA-Z0-9_.-]+$/.test(subject.image_url)) throw new Error(`Invalid image: ${subject.image_url}`);
     await access(path.join(root, 'web', subject.image_url));
     ids.add(subject.id); labels.add(subject.label);
     values.push(`(${[pack.id, subject.id, subject.label, subject.image_url].map(quote)})`);
