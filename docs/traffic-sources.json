@@ -858,5 +858,1357 @@
         "value": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     }
+  },
+  {
+    "id": "bend-left",
+    "filename": "Serbia_road_sign_I-1.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-1.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Left curve",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:No.cilepoga%C4%8Da\" title=\"User:No.cilepogača\">No.cilepogača</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "double-bend",
+    "filename": "Serbia_road_sign_I-2.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-2.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Double curve, first at left",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:No.cilepoga%C4%8Da\" title=\"User:No.cilepogača\">No.cilepogača</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "steep-uphill",
+    "filename": "Serbia_road_sign_I-3.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-3.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "steep-downhill",
+    "filename": "Serbia_road_sign_I-4.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-4.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "road-narrows",
+    "filename": "MK_road_sign_114.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MK_road_sign_114.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Macedonian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "drawbridge",
+    "filename": "MK_road_sign_119.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MK_road_sign_119.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Macedonian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "quayside",
+    "filename": "Serbia_road_sign_I-7.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-7.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "uneven-road",
+    "filename": "Serbia_road_sign_I-8.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-8.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "bump",
+    "filename": "Serbia_road_sign_I-10.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-10.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "loose-gravel",
+    "filename": "Serbia_road_sign_I-12.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-12.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "falling-rocks",
+    "filename": "Serbia_road_sign_I-13.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-13.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Znak odrona kamenja",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:No.cilepoga%C4%8Da\" title=\"User:No.cilepogača\">No.cilepogača</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "cyclists-warning",
+    "filename": "Serbia_road_sign_I-16.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-16.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Cyclists on the road",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:No.cilepoga%C4%8Da\" title=\"User:No.cilepogača\">No.cilepogača</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "crosswinds",
+    "filename": "Serbia_road_sign_I-22.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-22.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "two-way",
+    "filename": "Serbia_road_sign_I-23.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-23.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "tunnel",
+    "filename": "Serbia_road_sign_I-24.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-24.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "intersection",
+    "filename": "Serbia_road_sign_I-26.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-26.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Crossroads of equal importance",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:No.cilepoga%C4%8Da\" title=\"User:No.cilepogača\">No.cilepogača</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "rail-cross",
+    "filename": "Serbia_road_sign_I-34.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-34.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "traffic-queue",
+    "filename": "Serbia_road_sign_I-38.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_I-38.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian warning road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "no-vehicles",
+    "filename": "Serbia_road_sign_II-3.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-3.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана саобраћаја за возила у оба смера” (II-3), означава пут, односно део пута на коме је забрањен саобраћај за сва возила",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-buses",
+    "filename": "Serbia_road_sign_II-6.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-6.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "no-trucks",
+    "filename": "Serbia_road_sign_II-7.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-7.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "no-trailers",
+    "filename": "Serbia_road_sign_II-10.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-10.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "означава пут, односно део пута на коме је забрањен саобраћај за моторна возила која вуку прикључно возило осим полуприколице или приколице са једном осовином",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-tractors",
+    "filename": "Serbia_road_sign_II-11.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-11.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана саобраћаја за тракторе” (II-11), означава пут, односно део пута на коме је забрањен саобраћај за тракторе",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-motorcycles",
+    "filename": "Serbia_road_sign_II-12.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-12.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "maximum-width",
+    "filename": "Serbia_road_sign_II-20.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-20.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "maximum-height",
+    "filename": "Serbia_road_sign_II-21.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-21.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "maximum-weight",
+    "filename": "Serbia_road_sign_II-22.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-22.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "no-left-turn",
+    "filename": "Serbia_road_sign_II-26.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-26.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана скретања лево” (II-26), означава место на путу на коме је скретање лево забрањено",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-right-turn",
+    "filename": "Serbia_road_sign_II-26.1.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-26.1.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана скретања десно” (II-26.1), означава место на путу на коме је скретање десно забрањено",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-u-turn",
+    "filename": "Serbia_road_sign_II-27.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-27.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана полукружног окретања” (II-27), означава место на путу на коме је забрањено полукружно окретање",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "no-overtaking",
+    "filename": "Serbia_road_sign_II-28.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-28.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "no-horns",
+    "filename": "Serbia_road_sign_II-31.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-31.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана употребе звучних уређаја за упозоравање” (II-31), означава пут, односно део пута на коме се уређајем не смеју давати звучни знакови упозорења, осим у случају непосредне опасности",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "customs",
+    "filename": "Serbia_road_sign_II-32.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-32.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „забрана проласка без заустављања” (II-32), означава наредбу возачу да заустави возило из разлога означеног на знаку царинарница",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "toll",
+    "filename": "Serbia_road_sign_II-32.2.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-32.2.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Mandatory road sign of Serbia",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "snow-chains",
+    "filename": "Serbia_road_sign_II-39.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-39.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „ланци за снег” (II-39), означава део пута на коме моторна возила, осим мотоцикала, мопеда, лаких трицикла, тешких трицикла, лаких четвороцикла, тешких четвороцикла, радних машина, трактора и мотокултиватора, морају на погонским точковима имати ланце за снег, ако је на коловозу снег",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "shared-path",
+    "filename": "Serbia_road_sign_II-41.2.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-41.2.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак ,,пешачко-бициклистичка стазаˮ (II-41.2), који означава пут намењен за кретање пешака и бициклистаˮ",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Serbian Goverment",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "riding-path",
+    "filename": "Serbia_road_sign_II-42.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-42.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „стаза за јахаче” (II-42), означава стазу за јахање по којој је забрањено кретање другим учесницима у саобраћају, осим водича који воде животиње за јахање",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "straight-or-left",
+    "filename": "Serbia_road_sign_II-44.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-44.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знакови „дозвољени смерови кретања” (II-44), (II-44.1) и (II-44.2), означавају смерове у којима се возила смеју кретати",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "straight-or-right",
+    "filename": "Serbia_road_sign_II-44.1.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-44.1.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знакови „дозвољени смерови кретања” (II-44), (II-44.1) и (II-44.2), означавају смерове у којима се возила смеју кретати",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "pass-right",
+    "filename": "Serbia_road_sign_II-45.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_II-45.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „обавезно обилажење са десне стране” (II-45) означа коловоз, односно део коловоза којим се возила морају кретати приликом обилажења пешачких острва, острва за усмеравање саобраћаја, односно других објеката на коловозу",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "end-priority",
+    "filename": "Serbia_road_sign_III-4.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-4.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "cycle-crossing",
+    "filename": "Serbia_road_sign_III-5.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-5.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbia road sign III-5",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "pedestrian-underpass",
+    "filename": "Serbia_road_sign_III-8-2017.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-8-2017.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „подземни или надземни пешачки пролаз” (III-8), означава место на коме се налази подземни, односно надземни пешачки пролаз",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "motorway",
+    "filename": "Serbia_road_sign_III-68_2017.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-68_2017.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbia road sign III-68",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "end-motorway",
+    "filename": "Serbia_road_sign_III-68.1.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-68.1.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „завршетак аутопута” (III-68.1), означава место на коме се завршава аутопут",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Влада Србије",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "expressway",
+    "filename": "Serbia_road_sign_III-21.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-21.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "end-speed-limit",
+    "filename": "Serbia_road_sign_III-14-40.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-14-40.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "end-prohibitions",
+    "filename": "Serbia_road_sign_III-17.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-17.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "parking-garage",
+    "filename": "Serbia_road_sign_III-31-2017.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-31-2017.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbia road sign III-31",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "hotel",
+    "filename": "Serbia_road_sign_III-39.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-39.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "cafe",
+    "filename": "Serbia_road_sign_III-41.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-41.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "camping",
+    "filename": "Serbia_road_sign_III-43.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-43.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "tram-stop",
+    "filename": "Serbia_road_sign_III-50.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-50.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "airport",
+    "filename": "Serbia_road_sign_III-51.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-51.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "port",
+    "filename": "Serbia_road_sign_III-52.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-52.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "information",
+    "filename": "Serbia_road_sign_III-53.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-53.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "pedestrian-zone",
+    "filename": "Serbia_road_sign_III-26-2017.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-26-2017.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "знак „пешачка зона” (III-26), означава почетак зоне намењене за кретање пешака",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "school-zone",
+    "filename": "Serbia_road_sign_III-28-2017.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-28-2017.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbia road sign III-28",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Министарство грађевинарства, саобраћаја и инфраструктуре",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      }
+    }
+  },
+  {
+    "id": "living-street",
+    "filename": "Serbia_road_sign_III-29.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-29.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
+  },
+  {
+    "id": "emergency-exit",
+    "filename": "Serbia_road_sign_III-85.svg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serbia_road_sign_III-85.svg",
+    "metadata": {
+      "ImageDescription": {
+        "value": "Serbian indicatory road sign",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Gigillo83&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Gigillo83 (page does not exist)\">Gigillo83</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      }
+    }
   }
 ]

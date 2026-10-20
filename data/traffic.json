@@ -198,5 +198,305 @@
     "id": "zebra-crossing",
     "label": "Зебра на коловозу",
     "image_url": "/traffic/zebra-crossing.svg"
+  },
+  {
+    "id": "bend-left",
+    "label": "Кривина улево",
+    "image_url": "/traffic/bend-left.svg"
+  },
+  {
+    "id": "double-bend",
+    "label": "Двострука кривина",
+    "image_url": "/traffic/double-bend.svg"
+  },
+  {
+    "id": "steep-uphill",
+    "label": "Стрма узбрдица",
+    "image_url": "/traffic/steep-uphill.svg"
+  },
+  {
+    "id": "steep-downhill",
+    "label": "Стрма низбрдица",
+    "image_url": "/traffic/steep-downhill.svg"
+  },
+  {
+    "id": "road-narrows",
+    "label": "Сужење пута",
+    "image_url": "/traffic/road-narrows.svg"
+  },
+  {
+    "id": "drawbridge",
+    "label": "Покретни мост",
+    "image_url": "/traffic/drawbridge.svg"
+  },
+  {
+    "id": "quayside",
+    "label": "Обала поред пута",
+    "image_url": "/traffic/quayside.svg"
+  },
+  {
+    "id": "uneven-road",
+    "label": "Нераван пут",
+    "image_url": "/traffic/uneven-road.svg"
+  },
+  {
+    "id": "bump",
+    "label": "Избочина на путу",
+    "image_url": "/traffic/bump.svg"
+  },
+  {
+    "id": "loose-gravel",
+    "label": "Каменчићи на путу",
+    "image_url": "/traffic/loose-gravel.svg"
+  },
+  {
+    "id": "falling-rocks",
+    "label": "Одрон камења",
+    "image_url": "/traffic/falling-rocks.svg"
+  },
+  {
+    "id": "cyclists-warning",
+    "label": "Бициклисти на путу",
+    "image_url": "/traffic/cyclists-warning.svg"
+  },
+  {
+    "id": "crosswinds",
+    "label": "Бочни ветар",
+    "image_url": "/traffic/crosswinds.svg"
+  },
+  {
+    "id": "two-way",
+    "label": "Саобраћај у оба смера",
+    "image_url": "/traffic/two-way.svg"
+  },
+  {
+    "id": "tunnel",
+    "label": "Тунел",
+    "image_url": "/traffic/tunnel.svg"
+  },
+  {
+    "id": "intersection",
+    "label": "Раскрсница",
+    "image_url": "/traffic/intersection.svg"
+  },
+  {
+    "id": "rail-cross",
+    "label": "Андрејин крст — пруга",
+    "image_url": "/traffic/rail-cross.svg"
+  },
+  {
+    "id": "traffic-queue",
+    "label": "Колона возила",
+    "image_url": "/traffic/traffic-queue.svg"
+  },
+  {
+    "id": "no-vehicles",
+    "label": "Забрањен саобраћај у оба смера",
+    "image_url": "/traffic/no-vehicles.svg"
+  },
+  {
+    "id": "no-buses",
+    "label": "Забрањено за аутобусе",
+    "image_url": "/traffic/no-buses.svg"
+  },
+  {
+    "id": "no-trucks",
+    "label": "Забрањено за камионе",
+    "image_url": "/traffic/no-trucks.svg"
+  },
+  {
+    "id": "no-trailers",
+    "label": "Забрањено за возила са приколицом",
+    "image_url": "/traffic/no-trailers.svg"
+  },
+  {
+    "id": "no-tractors",
+    "label": "Забрањено за тракторе",
+    "image_url": "/traffic/no-tractors.svg"
+  },
+  {
+    "id": "no-motorcycles",
+    "label": "Забрањено за мотоцикле",
+    "image_url": "/traffic/no-motorcycles.svg"
+  },
+  {
+    "id": "maximum-width",
+    "label": "Ограничена ширина возила",
+    "image_url": "/traffic/maximum-width.svg"
+  },
+  {
+    "id": "maximum-height",
+    "label": "Ограничена висина возила",
+    "image_url": "/traffic/maximum-height.svg"
+  },
+  {
+    "id": "maximum-weight",
+    "label": "Ограничена тежина возила",
+    "image_url": "/traffic/maximum-weight.svg"
+  },
+  {
+    "id": "no-left-turn",
+    "label": "Забрањено скретање улево",
+    "image_url": "/traffic/no-left-turn.svg"
+  },
+  {
+    "id": "no-right-turn",
+    "label": "Забрањено скретање удесно",
+    "image_url": "/traffic/no-right-turn.svg"
+  },
+  {
+    "id": "no-u-turn",
+    "label": "Забрањено полукружно окретање",
+    "image_url": "/traffic/no-u-turn.svg"
+  },
+  {
+    "id": "no-overtaking",
+    "label": "Забрањено претицање",
+    "image_url": "/traffic/no-overtaking.svg"
+  },
+  {
+    "id": "no-horns",
+    "label": "Забрањено трубљење",
+    "image_url": "/traffic/no-horns.svg"
+  },
+  {
+    "id": "customs",
+    "label": "Царина",
+    "image_url": "/traffic/customs.svg"
+  },
+  {
+    "id": "toll",
+    "label": "Наплата путарине",
+    "image_url": "/traffic/toll.svg"
+  },
+  {
+    "id": "snow-chains",
+    "label": "Обавезни ланци за снег",
+    "image_url": "/traffic/snow-chains.svg"
+  },
+  {
+    "id": "shared-path",
+    "label": "Заједничка стаза за пешаке и бицикле",
+    "image_url": "/traffic/shared-path.svg"
+  },
+  {
+    "id": "riding-path",
+    "label": "Стаза за јахаче",
+    "image_url": "/traffic/riding-path.svg"
+  },
+  {
+    "id": "straight-or-left",
+    "label": "Обавезно право или лево",
+    "image_url": "/traffic/straight-or-left.svg"
+  },
+  {
+    "id": "straight-or-right",
+    "label": "Обавезно право или десно",
+    "image_url": "/traffic/straight-or-right.svg"
+  },
+  {
+    "id": "pass-right",
+    "label": "Обилажење са десне стране",
+    "image_url": "/traffic/pass-right.svg"
+  },
+  {
+    "id": "end-priority",
+    "label": "Крај пута са првенством пролаза",
+    "image_url": "/traffic/end-priority.svg"
+  },
+  {
+    "id": "cycle-crossing",
+    "label": "Прелаз бициклистичке стазе",
+    "image_url": "/traffic/cycle-crossing.svg"
+  },
+  {
+    "id": "pedestrian-underpass",
+    "label": "Пешачки пролаз са степеницама",
+    "image_url": "/traffic/pedestrian-underpass.svg"
+  },
+  {
+    "id": "motorway",
+    "label": "Аутопут",
+    "image_url": "/traffic/motorway.svg"
+  },
+  {
+    "id": "end-motorway",
+    "label": "Крај аутопута",
+    "image_url": "/traffic/end-motorway.svg"
+  },
+  {
+    "id": "expressway",
+    "label": "Мотопут",
+    "image_url": "/traffic/expressway.svg"
+  },
+  {
+    "id": "end-speed-limit",
+    "label": "Крај ограничења брзине",
+    "image_url": "/traffic/end-speed-limit.svg"
+  },
+  {
+    "id": "end-prohibitions",
+    "label": "Крај забрана",
+    "image_url": "/traffic/end-prohibitions.svg"
+  },
+  {
+    "id": "parking-garage",
+    "label": "Паркинг гаража",
+    "image_url": "/traffic/parking-garage.svg"
+  },
+  {
+    "id": "hotel",
+    "label": "Хотел",
+    "image_url": "/traffic/hotel.svg"
+  },
+  {
+    "id": "cafe",
+    "label": "Кафић",
+    "image_url": "/traffic/cafe.svg"
+  },
+  {
+    "id": "camping",
+    "label": "Камп за шаторе",
+    "image_url": "/traffic/camping.svg"
+  },
+  {
+    "id": "tram-stop",
+    "label": "Трамвајско стајалиште",
+    "image_url": "/traffic/tram-stop.svg"
+  },
+  {
+    "id": "airport",
+    "label": "Аеродром",
+    "image_url": "/traffic/airport.svg"
+  },
+  {
+    "id": "port",
+    "label": "Лука",
+    "image_url": "/traffic/port.svg"
+  },
+  {
+    "id": "information",
+    "label": "Информације",
+    "image_url": "/traffic/information.svg"
+  },
+  {
+    "id": "pedestrian-zone",
+    "label": "Пешачка зона",
+    "image_url": "/traffic/pedestrian-zone.svg"
+  },
+  {
+    "id": "school-zone",
+    "label": "Зона школе",
+    "image_url": "/traffic/school-zone.svg"
+  },
+  {
+    "id": "living-street",
+    "label": "Зона успореног саобраћаја",
+    "image_url": "/traffic/living-street.svg"
+  },
+  {
+    "id": "emergency-exit",
+    "label": "Излаз у случају опасности",
+    "image_url": "/traffic/emergency-exit.svg"
   }
 ]
