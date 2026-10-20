@@ -18,7 +18,11 @@ PACKS = {
 
 def request(path, body=None, expected=200):
     data = None if body is None else json.dumps(body).encode()
-    req = urllib.request.Request(BASE + path, data=data, headers={'Content-Type': 'application/json'})
+    req = urllib.request.Request(BASE + path, data=data, headers={
+        'Content-Type': 'application/json',
+        # Identify our test client explicitly; Cloudflare rejects Python's default user-agent.
+        'User-Agent': 'KviskoSmoke/1.0 (+https://github.com/davorzdralo/kvisko)',
+    })
     try:
         response = urllib.request.urlopen(req, timeout=15)
     except urllib.error.HTTPError as err:
