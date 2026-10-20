@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="sr-Cyrl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f7f2">
+  <title>Најбољи резултати — Квиско</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/high-scores.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Квиско — почетна"><span class="brand-icon" aria-hidden="true">к<span>✦</span></span>квиско<span class="brand-dot">.</span></a>
+    <a class="text-button" href="/">← Сви квизови</a>
+  </header>
+  <main class="leaderboard">
+    <div class="intro"><div class="eyebrow">✦ НАША МАЛА ОТКРИЋА</div><h1>Најбољи резултати</h1><p>Свака игра је прилика да научиш нешто ново.</p></div>
+    <div class="score-filter"><label for="quiz-filter">Изабери квиз</label><select id="quiz-filter"><option value="">Сви квизови</option></select></div>
+    <p class="ranking-note">Најбољих 100 резултата. Редослед је по проценту тачних одговора, затим по броју тачних одговора. Код једнаког резултата, раније сачувана игра има предност.</p>
+    <p id="scores-status" role="status" aria-live="polite">Учитавање резултата…</p>
+    <button id="scores-retry" class="text-button" hidden>Покушај поново</button>
+    <div id="scores-table-wrap" class="scores-table-wrap" hidden>
+      <table class="scores-table"><caption class="sr-only">Најбољи резултати у изабраним квизовима</caption><thead><tr><th scope="col">Место</th><th scope="col">Надимак</th><th scope="col">Резултат</th><th scope="col">Квиз</th><th scope="col">Датум</th></tr></thead><tbody id="scores-rows"></tbody></table>
+    </div>
+  </main>
+  <footer><span>За радознале главице. · <a href="/credits.html">Фотографије и извори</a></span><span>Мали кораци. Велики свет. ✦</span></footer>
+</body>
+</html>

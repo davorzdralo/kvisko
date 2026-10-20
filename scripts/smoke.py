@@ -39,6 +39,10 @@ quizzes = {q['id']: q for q in request('/api/quizzes')}
 assert set(PACKS) <= quizzes.keys()
 assert 'Квиско'.encode() in request('/')
 assert 'Фотографије и извори'.encode() in request('/credits.html')
+assert 'Најбољи резултати'.encode() in request('/high-scores.html')
+assert isinstance(request('/api/high-scores'), list)
+for quiz_id in PACKS:
+    assert all(score['quiz_id'] == quiz_id for score in request(f'/api/high-scores?quiz_id={quiz_id}'))
 request('/api/sessions', {'quiz_id': 'missing'}, 404)
 request('/api/sessions/missing', expected=404)
 

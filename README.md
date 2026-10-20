@@ -6,6 +6,12 @@ Four quizzes are included: **249 world flags, 40 familiar animals, 72 fruit/vege
 
 Play at **[kvisko.davorzdralo.workers.dev](https://kvisko.davorzdralo.workers.dev/)**. Pushes and merges to `master` run tests, migrate D1 and deploy automatically through GitHub Actions. Pull requests run tests only.
 
+## High scores
+
+After finishing a quiz, players can optionally enter a name or nickname and save their score. The name is displayed publicly; the form encourages a nickname without a surname. No account or identity verification is needed. The [high-score page](https://kvisko.net/high-scores.html) starts with all quizzes and can filter by quiz. It shows the top 100 entries, ranked by percentage correct, then correct-answer count, then earliest submission (with entry ID breaking exact ties).
+
+Scores are computed from the finished game on the server. Each game can submit once; retrying the same name is safe, and another name cannot overwrite it. Saved scores outlive the 30-day game expiry. Finished games remain resumable until their optional score is saved, so a reload need not lose the submission opportunity. New games and leaving without saving remain available.
+
 ## Run locally
 
 Use Node.js **24 LTS** (minimum 22.18) and npm:

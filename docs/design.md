@@ -2,7 +2,7 @@
 
 ## Product
 
-One image, a short prompt and four large answer buttons. Each game draws a random subset without replacement from a larger question bank. Four packs currently provide 401 subjects: 249 flags, 40 animals, 72 plants/produce and 40 dog breeds. Labels use Serbian Cyrillic and familiar child-friendly categories. There is no timer, penalty, login or collection of children's personal details. Mouse/touch and keys 1–4 select answers; Enter continues after gentle feedback.
+One image, a short prompt and four large answer buttons. Each game draws a random subset without replacement from a larger question bank. Four packs currently provide 401 subjects: 249 flags, 40 animals, 72 plants/produce and 40 dog breeds. Labels use Serbian Cyrillic and familiar child-friendly categories. There is no timer, penalty, login or requirement to enter a real identity. Mouse/touch and keys 1–4 select answers; Enter continues after gentle feedback.
 
 ## Cloudflare architecture
 
@@ -24,8 +24,20 @@ Reading sessions filters out expired records immediately. A daily 03:00 UTC Cron
 
 Source JSON generates idempotent SQL upserts in `data/seed.sql`. Schema migrations and content seeding are explicit deployment steps, never executed on API requests. Existing sessions snapshot titles, labels and options, so content updates do not change games in progress. Original Postgres game records are not imported.
 
+## High scores
+
+`high_scores` stores an internal unique session key, quiz ID, public nickname, score, question count, generated accuracy and save timestamp. It deliberately has no foreign key to `sessions`, so daily session deletion preserves saved scores. Public responses exclude session IDs. Global and per-quiz ranking indexes support a bounded top-100 query.
+
+The optional result form accepts a trimmed, NFC-normalized name/nickname of 1–30 Unicode code points. Control/format characters are rejected; names are plain text rendered with `textContent`. No real identity is required, and the UI explains that the chosen nickname is public. There is no name uniqueness or account linkage.
+
+Submission uses one conditional `INSERT ... SELECT` over the saved game JSON to compute score/total and verify completion and expiry atomically. The client cannot supply a score or quiz ID. A unique session key makes concurrent submissions and retries safe; the first name is immutable. Unfinished games return 409, and missing/expired unsaved games return 404. Existing completed games can submit after the schema migration. Publishing is optional; gameplay never waits for a name.
+
+The separate `/high-scores.html` page defaults to all quizzes and supports a shareable `?quiz_id=` filter. Entries rank by accuracy, correct count, submission time and ID; the table also shows quiz, numerator/denominator, percentage and date. Fast filter changes ignore stale responses. Loading, empty and retry states are shown. The leaderboard is an informal game feature, with no identity verification, moderation system or claim of cheat resistance.
+
 ## API
 
+- `GET /api/high-scores` (optional `?quiz_id=animals`): top 100 public score entries.
+- `POST /api/sessions/{id}/high-score` with `{"name":"Мали меда"}`: save a completed game result; retrying the same normalized name returns the existing entry.
 - `GET /healthz`: database/schema availability.
 - `GET /api/quizzes`: available quizzes, bank sizes and configured round lengths.
 - `POST /api/sessions` with `{"quiz_id":"world-flags"}`: create a game and return its current state (201).

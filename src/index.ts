@@ -115,6 +115,37 @@ async function answer(db: D1Database, id: string, questionID: string, optionID: 
   }
   throw conflict();
 }
+async function saveHighScore(db: D1Database, sessionID: string, input: string) {
+  const name = input.normalize('NFC').trim().replace(/\s+/gu, ' ');
+  if (!name || Array.from(name).length > 30 || /[\p{Cc}\p{Cf}]/u.test(input)) {
+    throw new Problem(400, 'Унеси име или надимак од 1 до 30 знакова.');
+  }
+  // Compute the score from stored answers and gate on completion/expiry in the
+  // same INSERT. A unique session key makes concurrent retries idempotent.
+  await db.prepare(`INSERT INTO high_scores(session_id,quiz_id,player_name,score,total,created_at)
+    SELECT s.id,s.quiz_id,?2,
+      (SELECT count(*) FROM json_each(s.rounds) r WHERE json_extract(r.value,'$.selected_id')=json_extract(r.value,'$.correct_id')),
+      json_array_length(s.rounds),?3
+    FROM sessions s WHERE s.id=?1 AND s.expires_at>?3
+      AND NOT EXISTS (SELECT 1 FROM json_each(s.rounds) r WHERE json_extract(r.value,'$.selected_id') IS NULL)
+    ON CONFLICT(session_id) DO NOTHING`).bind(sessionID, name, now()).run();
+  const entry = await db.prepare('SELECT id,player_name FROM high_scores WHERE session_id=?1')
+    .bind(sessionID).first<{ id: number; player_name: string }>();
+  if (entry) {
+    if (entry.player_name !== name) throw new Problem(409, 'Резултат ове игре је већ сачуван.');
+    return { id: entry.id, name: entry.player_name };
+  }
+  await load(db, sessionID); // Distinguish missing/expired from unfinished games.
+  throw new Problem(409, 'Прво заврши квиз да сачуваш резултат.');
+}
+async function highScores(db: D1Database, quizID: string) {
+  if (quizID && !await db.prepare('SELECT id FROM quizzes WHERE id=?1').bind(quizID).first()) throw missing();
+  const result = await db.prepare(`SELECT h.id,h.player_name AS name,h.quiz_id,q.title AS quiz_title,h.score,h.total,h.created_at
+    FROM high_scores h JOIN quizzes q ON q.id=h.quiz_id
+    ${quizID ? 'WHERE h.quiz_id=?1' : ''}
+    ORDER BY h.accuracy DESC,h.score DESC,h.created_at,h.id LIMIT 100`);
+  return (await (quizID ? result.bind(quizID) : result).all()).results;
+}
 async function body(request: Request, fields: string[]): Promise<Record<string, string>> {
   const bad = () => new Problem(400, 'Захтев није исправан.');
   // Bound the actual stream, not just the untrusted Content-Length header.
@@ -149,7 +180,16 @@ function json(value: unknown, status = 200): Response {
   } });
 }
 async function route(request: Request, env: Env): Promise<Response> {
-  const path = new URL(request.url).pathname;
+  const url = new URL(request.url);
+  const path = url.pathname;
+  if (path === '/api/high-scores' && request.method === 'GET') {
+    return json(await highScores(env.DB, url.searchParams.get('quiz_id') || ''));
+  }
+  const scoreMatch = /^\/api\/sessions\/([a-f0-9]{32})\/high-score$/.exec(path);
+  if (scoreMatch && request.method === 'POST') {
+    const input = await body(request, ['name']);
+    return json(await saveHighScore(env.DB, scoreMatch[1], input.name));
+  }
   if (path === '/healthz' && request.method === 'GET') {
     await env.DB.prepare('SELECT 1 FROM quizzes LIMIT 1').first();
     return json({ status: 'ok' });

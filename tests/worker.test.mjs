@@ -1,6 +1,6 @@
 import { after, before, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { Miniflare, convertV4MiniflareOptions } from 'miniflare';
 import worker from '../.worker-build/index.js';
 
@@ -14,7 +14,8 @@ before(async () => {
     bindings: { QUIZ_LENGTH: '30', SESSION_TTL_DAYS: '30' },
   }));
   db = await mf.getD1Database('DB');
-  for (const name of ['migrations/0001_schema.sql', 'data/seed.sql']) {
+  const migrations = (await readdir('migrations')).filter((name) => name.endsWith('.sql')).sort();
+  for (const name of [...migrations.map((name) => `migrations/${name}`), 'data/seed.sql']) {
     const sql = (await readFile(name, 'utf8')).replace(/^--.*$/gm, '');
     const statements = sql.split(/;\s*(?:\n|$)/).filter((statement) => statement.trim());
     await db.batch(statements.map((statement) => db.prepare(statement)));
@@ -145,4 +146,85 @@ test('scheduled cleanup deletes expired games and preserves unexpired games', as
   await worker.scheduled({}, { DB: db });
   assert.equal(await db.prepare('SELECT id FROM sessions WHERE id=?').bind(expired.id).first(), null);
   assert.deepEqual(await api(`/api/sessions/${active.id}`), active);
+});
+
+async function finishedGame(quizID = 'animals', length = 3, correctCount = length) {
+  const response = await worker.fetch(new Request('http://local/api/sessions', {
+    method: 'POST', body: JSON.stringify({ quiz_id: quizID }),
+  }), { DB: db, QUIZ_LENGTH: String(length), SESSION_TTL_DAYS: '30' });
+  assert.equal(response.status, 201);
+  let game = await response.json();
+  while (!game.complete) {
+    const q = game.question;
+    const choice = game.answered < correctCount ? q.id : q.options.find((o) => o.id !== q.id).id;
+    game = (await api(`/api/sessions/${game.id}/answers`, { question_id: q.id, option_id: choice })).state;
+  }
+  return game;
+}
+
+test('high scores use stored results, rank across lengths, filter quizzes and outlive session cleanup', async () => {
+  assert.deepEqual(await api('/api/high-scores'), []);
+  const games = [await finishedGame('animals', 3, 2), await finishedGame('plants', 2, 2), await finishedGame('animals', 3, 3)];
+  for (const [i, game] of games.entries()) {
+    const path = `/api/sessions/${game.id}/high-score`;
+    const saved = await api(path, { name: `  Играч   ${i}  ` });
+    assert.equal(saved.name, `Играч ${i}`);
+    assert.deepEqual(await api(path, { name: `Играч ${i}` }), saved);
+    await api(path, { name: 'Друго име' }, 409);
+    await api(path, { name: 'Лажно', score: 999 }, 400);
+  }
+  const all = await api('/api/high-scores');
+  assert.deepEqual(all.map((entry) => [entry.name, entry.score, entry.total]), [['Играч 2', 3, 3], ['Играч 1', 2, 2], ['Играч 0', 2, 3]]);
+  assert.ok(all.every((entry) => !('session_id' in entry) && entry.quiz_title && entry.quiz_id));
+  const animals = await api('/api/high-scores?quiz_id=animals');
+  assert.deepEqual(animals.map((entry) => entry.name), ['Играч 2', 'Играч 0']);
+  assert.deepEqual(await api('/api/high-scores?quiz_id=dog-breeds'), []);
+  await api('/api/high-scores?quiz_id=missing', undefined, 404);
+  await db.prepare('UPDATE sessions SET expires_at=0 WHERE id=?').bind(games[0].id).run();
+  await worker.scheduled({}, { DB: db });
+  assert.deepEqual(await api('/api/high-scores'), all);
+});
+
+test('unfinished/expired games and invalid names cannot add high scores', async () => {
+  const unfinished = await api('/api/sessions', { quiz_id: 'animals' }, 201);
+  const path = `/api/sessions/${unfinished.id}/high-score`;
+  await api(path, { name: 'Меда' }, 409);
+  const complete = await finishedGame();
+  for (const name of ['', '   ', 'а'.repeat(31), 'Неко\nиме', '\u200bМеда']) {
+    await api(`/api/sessions/${complete.id}/high-score`, { name }, 400);
+  }
+  await db.prepare('UPDATE sessions SET expires_at=0 WHERE id=?').bind(complete.id).run();
+  await api(`/api/sessions/${complete.id}/high-score`, { name: 'Меда' }, 404);
+  await api(`/api/sessions/${'0'.repeat(32)}/high-score`, { name: 'Меда' }, 404);
+});
+
+test('concurrent score submissions create one immutable entry; plain text names stay plain text', async () => {
+  const game = await finishedGame();
+  const path = `/api/sessions/${game.id}/high-score`;
+  const name = '<b>Меда</b>';
+  const results = await Promise.all(Array.from({ length: 4 }, () => api(path, { name })));
+  assert.ok(results.every((entry) => entry.id === results[0].id && entry.name === name));
+  const row = await db.prepare('SELECT count(*) AS count FROM high_scores WHERE session_id=?').bind(game.id).first();
+  assert.equal(row.count, 1);
+  assert.equal((await api('/api/high-scores')).find((entry) => entry.id === results[0].id).name, name);
+  const competing = await finishedGame();
+  const statuses = await Promise.all(['Меда', 'Лав'].map(async (name) => {
+    const response = await mf.dispatchFetch(`http://local/api/sessions/${competing.id}/high-score`, {
+      method: 'POST', body: JSON.stringify({ name }),
+    });
+    await response.text();
+    return response.status;
+  }));
+  assert.deepEqual(statuses.sort(), [200, 409]);
+});
+
+test('leaderboards are bounded and equal scores keep their original submission order', async () => {
+  await db.batch(Array.from({ length: 105 }, (_, index) => db.prepare(
+    'INSERT INTO high_scores(session_id,quiz_id,player_name,score,total,created_at) VALUES (?1,?2,?3,?4,?5,?6)',
+  ).bind(`limit-test-${index}`, 'world-flags', `Играч ${index}`, 1, 1, 1000 + index)));
+  const scores = await api('/api/high-scores?quiz_id=world-flags');
+  assert.equal(scores.length, 100);
+  assert.equal(scores[0].name, 'Играч 0');
+  assert.equal(scores.at(-1).name, 'Играч 99');
+  assert.equal((await api('/api/high-scores')).length, 100);
 });

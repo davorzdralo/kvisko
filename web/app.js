@@ -5,6 +5,8 @@ let busy = false;
 let answered = false;
 let quizzes = new Map();
 let view = 'home';
+let savingScore = false;
+const savedScores = new Set();
 const storageKey = 'kvisko-session';
 const startButtons = [...document.querySelectorAll('[data-start]')];
 const resumeButtons = [...document.querySelectorAll('[data-resume]')];
@@ -54,7 +56,12 @@ function render(nextState) {
   $('quiz-title').textContent = state.quiz_title;
   if (state.complete) {
     show('result');
-    remember(state.quiz_id, null);
+    // Keep the finished game resumable until its optional score is saved.
+    $('high-score-form').hidden = savedScores.has(state.id);
+    $('player-name').value = '';
+    $('score-saved').hidden = !savedScores.has(state.id);
+    $('score-saved').textContent = 'Твој резултат је сачуван!';
+    $('save-high-score').disabled = false;
     updateResumes();
     $('final-score').textContent = state.score;
     $('final-total').textContent = `од укупно ${state.total}`;
@@ -97,7 +104,7 @@ function render(nextState) {
   $('question-title').focus();
 }
 async function start(quizID) {
-  if (busy || !quizzes.has(quizID)) return;
+  if (busy || savingScore || !quizzes.has(quizID)) return;
   busy = true;
   startButtons.forEach((b) => b.disabled = true);
   $('again').disabled = true;
@@ -158,7 +165,34 @@ function home() {
 }
 startButtons.forEach((b) => b.addEventListener('click', () => start(b.dataset.start)));
 resumeButtons.forEach((b) => b.addEventListener('click', () => resume(b.dataset.resume)));
-$('again').addEventListener('click', () => start(state.quiz_id));
+$('again').addEventListener('click', () => { if (!savingScore) start(state.quiz_id); });
+$('high-score-form').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  if (savingScore || !state?.complete) return;
+  const name = $('player-name').value.normalize('NFC').trim().replace(/\s+/gu, ' ');
+  if (!name || Array.from(name).length > 30) { error('Унеси име или надимак од 1 до 30 знакова.'); return; }
+  const game = state;
+  savingScore = true;
+  $('save-high-score').disabled = true;
+  $('again').disabled = true;
+  $('error').hidden = true;
+  try {
+    const entry = await api(`/api/sessions/${encodeURIComponent(game.id)}/high-score`, { name });
+    savedScores.add(game.id);
+    remember(game.quiz_id, null);
+    updateResumes();
+    if (state.id === game.id && view === 'result') {
+      $('high-score-form').hidden = true;
+      $('score-saved').textContent = `Браво, ${entry.name}! Твој резултат је сачуван.`;
+      $('score-saved').hidden = false;
+    }
+  } catch (err) { if (state.id === game.id && view === 'result') error(err.message); }
+  finally {
+    savingScore = false;
+    $('save-high-score').disabled = false;
+    $('again').disabled = false;
+  }
+});
 $('next').addEventListener('click', advance);
 $('back').addEventListener('click', home);
 $('result-home').addEventListener('click', home);

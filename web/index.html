@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="/" aria-label="Квиско — почетна"><span class="brand-icon" aria-hidden="true">к<span>✦</span></span>квиско<span class="brand-dot">.</span></a>
-    <span class="header-note">Сваког дана мало радозналији <span aria-hidden="true">✦</span></span>
+    <nav class="header-actions" aria-label="Главна навигација"><a class="text-button" href="/high-scores.html">Најбољи резултати</a><span class="header-note">Сваког дана мало радозналији <span aria-hidden="true">✦</span></span></nav>
   </header>
   <main>
     <section id="home" aria-labelledby="home-title">
@@ -44,7 +44,16 @@
       <div class="progress-label"><span id="position"></span><span>Корак по корак до нових открића</span></div><progress id="progress" value="0" max="30" aria-label="Напредак у квизу"></progress>
       <div class="question-card"><h1 id="question-title" tabindex="-1">Коме припада ова застава?</h1><p class="question-hint">Погледај слику и изабери одговор.</p><div class="flag-stage"><img id="question-image" alt="Слика за питање"></div><p id="image-error" hidden>Слика није могла да се учита. Покушај да поново учиташ страницу.</p><div id="options" class="options" aria-label="Изабери одговор"></div><div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><button id="next" class="primary next" hidden>Следећа слика <span aria-hidden="true">→</span></button></div><p class="keyboard-hint">Кликни, додирни или притисни <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> за одговор. <kbd>Ентер</kbd> за наставак.</p>
     </section>
-    <section id="result" class="result" hidden aria-labelledby="result-title"><div class="result-spark" aria-hidden="true">✦</div><span class="tag">ПУСТОЛОВИНА ЈЕ ЗАВРШЕНА</span><h1 id="result-title" tabindex="-1">Браво за истраживање!</h1><p id="result-subtitle">Још једна пустоловина пуна открића.</p><div class="result-score"><strong id="final-score"></strong><span id="final-total"></span></div><p id="result-message"></p><button id="again" class="primary">Играј поново <span aria-hidden="true">↗</span></button><button id="result-home" class="text-button">Назад на све квизове</button></section>
+    <section id="result" class="result" hidden aria-labelledby="result-title"><div class="result-spark" aria-hidden="true">✦</div><span class="tag">ПУСТОЛОВИНА ЈЕ ЗАВРШЕНА</span><h1 id="result-title" tabindex="-1">Браво за истраживање!</h1><p id="result-subtitle">Још једна пустоловина пуна открића.</p><div class="result-score"><strong id="final-score"></strong><span id="final-total"></span></div><p id="result-message"></p>
+      <form id="high-score-form" class="score-form">
+        <h2>Сачувај свој резултат</h2>
+        <p id="name-hint">Ако желиш, упиши надимак за табелу најбољих резултата. Надимак ће бити јавно приказан — не мораш да користиш право име или презиме.</p>
+        <label for="player-name">Твоје име или надимак</label>
+        <input id="player-name" name="name" type="text" maxlength="60" required autocomplete="off" aria-describedby="name-hint" placeholder="Нпр. Радознали меда">
+        <button id="save-high-score" type="submit" class="primary">Сачувај резултат</button>
+      </form>
+      <p id="score-saved" role="status" hidden></p>
+      <a class="text-button result-scores-link" href="/high-scores.html">Погледај најбоље резултате →</a><button id="again" class="primary">Играј поново <span aria-hidden="true">↗</span></button><button id="result-home" class="text-button">Назад на све квизове</button></section>
     <div id="error" role="alert" hidden></div>
   </main>
   <footer><span>За радознале главице. · <a href="/credits.html" target="_blank" rel="noopener">Фотографије и извори</a></span><span>Мали кораци. Велики свет. <span aria-hidden="true">✦</span></span></footer>
