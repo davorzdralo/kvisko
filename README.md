@@ -2,7 +2,7 @@
 
 Little questions, big discoveries. A picture quiz for children using **Cloudflare Workers (TypeScript), D1 (SQLite), and plain HTML/CSS/JavaScript**.
 
-Five quizzes are included: **249 world flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, and 100 traffic signs/signals**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 30 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
+Five quizzes are included: **199 country flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, and 100 traffic signs/signals**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 30 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
 
 Play at **[kvisko.davorzdralo.workers.dev](https://kvisko.davorzdralo.workers.dev/)**. Pushes and merges to `master` run tests, migrate D1 and deploy automatically through GitHub Actions. Pull requests run tests only.
 
@@ -78,7 +78,7 @@ This creates games in the selected database. `npm run build` only bundles and va
 
 After editing content, run `npm run content:generate`, `npm run db:local`, then `npm test`. The generator checks unique IDs/labels and local image paths. Upserts add/update subjects; removing subjects requires an explicit migration to remove their database rows. Existing games keep their snapshots. A new quiz also needs a card in `web/index.html` and matching UI copy in `web/app.js`.
 
-See `docs/animals.md`, `docs/plants.md`, `docs/dogs.md` and `docs/traffic.md` for content scope. Photo attributions remain accessible from the footer and in the source manifests under `docs/`. Flags come from [flag-icons 7.3.2](https://github.com/lipis/flag-icons/tree/v7.3.2), under its bundled MIT license. Preserve image credits and licenses when redistributing.
+See `docs/flags.md`, `docs/animals.md`, `docs/plants.md`, `docs/dogs.md` and `docs/traffic.md` for content scope. Photo attributions remain accessible from the footer and in the source manifests under `docs/`. Flags come from [flag-icons 7.3.2](https://github.com/lipis/flag-icons/tree/v7.3.2), under its bundled MIT license. Preserve image credits and licenses when redistributing.
 
 There are no accounts, analytics, advertising, or external fonts. Session IDs are bearer credentials stored per quiz in the browser. Voice, proper localization and parent controls remain future work.
 

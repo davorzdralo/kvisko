@@ -5,11 +5,6 @@
     "image_url": "/flags/af.svg"
   },
   {
-    "id": "ax",
-    "label": "Оландска Острва",
-    "image_url": "/flags/ax.svg"
-  },
-  {
     "id": "al",
     "label": "Албанија",
     "image_url": "/flags/al.svg"
@@ -20,11 +15,6 @@
     "image_url": "/flags/dz.svg"
   },
   {
-    "id": "as",
-    "label": "Америчка Самоа",
-    "image_url": "/flags/as.svg"
-  },
-  {
     "id": "ad",
     "label": "Андора",
     "image_url": "/flags/ad.svg"
@@ -33,16 +23,6 @@
     "id": "ao",
     "label": "Ангола",
     "image_url": "/flags/ao.svg"
-  },
-  {
-    "id": "ai",
-    "label": "Ангвила",
-    "image_url": "/flags/ai.svg"
-  },
-  {
-    "id": "aq",
-    "label": "Антарктик",
-    "image_url": "/flags/aq.svg"
   },
   {
     "id": "ag",
@@ -58,11 +38,6 @@
     "id": "am",
     "label": "Јерменија",
     "image_url": "/flags/am.svg"
-  },
-  {
-    "id": "aw",
-    "label": "Аруба",
-    "image_url": "/flags/aw.svg"
   },
   {
     "id": "au",
@@ -120,11 +95,6 @@
     "image_url": "/flags/bj.svg"
   },
   {
-    "id": "bm",
-    "label": "Бермуди",
-    "image_url": "/flags/bm.svg"
-  },
-  {
     "id": "bt",
     "label": "Бутан",
     "image_url": "/flags/bt.svg"
@@ -133,11 +103,6 @@
     "id": "bo",
     "label": "Боливија",
     "image_url": "/flags/bo.svg"
-  },
-  {
-    "id": "bq",
-    "label": "Карипска Холандија",
-    "image_url": "/flags/bq.svg"
   },
   {
     "id": "ba",
@@ -150,19 +115,9 @@
     "image_url": "/flags/bw.svg"
   },
   {
-    "id": "bv",
-    "label": "Острво Буве",
-    "image_url": "/flags/bv.svg"
-  },
-  {
     "id": "br",
     "label": "Бразил",
     "image_url": "/flags/br.svg"
-  },
-  {
-    "id": "io",
-    "label": "Британска територија Индијског океана",
-    "image_url": "/flags/io.svg"
   },
   {
     "id": "bn",
@@ -205,11 +160,6 @@
     "image_url": "/flags/ca.svg"
   },
   {
-    "id": "ky",
-    "label": "Кајманска Острва",
-    "image_url": "/flags/ky.svg"
-  },
-  {
     "id": "cf",
     "label": "Централноафричка Република",
     "image_url": "/flags/cf.svg"
@@ -230,16 +180,6 @@
     "image_url": "/flags/cn.svg"
   },
   {
-    "id": "cx",
-    "label": "Божићно Острво",
-    "image_url": "/flags/cx.svg"
-  },
-  {
-    "id": "cc",
-    "label": "Кокосова (Килингова) Острва",
-    "image_url": "/flags/cc.svg"
-  },
-  {
     "id": "co",
     "label": "Колумбија",
     "image_url": "/flags/co.svg"
@@ -248,11 +188,6 @@
     "id": "km",
     "label": "Коморска Острва",
     "image_url": "/flags/km.svg"
-  },
-  {
-    "id": "ck",
-    "label": "Кукова Острва",
-    "image_url": "/flags/ck.svg"
   },
   {
     "id": "cr",
@@ -268,11 +203,6 @@
     "id": "cu",
     "label": "Куба",
     "image_url": "/flags/cu.svg"
-  },
-  {
-    "id": "cw",
-    "label": "Курасао",
-    "image_url": "/flags/cw.svg"
   },
   {
     "id": "cy",
@@ -355,16 +285,6 @@
     "image_url": "/flags/et.svg"
   },
   {
-    "id": "fk",
-    "label": "Фокландска Острва",
-    "image_url": "/flags/fk.svg"
-  },
-  {
-    "id": "fo",
-    "label": "Фарска Острва",
-    "image_url": "/flags/fo.svg"
-  },
-  {
     "id": "fm",
     "label": "Микронезија",
     "image_url": "/flags/fm.svg"
@@ -383,21 +303,6 @@
     "id": "fr",
     "label": "Француска",
     "image_url": "/flags/fr.svg"
-  },
-  {
-    "id": "gf",
-    "label": "Француска Гвајана",
-    "image_url": "/flags/gf.svg"
-  },
-  {
-    "id": "pf",
-    "label": "Француска Полинезија",
-    "image_url": "/flags/pf.svg"
-  },
-  {
-    "id": "tf",
-    "label": "Француске Јужне Територије",
-    "image_url": "/flags/tf.svg"
   },
   {
     "id": "ga",
@@ -425,19 +330,9 @@
     "image_url": "/flags/gh.svg"
   },
   {
-    "id": "gi",
-    "label": "Гибралтар",
-    "image_url": "/flags/gi.svg"
-  },
-  {
     "id": "gr",
     "label": "Грчка",
     "image_url": "/flags/gr.svg"
-  },
-  {
-    "id": "gl",
-    "label": "Гренланд",
-    "image_url": "/flags/gl.svg"
   },
   {
     "id": "gd",
@@ -445,24 +340,9 @@
     "image_url": "/flags/gd.svg"
   },
   {
-    "id": "gp",
-    "label": "Гваделуп",
-    "image_url": "/flags/gp.svg"
-  },
-  {
-    "id": "gu",
-    "label": "Гуам",
-    "image_url": "/flags/gu.svg"
-  },
-  {
     "id": "gt",
     "label": "Гватемала",
     "image_url": "/flags/gt.svg"
-  },
-  {
-    "id": "gg",
-    "label": "Гернзи",
-    "image_url": "/flags/gg.svg"
   },
   {
     "id": "gn",
@@ -485,11 +365,6 @@
     "image_url": "/flags/ht.svg"
   },
   {
-    "id": "hm",
-    "label": "Острво Херд и Мекдоналдова острва",
-    "image_url": "/flags/hm.svg"
-  },
-  {
     "id": "va",
     "label": "Ватикан",
     "image_url": "/flags/va.svg"
@@ -498,11 +373,6 @@
     "id": "hn",
     "label": "Хондурас",
     "image_url": "/flags/hn.svg"
-  },
-  {
-    "id": "hk",
-    "label": "Хонгконг",
-    "image_url": "/flags/hk.svg"
   },
   {
     "id": "hu",
@@ -540,11 +410,6 @@
     "image_url": "/flags/ie.svg"
   },
   {
-    "id": "im",
-    "label": "Острво Ман",
-    "image_url": "/flags/im.svg"
-  },
-  {
     "id": "il",
     "label": "Израел",
     "image_url": "/flags/il.svg"
@@ -563,11 +428,6 @@
     "id": "jp",
     "label": "Јапан",
     "image_url": "/flags/jp.svg"
-  },
-  {
-    "id": "je",
-    "label": "Џерзи",
-    "image_url": "/flags/je.svg"
   },
   {
     "id": "jo",
@@ -645,11 +505,6 @@
     "image_url": "/flags/lu.svg"
   },
   {
-    "id": "mo",
-    "label": "Макао",
-    "image_url": "/flags/mo.svg"
-  },
-  {
     "id": "mg",
     "label": "Мадагаскар",
     "image_url": "/flags/mg.svg"
@@ -685,11 +540,6 @@
     "image_url": "/flags/mh.svg"
   },
   {
-    "id": "mq",
-    "label": "Мартиник",
-    "image_url": "/flags/mq.svg"
-  },
-  {
     "id": "mr",
     "label": "Мауританија",
     "image_url": "/flags/mr.svg"
@@ -698,11 +548,6 @@
     "id": "mu",
     "label": "Маурицијус",
     "image_url": "/flags/mu.svg"
-  },
-  {
-    "id": "yt",
-    "label": "Мајот",
-    "image_url": "/flags/yt.svg"
   },
   {
     "id": "mx",
@@ -728,11 +573,6 @@
     "id": "me",
     "label": "Црна Гора",
     "image_url": "/flags/me.svg"
-  },
-  {
-    "id": "ms",
-    "label": "Монсерат",
-    "image_url": "/flags/ms.svg"
   },
   {
     "id": "ma",
@@ -770,11 +610,6 @@
     "image_url": "/flags/nl.svg"
   },
   {
-    "id": "nc",
-    "label": "Нова Каледонија",
-    "image_url": "/flags/nc.svg"
-  },
-  {
     "id": "nz",
     "label": "Нови Зеланд",
     "image_url": "/flags/nz.svg"
@@ -795,16 +630,6 @@
     "image_url": "/flags/ng.svg"
   },
   {
-    "id": "nu",
-    "label": "Ниуе",
-    "image_url": "/flags/nu.svg"
-  },
-  {
-    "id": "nf",
-    "label": "Острво Норфок",
-    "image_url": "/flags/nf.svg"
-  },
-  {
     "id": "kp",
     "label": "Северна Кореја",
     "image_url": "/flags/kp.svg"
@@ -813,11 +638,6 @@
     "id": "mk",
     "label": "Северна Македонија",
     "image_url": "/flags/mk.svg"
-  },
-  {
-    "id": "mp",
-    "label": "Северна Маријанска Острва",
-    "image_url": "/flags/mp.svg"
   },
   {
     "id": "no",
@@ -865,11 +685,6 @@
     "image_url": "/flags/ph.svg"
   },
   {
-    "id": "pn",
-    "label": "Питкерн",
-    "image_url": "/flags/pn.svg"
-  },
-  {
     "id": "pl",
     "label": "Пољска",
     "image_url": "/flags/pl.svg"
@@ -878,11 +693,6 @@
     "id": "pt",
     "label": "Португалија",
     "image_url": "/flags/pt.svg"
-  },
-  {
-    "id": "pr",
-    "label": "Порторико",
-    "image_url": "/flags/pr.svg"
   },
   {
     "id": "qa",
@@ -910,21 +720,6 @@
     "image_url": "/flags/rw.svg"
   },
   {
-    "id": "re",
-    "label": "Реинион",
-    "image_url": "/flags/re.svg"
-  },
-  {
-    "id": "bl",
-    "label": "Свети Бартоломеј",
-    "image_url": "/flags/bl.svg"
-  },
-  {
-    "id": "sh",
-    "label": "Света Јелена",
-    "image_url": "/flags/sh.svg"
-  },
-  {
     "id": "kn",
     "label": "Сент Китс и Невис",
     "image_url": "/flags/kn.svg"
@@ -933,16 +728,6 @@
     "id": "lc",
     "label": "Света Луција",
     "image_url": "/flags/lc.svg"
-  },
-  {
-    "id": "mf",
-    "label": "Свети Мартин (Француска)",
-    "image_url": "/flags/mf.svg"
-  },
-  {
-    "id": "pm",
-    "label": "Сен Пјер и Микелон",
-    "image_url": "/flags/pm.svg"
   },
   {
     "id": "vc",
@@ -995,11 +780,6 @@
     "image_url": "/flags/sg.svg"
   },
   {
-    "id": "sx",
-    "label": "Свети Мартин (Холандија)",
-    "image_url": "/flags/sx.svg"
-  },
-  {
     "id": "sk",
     "label": "Словачка",
     "image_url": "/flags/sk.svg"
@@ -1023,11 +803,6 @@
     "id": "za",
     "label": "Јужноафричка Република",
     "image_url": "/flags/za.svg"
-  },
-  {
-    "id": "gs",
-    "label": "Јужна Џорџија и Јужна Сендвичка Острва",
-    "image_url": "/flags/gs.svg"
   },
   {
     "id": "kr",
@@ -1063,11 +838,6 @@
     "id": "sr",
     "label": "Суринам",
     "image_url": "/flags/sr.svg"
-  },
-  {
-    "id": "sj",
-    "label": "Свалбард и Јан Мајен",
-    "image_url": "/flags/sj.svg"
   },
   {
     "id": "se",
@@ -1115,11 +885,6 @@
     "image_url": "/flags/tg.svg"
   },
   {
-    "id": "tk",
-    "label": "Токелау",
-    "image_url": "/flags/tk.svg"
-  },
-  {
     "id": "to",
     "label": "Тонга",
     "image_url": "/flags/to.svg"
@@ -1138,11 +903,6 @@
     "id": "tm",
     "label": "Туркменистан",
     "image_url": "/flags/tm.svg"
-  },
-  {
-    "id": "tc",
-    "label": "Острва Туркс и Каикос",
-    "image_url": "/flags/tc.svg"
   },
   {
     "id": "tv",
@@ -1175,9 +935,19 @@
     "image_url": "/flags/gb.svg"
   },
   {
-    "id": "um",
-    "label": "Удаљена острва САД",
-    "image_url": "/flags/um.svg"
+    "id": "gb-eng",
+    "label": "Енглеска",
+    "image_url": "/flags/gb-eng.svg"
+  },
+  {
+    "id": "gb-sct",
+    "label": "Шкотска",
+    "image_url": "/flags/gb-sct.svg"
+  },
+  {
+    "id": "gb-wls",
+    "label": "Велс",
+    "image_url": "/flags/gb-wls.svg"
   },
   {
     "id": "us",
@@ -1208,26 +978,6 @@
     "id": "vn",
     "label": "Вијетнам",
     "image_url": "/flags/vn.svg"
-  },
-  {
-    "id": "vg",
-    "label": "Британска Девичанска Острва",
-    "image_url": "/flags/vg.svg"
-  },
-  {
-    "id": "vi",
-    "label": "Америчка Девичанска Острва",
-    "image_url": "/flags/vi.svg"
-  },
-  {
-    "id": "wf",
-    "label": "Валис и Футуна",
-    "image_url": "/flags/wf.svg"
-  },
-  {
-    "id": "eh",
-    "label": "Западна Сахара",
-    "image_url": "/flags/eh.svg"
   },
   {
     "id": "ye",

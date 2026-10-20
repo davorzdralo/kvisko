@@ -34,6 +34,37 @@ async function api(path, body, expected = 200) {
   return result;
 }
 
+test('country flag bank upgrades remove territories without changing saved games', async () => {
+  const flags = JSON.parse(await readFile('data/flags.json', 'utf8'));
+  assert.equal(flags.length, 199);
+  const ids = new Set(flags.map((flag) => flag.id));
+  for (const id of ['us', 'gb', 'gb-eng', 'gb-sct', 'gb-wls', 'ps', 'tw', 'va']) {
+    assert.ok(ids.has(id), `Missing country: ${id}`);
+  }
+  for (const id of ['um', 'aq', 'gg', 'gb-nir', 'hk', 'aw', 'cw', 'sx', 'ck', 'nu', 'eh']) {
+    assert.ok(!ids.has(id), `Unexpected entry: ${id}`);
+  }
+
+  // Simulate upgrading a database containing territory questions and a saved game.
+  const session = await api('/api/sessions', { quiz_id: 'world-flags' }, 201);
+  const { rounds } = await db.prepare('SELECT rounds FROM sessions WHERE id=?').bind(session.id).first();
+  const savedRounds = JSON.parse(rounds);
+  savedRounds[0].id = 'um';
+  const snapshot = JSON.stringify(savedRounds);
+  await db.batch([
+    db.prepare('UPDATE sessions SET rounds=? WHERE id=?').bind(snapshot, session.id),
+    ...['um', 'aq', 'gg'].map((id) => db.prepare(
+      'INSERT INTO questions(quiz_id,id,label,image_url) VALUES (?,?,?,?)',
+    ).bind('world-flags', id, `Legacy ${id}`, `/flags/${id}.svg`)),
+  ]);
+  const migration = await readFile('migrations/0003_country_flags.sql', 'utf8');
+  await db.prepare(migration).run();
+  const { results } = await db.prepare("SELECT id FROM questions WHERE quiz_id='world-flags'").all();
+  assert.deepEqual(new Set(results.map((row) => row.id)), ids);
+  assert.equal((await db.prepare('SELECT rounds FROM sessions WHERE id=?').bind(session.id).first()).rounds, snapshot);
+  assert.equal((await api(`/api/sessions/${session.id}`)).question.id, 'um');
+});
+
 test('all five packs: complete games, scoring, resume, retries and independent random samples', async () => {
   const quizzes = await api('/api/quizzes');
   assert.equal(quizzes.length, 5);
