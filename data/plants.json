@@ -1,0 +1,362 @@
+[
+  {
+    "id": "apple",
+    "label": "Јабука",
+    "image_url": "/plants/apple.jpg"
+  },
+  {
+    "id": "pear",
+    "label": "Крушка",
+    "image_url": "/plants/pear.jpg"
+  },
+  {
+    "id": "banana",
+    "label": "Банана",
+    "image_url": "/plants/banana.jpg"
+  },
+  {
+    "id": "orange",
+    "label": "Поморанџа",
+    "image_url": "/plants/orange.jpg"
+  },
+  {
+    "id": "mandarin",
+    "label": "Мандарина",
+    "image_url": "/plants/mandarin.jpg"
+  },
+  {
+    "id": "lemon",
+    "label": "Лимун",
+    "image_url": "/plants/lemon.jpg"
+  },
+  {
+    "id": "grapefruit",
+    "label": "Грејпфрут",
+    "image_url": "/plants/grapefruit.jpg"
+  },
+  {
+    "id": "peach",
+    "label": "Бресква",
+    "image_url": "/plants/peach.jpg"
+  },
+  {
+    "id": "apricot",
+    "label": "Кајсија",
+    "image_url": "/plants/apricot.jpg"
+  },
+  {
+    "id": "plum",
+    "label": "Шљива",
+    "image_url": "/plants/plum.jpg"
+  },
+  {
+    "id": "cherry",
+    "label": "Трешња",
+    "image_url": "/plants/cherry.jpg"
+  },
+  {
+    "id": "strawberry",
+    "label": "Јагода",
+    "image_url": "/plants/strawberry.jpg"
+  },
+  {
+    "id": "raspberry",
+    "label": "Малина",
+    "image_url": "/plants/raspberry.jpg"
+  },
+  {
+    "id": "blackberry",
+    "label": "Купина",
+    "image_url": "/plants/blackberry.jpg"
+  },
+  {
+    "id": "blueberry",
+    "label": "Боровница",
+    "image_url": "/plants/blueberry.jpg"
+  },
+  {
+    "id": "grape",
+    "label": "Грожђе",
+    "image_url": "/plants/grape.jpg"
+  },
+  {
+    "id": "watermelon",
+    "label": "Лубеница",
+    "image_url": "/plants/watermelon.jpg"
+  },
+  {
+    "id": "melon",
+    "label": "Диња",
+    "image_url": "/plants/melon.png"
+  },
+  {
+    "id": "pineapple",
+    "label": "Ананас",
+    "image_url": "/plants/pineapple.jpg"
+  },
+  {
+    "id": "kiwi",
+    "label": "Киви",
+    "image_url": "/plants/kiwi.jpg"
+  },
+  {
+    "id": "mango",
+    "label": "Манго",
+    "image_url": "/plants/mango.jpg"
+  },
+  {
+    "id": "avocado",
+    "label": "Авокадо",
+    "image_url": "/plants/avocado.jpg"
+  },
+  {
+    "id": "pomegranate",
+    "label": "Нар",
+    "image_url": "/plants/pomegranate.jpg"
+  },
+  {
+    "id": "coconut",
+    "label": "Кокос",
+    "image_url": "/plants/coconut.jpg"
+  },
+  {
+    "id": "fig",
+    "label": "Смоква",
+    "image_url": "/plants/fig.jpg"
+  },
+  {
+    "id": "date",
+    "label": "Урма",
+    "image_url": "/plants/date.jpg"
+  },
+  {
+    "id": "olive",
+    "label": "Маслина",
+    "image_url": "/plants/olive.jpg"
+  },
+  {
+    "id": "tomato",
+    "label": "Парадајз",
+    "image_url": "/plants/tomato.jpg"
+  },
+  {
+    "id": "cucumber",
+    "label": "Краставац",
+    "image_url": "/plants/cucumber.jpg"
+  },
+  {
+    "id": "carrot",
+    "label": "Шаргарепа",
+    "image_url": "/plants/carrot.jpg"
+  },
+  {
+    "id": "potato",
+    "label": "Кромпир",
+    "image_url": "/plants/potato.jpg"
+  },
+  {
+    "id": "onion",
+    "label": "Црни лук",
+    "image_url": "/plants/onion.jpg"
+  },
+  {
+    "id": "garlic",
+    "label": "Бели лук",
+    "image_url": "/plants/garlic.jpg"
+  },
+  {
+    "id": "pepper",
+    "label": "Паприка",
+    "image_url": "/plants/pepper.jpg"
+  },
+  {
+    "id": "cabbage",
+    "label": "Купус",
+    "image_url": "/plants/cabbage.jpg"
+  },
+  {
+    "id": "cauliflower",
+    "label": "Карфиол",
+    "image_url": "/plants/cauliflower.jpg"
+  },
+  {
+    "id": "broccoli",
+    "label": "Броколи",
+    "image_url": "/plants/broccoli.jpg"
+  },
+  {
+    "id": "spinach",
+    "label": "Спанаћ",
+    "image_url": "/plants/spinach.jpg"
+  },
+  {
+    "id": "lettuce",
+    "label": "Зелена салата",
+    "image_url": "/plants/lettuce.jpg"
+  },
+  {
+    "id": "peas",
+    "label": "Грашак",
+    "image_url": "/plants/peas.jpg"
+  },
+  {
+    "id": "beans",
+    "label": "Пасуљ",
+    "image_url": "/plants/beans.jpg"
+  },
+  {
+    "id": "green-beans",
+    "label": "Боранија",
+    "image_url": "/plants/green-beans.jpg"
+  },
+  {
+    "id": "pumpkin",
+    "label": "Бундева",
+    "image_url": "/plants/pumpkin.jpg"
+  },
+  {
+    "id": "zucchini",
+    "label": "Тиквица",
+    "image_url": "/plants/zucchini.jpg"
+  },
+  {
+    "id": "eggplant",
+    "label": "Плави патлиџан",
+    "image_url": "/plants/eggplant.jpg"
+  },
+  {
+    "id": "beet",
+    "label": "Цвекла",
+    "image_url": "/plants/beet.png"
+  },
+  {
+    "id": "radish",
+    "label": "Ротквица",
+    "image_url": "/plants/radish.jpg"
+  },
+  {
+    "id": "leek",
+    "label": "Празилук",
+    "image_url": "/plants/leek.jpg"
+  },
+  {
+    "id": "celery",
+    "label": "Целер",
+    "image_url": "/plants/celery.jpg"
+  },
+  {
+    "id": "parsley",
+    "label": "Першун",
+    "image_url": "/plants/parsley.jpg"
+  },
+  {
+    "id": "mushroom",
+    "label": "Печурка",
+    "image_url": "/plants/mushroom.jpg"
+  },
+  {
+    "id": "corn",
+    "label": "Кукуруз",
+    "image_url": "/plants/corn.jpg"
+  },
+  {
+    "id": "wheat",
+    "label": "Пшеница",
+    "image_url": "/plants/wheat.jpg"
+  },
+  {
+    "id": "rice",
+    "label": "Пиринач",
+    "image_url": "/plants/rice.jpg"
+  },
+  {
+    "id": "sunflower",
+    "label": "Сунцокрет",
+    "image_url": "/plants/sunflower.jpg"
+  },
+  {
+    "id": "cotton",
+    "label": "Памук",
+    "image_url": "/plants/cotton.jpg"
+  },
+  {
+    "id": "walnut",
+    "label": "Орах",
+    "image_url": "/plants/walnut.jpg"
+  },
+  {
+    "id": "hazelnut",
+    "label": "Лешник",
+    "image_url": "/plants/hazelnut.jpg"
+  },
+  {
+    "id": "almond",
+    "label": "Бадем",
+    "image_url": "/plants/almond.jpg"
+  },
+  {
+    "id": "peanut",
+    "label": "Кикирики",
+    "image_url": "/plants/peanut.jpg"
+  },
+  {
+    "id": "chestnut",
+    "label": "Кестен",
+    "image_url": "/plants/chestnut.jpg"
+  },
+  {
+    "id": "rose",
+    "label": "Ружа",
+    "image_url": "/plants/rose.jpg"
+  },
+  {
+    "id": "tulip",
+    "label": "Лала",
+    "image_url": "/plants/tulip.jpg"
+  },
+  {
+    "id": "daisy",
+    "label": "Бела рада",
+    "image_url": "/plants/daisy.jpg"
+  },
+  {
+    "id": "dandelion",
+    "label": "Маслачак",
+    "image_url": "/plants/dandelion.jpg"
+  },
+  {
+    "id": "lavender",
+    "label": "Лаванда",
+    "image_url": "/plants/lavender.jpg"
+  },
+  {
+    "id": "violet",
+    "label": "Љубичица",
+    "image_url": "/plants/violet.jpg"
+  },
+  {
+    "id": "cactus",
+    "label": "Кактус",
+    "image_url": "/plants/cactus.jpg"
+  },
+  {
+    "id": "bamboo",
+    "label": "Бамбус",
+    "image_url": "/plants/bamboo.jpg"
+  },
+  {
+    "id": "birch",
+    "label": "Бреза",
+    "image_url": "/plants/birch.jpg"
+  },
+  {
+    "id": "oak",
+    "label": "Храст",
+    "image_url": "/plants/oak.jpg"
+  },
+  {
+    "id": "fir",
+    "label": "Јелка",
+    "image_url": "/plants/fir.jpg"
+  }
+]

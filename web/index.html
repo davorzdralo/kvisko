@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="sr-Cyrl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f9f7f2">
+  <meta name="description" content="Мала питања. Велика открића. Забаван квиз са сликама за радозналу децу.">
+  <title>Квиско — Мала питања, велика открића</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Квиско — почетна"><span class="brand-icon" aria-hidden="true">к<span>✦</span></span>квиско<span class="brand-dot">.</span></a>
+    <span class="header-note">Сваког дана мало радозналији <span aria-hidden="true">✦</span></span>
+  </header>
+  <main>
+    <section id="home" aria-labelledby="home-title">
+      <div class="intro"><div class="eyebrow"><span class="tiny-spark" aria-hidden="true">✦</span> ЗА МАЛЕ ИСТРАЖИВАЧЕ</div><h1 id="home-title">Мала питања.<br>Велика <span>открића.</span></h1><p>Читав свет чека да га упознаш, слику по слику.<br>Изабери квиз и крени у радозналу пустоловину.</p></div>
+      <div class="section-label"><h2>Твоја следећа пустоловина</h2><span>Припрема, позор, истражи!</span></div>
+      <div class="quiz-grid">
+        <article class="quiz-card flags-card">
+          <div class="card-art" aria-hidden="true"><span class="art-star star-one">✦</span><span class="art-star star-two">✧</span><div class="mini-flag flag-japan"><img src="/flags/jp.svg" alt=""></div><div class="globe"><div class="globe-land land-one"></div><div class="globe-land land-two"></div><div class="globe-land land-three"></div><div class="globe-line"></div></div><div class="mini-flag flag-brazil"><img src="/flags/br.svg" alt=""></div><span class="art-orbit"></span><span class="art-dot"></span></div>
+          <div class="card-body"><span class="tag">ПУТ ОКО СВЕТА</span><h3>Заставе света</h3><p>Толико боја. Толико места.<br>Знаш ли коме припада ова застава?</p><div class="card-meta"><span id="round-count" data-count="world-flags">30 питања</span><span>4 одговора</span><span>Без журбе</span></div><button id="start" data-start="world-flags" class="primary" disabled>Припремамо се… <span aria-hidden="true">↗</span></button><button id="resume" data-resume="world-flags" class="text-button" hidden>Настави пустоловину →</button></div>
+        </article>
+        <article class="quiz-card animals-card">
+          <div class="card-art animals-art" aria-hidden="true"><img src="/animals/lion.jpg" alt=""><span class="animal-art-badge">🐾</span></div>
+          <div class="card-body"><span class="tag">НАШИ ЖИВОТИЊСКИ ДРУГАРИ</span><h3>Животиње</h3><p>Од маце до слона, од шуме до саване.<br>Ко се крије на слици?</p><div class="card-meta"><span data-count="animals">30 питања</span><span>4 одговора</span><span>Без журбе</span></div><button id="animal-start" data-start="animals" class="primary" disabled>Припремамо се… <span aria-hidden="true">↗</span></button><button id="animal-resume" data-resume="animals" class="text-button" hidden>Настави пустоловину →</button></div>
+        </article>
+        <article class="quiz-card plants-card">
+          <div class="card-art plants-art" aria-hidden="true"><img src="/plants/strawberry.jpg" alt=""><span class="plant-art-badge">🌱</span></div>
+          <div class="card-body"><span class="tag">ОД БАШТЕ ДО ЛИВАДЕ</span><h3>Воће, поврће и биљке</h3><p>Шта расте у башти, на њиви и у природи?<br>Погледај слику и препознај!</p><div class="card-meta"><span data-count="plants">30 питања</span><span>4 одговора</span><span>Без журбе</span></div><button id="plant-start" data-start="plants" class="primary" disabled>Припремамо се… <span aria-hidden="true">↗</span></button><button id="plant-resume" data-resume="plants" class="text-button" hidden>Настави пустоловину →</button></div>
+        </article>
+        <article class="quiz-card dogs-card">
+          <div class="card-art dogs-art" aria-hidden="true"><img src="/dogs/golden-retriever.jpg" alt=""><span class="dog-art-badge">🐶</span></div>
+          <div class="card-body"><span class="tag">ДРУГАРИ НА ЧЕТИРИ ШАПЕ</span><h3>Расе паса</h3><p>Мали, велики, чупави и краткодлаки.<br>Препознај расу свог новог другара!</p><div class="card-meta"><span data-count="dog-breeds">30 питања</span><span>4 одговора</span><span>Без журбе</span></div><button id="dog-start" data-start="dog-breeds" class="primary" disabled>Припремамо се… <span aria-hidden="true">↗</span></button><button id="dog-resume" data-resume="dog-breeds" class="text-button" hidden>Настави пустоловину →</button></div>
+        </article>
+      </div>
+      <div class="home-footnote"><span aria-hidden="true">☀</span><p>Мало игре. Много нових сазнања.<br><span>Без журбе и притиска. Сваки одговор је откриће.</span></p></div>
+    </section>
+    <section id="game" hidden aria-labelledby="question-title">
+      <div class="game-top"><button class="text-button" id="back">← Сви квизови</button><span id="quiz-title" class="tag">ЗАСТАВЕ СВЕТА</span><span id="score">0 звездица</span></div>
+      <div class="progress-label"><span id="position"></span><span>Корак по корак до нових открића</span></div><progress id="progress" value="0" max="30" aria-label="Напредак у квизу"></progress>
+      <div class="question-card"><h1 id="question-title" tabindex="-1">Коме припада ова застава?</h1><p class="question-hint">Погледај слику и изабери одговор.</p><div class="flag-stage"><img id="question-image" alt="Слика за питање"></div><p id="image-error" hidden>Слика није могла да се учита. Покушај да поново учиташ страницу.</p><div id="options" class="options" aria-label="Изабери одговор"></div><div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><button id="next" class="primary next" hidden>Следећа слика <span aria-hidden="true">→</span></button></div><p class="keyboard-hint">Кликни, додирни или притисни <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> за одговор. <kbd>Ентер</kbd> за наставак.</p>
+    </section>
+    <section id="result" class="result" hidden aria-labelledby="result-title"><div class="result-spark" aria-hidden="true">✦</div><span class="tag">ПУСТОЛОВИНА ЈЕ ЗАВРШЕНА</span><h1 id="result-title" tabindex="-1">Браво за истраживање!</h1><p id="result-subtitle">Још једна пустоловина пуна открића.</p><div class="result-score"><strong id="final-score"></strong><span id="final-total"></span></div><p id="result-message"></p><button id="again" class="primary">Играј поново <span aria-hidden="true">↗</span></button><button id="result-home" class="text-button">Назад на све квизове</button></section>
+    <div id="error" role="alert" hidden></div>
+  </main>
+  <footer><span>За радознале главице. · <a href="/credits.html" target="_blank" rel="noopener">Фотографије и извори</a></span><span>Мали кораци. Велики свет. <span aria-hidden="true">✦</span></span></footer>
+</body>
+</html>

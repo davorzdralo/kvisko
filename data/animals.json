@@ -1,0 +1,202 @@
+[
+  {
+    "id": "dog",
+    "label": "Пас",
+    "image_url": "/animals/dog.jpg"
+  },
+  {
+    "id": "cat",
+    "label": "Мачка",
+    "image_url": "/animals/cat.jpg"
+  },
+  {
+    "id": "horse",
+    "label": "Коњ",
+    "image_url": "/animals/horse.jpg"
+  },
+  {
+    "id": "cow",
+    "label": "Крава",
+    "image_url": "/animals/cow.jpg"
+  },
+  {
+    "id": "sheep",
+    "label": "Овца",
+    "image_url": "/animals/sheep.jpg"
+  },
+  {
+    "id": "goat",
+    "label": "Коза",
+    "image_url": "/animals/goat.jpg"
+  },
+  {
+    "id": "pig",
+    "label": "Свиња",
+    "image_url": "/animals/pig.jpg"
+  },
+  {
+    "id": "donkey",
+    "label": "Магарац",
+    "image_url": "/animals/donkey.jpg"
+  },
+  {
+    "id": "rabbit",
+    "label": "Зец",
+    "image_url": "/animals/rabbit.jpg"
+  },
+  {
+    "id": "mouse",
+    "label": "Миш",
+    "image_url": "/animals/mouse.jpg"
+  },
+  {
+    "id": "squirrel",
+    "label": "Веверица",
+    "image_url": "/animals/squirrel.jpg"
+  },
+  {
+    "id": "hedgehog",
+    "label": "Јеж",
+    "image_url": "/animals/hedgehog.jpg"
+  },
+  {
+    "id": "fox",
+    "label": "Лисица",
+    "image_url": "/animals/fox.jpg"
+  },
+  {
+    "id": "wolf",
+    "label": "Вук",
+    "image_url": "/animals/wolf.jpg"
+  },
+  {
+    "id": "bear",
+    "label": "Медвед",
+    "image_url": "/animals/bear.jpg"
+  },
+  {
+    "id": "lion",
+    "label": "Лав",
+    "image_url": "/animals/lion.jpg"
+  },
+  {
+    "id": "tiger",
+    "label": "Тигар",
+    "image_url": "/animals/tiger.jpg"
+  },
+  {
+    "id": "elephant",
+    "label": "Слон",
+    "image_url": "/animals/elephant.jpg"
+  },
+  {
+    "id": "giraffe",
+    "label": "Жирафа",
+    "image_url": "/animals/giraffe.png"
+  },
+  {
+    "id": "zebra",
+    "label": "Зебра",
+    "image_url": "/animals/zebra.jpg"
+  },
+  {
+    "id": "hippo",
+    "label": "Нилски коњ",
+    "image_url": "/animals/hippo.jpg"
+  },
+  {
+    "id": "rhino",
+    "label": "Носорог",
+    "image_url": "/animals/rhino.jpg"
+  },
+  {
+    "id": "camel",
+    "label": "Камила",
+    "image_url": "/animals/camel.jpg"
+  },
+  {
+    "id": "kangaroo",
+    "label": "Кенгур",
+    "image_url": "/animals/kangaroo.jpg"
+  },
+  {
+    "id": "koala",
+    "label": "Коала",
+    "image_url": "/animals/koala.jpg"
+  },
+  {
+    "id": "panda",
+    "label": "Панда",
+    "image_url": "/animals/panda.jpg"
+  },
+  {
+    "id": "monkey",
+    "label": "Мајмун",
+    "image_url": "/animals/monkey.jpg"
+  },
+  {
+    "id": "sloth",
+    "label": "Лењивац",
+    "image_url": "/animals/sloth.jpg"
+  },
+  {
+    "id": "otter",
+    "label": "Видра",
+    "image_url": "/animals/otter.jpg"
+  },
+  {
+    "id": "seal",
+    "label": "Фока",
+    "image_url": "/animals/seal.jpg"
+  },
+  {
+    "id": "dolphin",
+    "label": "Делфин",
+    "image_url": "/animals/dolphin.jpg"
+  },
+  {
+    "id": "turtle",
+    "label": "Корњача",
+    "image_url": "/animals/turtle.jpg"
+  },
+  {
+    "id": "snake",
+    "label": "Змија",
+    "image_url": "/animals/snake.jpg"
+  },
+  {
+    "id": "crocodile",
+    "label": "Крокодил",
+    "image_url": "/animals/crocodile.jpg"
+  },
+  {
+    "id": "lizard",
+    "label": "Гуштер",
+    "image_url": "/animals/lizard.jpg"
+  },
+  {
+    "id": "frog",
+    "label": "Жаба",
+    "image_url": "/animals/frog.jpg"
+  },
+  {
+    "id": "deer",
+    "label": "Јелен",
+    "image_url": "/animals/deer.jpg"
+  },
+  {
+    "id": "bat",
+    "label": "Слепи миш",
+    "image_url": "/animals/bat.jpg"
+  },
+  {
+    "id": "raccoon",
+    "label": "Ракун",
+    "image_url": "/animals/raccoon.jpg"
+  },
+  {
+    "id": "hamster",
+    "label": "Хрчак",
+    "image_url": "/animals/hamster.jpg"
+  }
+]

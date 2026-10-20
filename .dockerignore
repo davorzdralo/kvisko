@@ -1,0 +1,11 @@
+.git
+.DS_Store
+*.log
+.playwright-mcp
+__pycache__
+node_modules
+.wrangler
+.worker-build
+.dev.vars*
+.env
+.env.*

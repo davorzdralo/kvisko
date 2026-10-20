@@ -1,0 +1,202 @@
+[
+  {
+    "id": "labrador",
+    "label": "Лабрадор",
+    "image_url": "/dogs/labrador.jpg"
+  },
+  {
+    "id": "golden-retriever",
+    "label": "Златни ретривер",
+    "image_url": "/dogs/golden-retriever.jpg"
+  },
+  {
+    "id": "german-shepherd",
+    "label": "Немачки овчар",
+    "image_url": "/dogs/german-shepherd.jpg"
+  },
+  {
+    "id": "husky",
+    "label": "Сибирски хаски",
+    "image_url": "/dogs/husky.jpg"
+  },
+  {
+    "id": "dalmatian",
+    "label": "Далматинац",
+    "image_url": "/dogs/dalmatian.jpg"
+  },
+  {
+    "id": "beagle",
+    "label": "Бигл",
+    "image_url": "/dogs/beagle.jpg"
+  },
+  {
+    "id": "poodle",
+    "label": "Пудла",
+    "image_url": "/dogs/poodle.jpg"
+  },
+  {
+    "id": "chihuahua",
+    "label": "Чивава",
+    "image_url": "/dogs/chihuahua.jpg"
+  },
+  {
+    "id": "pug",
+    "label": "Мопс",
+    "image_url": "/dogs/pug.jpg"
+  },
+  {
+    "id": "french-bulldog",
+    "label": "Француски булдог",
+    "image_url": "/dogs/french-bulldog.jpg"
+  },
+  {
+    "id": "bulldog",
+    "label": "Енглески булдог",
+    "image_url": "/dogs/bulldog.jpg"
+  },
+  {
+    "id": "boxer",
+    "label": "Боксер",
+    "image_url": "/dogs/boxer.jpg"
+  },
+  {
+    "id": "doberman",
+    "label": "Доберман",
+    "image_url": "/dogs/doberman.jpg"
+  },
+  {
+    "id": "rottweiler",
+    "label": "Ротвајлер",
+    "image_url": "/dogs/rottweiler.jpg"
+  },
+  {
+    "id": "great-dane",
+    "label": "Немачка дога",
+    "image_url": "/dogs/great-dane.jpg"
+  },
+  {
+    "id": "dachshund",
+    "label": "Јазавичар",
+    "image_url": "/dogs/dachshund.jpg"
+  },
+  {
+    "id": "corgi",
+    "label": "Велшки корги",
+    "image_url": "/dogs/corgi.jpg"
+  },
+  {
+    "id": "yorkshire-terrier",
+    "label": "Јоркширски теријер",
+    "image_url": "/dogs/yorkshire-terrier.jpg"
+  },
+  {
+    "id": "shih-tzu",
+    "label": "Ши-цу",
+    "image_url": "/dogs/shih-tzu.jpg"
+  },
+  {
+    "id": "maltese",
+    "label": "Малтезер",
+    "image_url": "/dogs/maltese.jpg"
+  },
+  {
+    "id": "bichon",
+    "label": "Бишон",
+    "image_url": "/dogs/bichon.jpg"
+  },
+  {
+    "id": "pomeranian",
+    "label": "Померанац",
+    "image_url": "/dogs/pomeranian.jpg"
+  },
+  {
+    "id": "samoyed",
+    "label": "Самојед",
+    "image_url": "/dogs/samoyed.jpg"
+  },
+  {
+    "id": "akita",
+    "label": "Акита",
+    "image_url": "/dogs/akita.jpg"
+  },
+  {
+    "id": "shiba-inu",
+    "label": "Шиба ину",
+    "image_url": "/dogs/shiba-inu.jpg"
+  },
+  {
+    "id": "border-collie",
+    "label": "Бордер коли",
+    "image_url": "/dogs/border-collie.jpg"
+  },
+  {
+    "id": "rough-collie",
+    "label": "Шкотски овчар",
+    "image_url": "/dogs/rough-collie.jpg"
+  },
+  {
+    "id": "australian-shepherd",
+    "label": "Аустралијски овчар",
+    "image_url": "/dogs/australian-shepherd.jpg"
+  },
+  {
+    "id": "bernese",
+    "label": "Бернски планински пас",
+    "image_url": "/dogs/bernese.jpg"
+  },
+  {
+    "id": "saint-bernard",
+    "label": "Бернардинац",
+    "image_url": "/dogs/saint-bernard.jpg"
+  },
+  {
+    "id": "newfoundland",
+    "label": "Њуфаундленд",
+    "image_url": "/dogs/newfoundland.jpg"
+  },
+  {
+    "id": "cocker-spaniel",
+    "label": "Кокер шпанијел",
+    "image_url": "/dogs/cocker-spaniel.jpg"
+  },
+  {
+    "id": "basset-hound",
+    "label": "Басет",
+    "image_url": "/dogs/basset-hound.jpg"
+  },
+  {
+    "id": "greyhound",
+    "label": "Енглески хрт",
+    "image_url": "/dogs/greyhound.jpg"
+  },
+  {
+    "id": "shar-pei",
+    "label": "Шарпеј",
+    "image_url": "/dogs/shar-pei.jpg"
+  },
+  {
+    "id": "chow-chow",
+    "label": "Чау-чау",
+    "image_url": "/dogs/chow-chow.jpg"
+  },
+  {
+    "id": "westie",
+    "label": "Западношкотски бели теријер",
+    "image_url": "/dogs/westie.jpg"
+  },
+  {
+    "id": "schnauzer",
+    "label": "Шнауцер",
+    "image_url": "/dogs/schnauzer.jpg"
+  },
+  {
+    "id": "jack-russell",
+    "label": "Џек Расел теријер",
+    "image_url": "/dogs/jack-russell.jpg"
+  },
+  {
+    "id": "bull-terrier",
+    "label": "Бул теријер",
+    "image_url": "/dogs/bull-terrier.jpg"
+  }
+]

@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+bin/
+*.log
+__pycache__/
+.playwright-mcp/
+node_modules/
+.wrangler/
+.worker-build/
+.dev.vars
+.dev.vars.*

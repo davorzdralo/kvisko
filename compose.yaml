@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:${PORT:-8080}:8080"
+    environment:
+      QUIZ_LENGTH: ${QUIZ_LENGTH:-30}
+      SESSION_TTL_DAYS: ${SESSION_TTL_DAYS:-30}
+      WRANGLER_SEND_METRICS: "false"
+    command: ["sh", "-c", "npm run db:local && exec npm run dev -- --ip 0.0.0.0 --var QUIZ_LENGTH:$$QUIZ_LENGTH --var SESSION_TTL_DAYS:$$SESSION_TTL_DAYS"]
+    volumes:
+      - d1_data:/app/.wrangler
+    init: true
+volumes:
+  d1_data:

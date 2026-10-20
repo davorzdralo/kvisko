@@ -1,0 +1,3750 @@
+[
+  {
+    "id": "dog",
+    "label": "Пас",
+    "article": "Golden Retriever",
+    "filename": "Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2009-04-08 12:19:17",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Golden Retriever Dukedestiny01 drvd",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Retouched pictures|Golden Retriever|Self-published work|PD-self|Uploaded with derivativeFX|Conformational side views of dogs",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "\"Dukedestiny01.jpg",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2009-04-08 13:18",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Dukedestiny01.jpg\" class=\"mw-redirect\" title=\"File:Dukedestiny01.jpg\">Dukedestiny01.jpg</a></li></ul>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Dukedestiny01.jpg\" class=\"mw-redirect\" title=\"File:Dukedestiny01.jpg\">Dukedestiny01.jpg</a>: \"Janneke Vreugdenhil\"</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Anka_Friedrich\" title=\"User:Anka Friedrich\">Anka Friedrich</a> ([[User talk:Ankaaswe</li></ul>\nTrix Friedrich|<span class=\"signature-talk\">talk</span>]])",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Golden_Retriever_Dukedestiny01_drvd.jpg",
+    "image_url": "/animals/dog.jpg",
+    "author": "Dukedestiny01.jpg : \"Janneke Vreugdenhil\" derivative work: Anka Friedrich ([[User talk:Ankaaswe Trix Friedrich| talk ]])",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "cat",
+    "label": "Мачка",
+    "article": "Cat",
+    "filename": "Siam_lilacpoint.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Siam_lilacpoint.jpg/960px-Siam_lilacpoint.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Siam_lilacpoint.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2007-11-04 20:12:32",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Siam lilacpoint",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|License migration completed|Sitting cats|Lilac point cats|Lilac point Siamese cats|Cats facing right",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "8 month old <a href=\"https://en.wikipedia.org/wiki/Siamese_cat\" class=\"extiw\" title=\"en:Siamese cat\">Siamese cat</a>, with lilac points, facing right",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Aufnahme August 2007",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kam%C3%A9e\" title=\"User:Kamée\">Karin Langner-Bahmann</a>, upload von <a href=\"//commons.wikimedia.org/wiki/User:Martin_Bahmann\" title=\"User:Martin Bahmann\">Martin Bahmann</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "Erlaubnis für Upload und Lizenzierung durch die Fotografin erteilt.",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Siam_lilacpoint.jpg",
+    "image_url": "/animals/cat.jpg",
+    "author": "Karin Langner-Bahmann , upload von Martin Bahmann",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "horse",
+    "label": "Коњ",
+    "article": "Horse",
+    "filename": "Nokota_Horses_cropped.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/de/Nokota_Horses_cropped.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2010-02-11 22:35:39",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Nokota Horses cropped",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|CC-BY-SA-2.5,2.0,1.0|Retouched pictures|License migration redundant|Nokota horse|Blue roan horses|Self-published work|Uploaded with derivativeFX",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Two young <a href=\"https://en.wikipedia.org/wiki/Nokota_horse\" class=\"extiw\" title=\"en:Nokota horse\">Nokota</a> mares",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2010-02-11 22:34",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Nokota_Horses.jpg\" title=\"File:Nokota Horses.jpg\">Nokota_Horses.jpg</a></li></ul>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Nokota_Horses.jpg\" title=\"File:Nokota Horses.jpg\">Nokota_Horses.jpg</a>: François Marchal</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Dana_boomer\" title=\"User:Dana boomer\">Dana boomer</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Dana_boomer\" title=\"User talk:Dana boomer\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nokota_Horses_cropped.jpg",
+    "image_url": "/animals/horse.jpg",
+    "author": "Nokota_Horses.jpg : François Marchal derivative work: Dana boomer ( talk )",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "cow",
+    "label": "Крава",
+    "article": "Cattle",
+    "filename": "Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/960px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2009-07-29 23:20:34",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cow (Fleckvieh breed) Oeschinensee Slaunger 2009-07-07",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Oeschinen Lake|GFDL|Taken with Sony DSLR-A300|Simmental cattle|License migration redundant|Self-published work|Images with extracted images|Photographs by User:Slaunger|Featured pictures by User:Slaunger|Featured pictures of the canton of Bern|Montane meadows|Files with coordinates missing SDC location of creation|Switzerland photographs taken on 2009-07-07|Wikiszkoła - zwierzęta domowe i gospodarskie|Featured pictures of cattle|Assessment tagged pages marked as POTY candidates|Cattle with cow bells in Switzerland|Brown and white cattle",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured|potd|poty",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "46.496917",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "7.713722",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A dual breed (beef and milk) cow near <a href=\"https://en.wikipedia.org/wiki/Oeschinen_Lake\" class=\"extiw\" title=\"en:Oeschinen Lake\">Oeschinen Lake</a>, <a href=\"//commons.wikimedia.org/wiki/Switzerland\" class=\"mw-redirect\" title=\"Switzerland\">Switzerland</a> at an altitude of 1575 m. The breed is most likely Swiss <a href=\"https://en.wikipedia.org/wiki/Fleckvieh_cattle\" class=\"extiw\" title=\"en:Fleckvieh cattle\">Fleckvieh</a>, alternatively <a href=\"https://en.wikipedia.org/wiki/Simmentaler_cattle\" class=\"extiw\" title=\"en:Simmentaler cattle\">Simmentaler-Fleckvieh</a> or another dual breed, cf. <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Reference_desk/Archives/Science/2009_July_25#Which_cow_breed_is_this_Swiss_cow?\" class=\"extiw\" title=\"en:Wikipedia:Reference desk/Archives/Science/2009 July 25\">this enquiry at the Wikipedia help desk</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2009-07-07",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Slaunger\" title=\"User:Slaunger\">Kim Hansen</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
+    "image_url": "/animals/cow.jpg",
+    "author": "Kim Hansen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "sheep",
+    "label": "Овца",
+    "article": "Sheep",
+    "filename": "Flock_of_sheep.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flock_of_sheep.jpg/960px-Flock_of_sheep.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flock_of_sheep.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2007-12-04 12:17:34",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Flock of sheep",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "U.S. Sheep Experiment Station|Featured pictures on Wikipedia, English|PD USDA ARS|Flocks of sheep|Sheep in Idaho|Wikiszkoła - zwierzęta domowe i gospodarskie|Files with Assessments template missing SDC Commons no value quality assessment",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "These particular sheep belong to a research flock at the US Sheep Experiment Station near <a href=\"//commons.wikimedia.org/w/index.php?title=Dubois,_Idaho&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Dubois, Idaho (page does not exist)\">Dubois</a>, <a href=\"//commons.wikimedia.org/wiki/Idaho\" title=\"Idaho\">Idaho</a>, <a href=\"//commons.wikimedia.org/wiki/United_States\" title=\"United States\">USA</a>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://www.ars.usda.gov/is/graphics/photos/apr12/k4166-5.htm\" href=\"https://www.ars.usda.gov/is/graphics/photos/apr12/k4166-5.htm\">http://www.ars.usda.gov/is/graphics/photos/apr12/k4166-5.htm</a> (Image Number K4166-5)",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Keith Weller",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg",
+    "image_url": "/animals/sheep.jpg",
+    "author": "Keith Weller",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "goat",
+    "label": "Коза",
+    "article": "Goat",
+    "filename": "Hausziege_04.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/960px-Hausziege_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2010-07-22 09:04:15",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Hausziege 04",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Capra aegagrus hircus|Taken with Canon EOS 5D Mark II|Fiesch|Files with broken file links|Self-published work|Images with extracted images|Files with coordinates missing SDC location of creation|Goats in the canton of Valais",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "46.409110",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "8.138155",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Goat, located in Fiesch, Valais (Switzerland).",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2010-07-13",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kuebi\" title=\"User:Kuebi\">Kuebi</a> = Armin Kübelbeck",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hausziege_04.jpg",
+    "image_url": "/animals/goat.jpg",
+    "author": "Kuebi = Armin Kübelbeck",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "pig",
+    "label": "Свиња",
+    "article": "Pig",
+    "filename": "Pig_farm_Vampula_1.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pig_farm_Vampula_1.jpg/960px-Pig_farm_Vampula_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pig_farm_Vampula_1.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-09-23 15:58:39",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Pig farm Vampula 1",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Pigs in Finland|Pig husbandry in Finland",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Pig farm in Vampula, Finland.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2021-07-31 19:54:45",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pig_farm_Vampula_1.jpg",
+    "image_url": "/animals/pig.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "donkey",
+    "label": "Магарац",
+    "article": "Donkey",
+    "filename": "Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Donkey_in_Clovelly%2C_North_Devon%2C_England.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-05-26 11:55:13",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Donkey in Clovelly, North Devon, England",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Olympus C-750UZ|PD-user|England photographs taken on 2004-07-12|Donkeys in Clovelly|Grazing donkeys|Side views of donkeys",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A donkey at Clovelly, North Devon, England.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2004-07-12 12:44",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\">Self-photographed</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/User:Arpingstone\" class=\"extiw\" title=\"en:User:Arpingstone\">Adrian Pingstone</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg",
+    "image_url": "/animals/donkey.jpg",
+    "author": "Adrian Pingstone",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "rabbit",
+    "label": "Зец",
+    "article": "European rabbit",
+    "filename": "Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg/960px-Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Oryctolagus_cuniculus_-_euqirneto_-_419737670_%28cropped%29.jpeg",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-03-09 19:25:33",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Oryctolagus cuniculus - euqirneto - 419737670 (cropped)",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Oryctolagus cuniculus|Extracted images|Media from iNaturalist|Files with coordinates missing SDC location of creation|Media from GBIF|Oryctolagus cuniculus in Spain|Media uploaded with inat2wiki",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "42.185028",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-3.528556",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Oryctolagus cuniculus, Burgos, ES-CL, ES, 2024-08-11 (iNaturalist). Subspecies <i>O. c. cuniculus</i> is native in this region.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2024-08-11",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.inaturalist.org/photos/419737670\">https://www.inaturalist.org/photos/419737670</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/3643504\">euqirneto</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_-_euqirneto_-_419737670_(cropped).jpeg",
+    "image_url": "/animals/rabbit.jpg",
+    "author": "euqirneto",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "mouse",
+    "label": "Миш",
+    "article": "House mouse",
+    "filename": "Mouse_white_background.jpg",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mouse_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mouse_white_background.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2006-05-14 11:33:26",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Mouse white background",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "PD-user|National Institutes of Health images|Retouched pictures|PD US NIH|Unknown date|Template Unknown (author)|CC-PD-Mark|Mammals on white background|Mus musculus (illustrations)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Common <a href=\"//commons.wikimedia.org/wiki/Mus_musculus\" title=\"Mus musculus\">house mouse</a> (<i>Mus musculus</i>), wild type.  Edited to change the background color.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Unknown date (original) / 14 May 2006 (retouched version)",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "Based on <a href=\"//commons.wikimedia.org/wiki/File:House_mouse.jpg\" title=\"File:House mouse.jpg\">File:House mouse.jpg</a> from <a rel=\"nofollow\" class=\"external free\" href=\"http://www.nigms.nih.gov/NR/rdonlyres/89908011-CCC4-4A12-BC08-BC64FCA62DF8/0/mouse.jpg\">http://www.nigms.nih.gov/NR/rdonlyres/89908011-CCC4-4A12-BC08-BC64FCA62DF8/0/mouse.jpg</a> at <a rel=\"nofollow\" class=\"external free\" href=\"http://www.nigms.nih.gov/Initiatives/Models/\">http://www.nigms.nih.gov/Initiatives/Models/</a> (formerly at <a rel=\"nofollow\" class=\"external free\" href=\"http://www.nigms.nih.gov/research/modelorganisms.html\">http://www.nigms.nih.gov/research/modelorganisms.html</a>)",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Unknown author<span style=\"display: none;\">Unknown author</span> (original) / <a href=\"//commons.wikimedia.org/wiki/User:Ilmari_Karonen\" title=\"User:Ilmari Karonen\">Ilmari Karonen</a> (editing)",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "As a US government publication, the original picture is in the public domain.  The retouched version has been released into the public domain by its author.",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mouse_white_background.jpg",
+    "image_url": "/animals/mouse.jpg",
+    "author": "Unknown author Unknown author (original) / Ilmari Karonen (editing)",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "squirrel",
+    "label": "Веверица",
+    "article": "Red squirrel",
+    "filename": "Squirrel_posing.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Squirrel_posing.jpg/960px-Squirrel_posing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Squirrel_posing.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-12-20 23:28:53",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Squirrel posing",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Alverstone|Images from Geograph Britain and Ireland|Featured pictures on Wikipedia, English|Images with extracted images|Flickr images reviewed by FlickreviewR|Featured pictures on Wikipedia, Persian|Mammalia in right lateral aspect|Photographs taken on 2011-12-27|Photographs of squirrels by Peter Trimming|Featured pictures of Sciurus vulgaris|Wikiszkoła - Las|Pictures of the Year/2013 (finalist)|Side views of squirrels|Featured pictures from Flickr|Sciurus vulgaris eating hazelnuts|Sciurus vulgaris of the Isle of Wight",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "featured|potd|poty",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "50.663497",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-1.180026",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A <a href=\"https://en.wikipedia.org/wiki/red_squirrel\" class=\"extiw\" title=\"en:red squirrel\">red squirrel</a> in the forest (<i>Sciurus vulgaris</i>).",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2011-12-27",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/peter-trimming/6583159839/\">https://www.flickr.com/photos/peter-trimming/6583159839/</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Peter Trimming",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Squirrel_posing.jpg",
+    "image_url": "/animals/squirrel.jpg",
+    "author": "Peter Trimming",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "hedgehog",
+    "label": "Јеж",
+    "article": "European hedgehog",
+    "filename": "Erinaceus_europaeus_LC0119.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Erinaceus_europaeus_LC0119.jpg/960px-Erinaceus_europaeus_LC0119.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Erinaceus_europaeus_LC0119.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2007-10-14 09:33:52",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Erinaceus europaeus LC0119",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Olympus E-500|Self-published work|Images with extracted images|Mammals of Saxony|Animals of Chemnitz|Files with coordinates missing SDC location of creation|Erinaceus europaeus in Germany|By LC-de",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "50.847278",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "12.924361",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/European_Hedgehog\" class=\"extiw\" title=\"en:European Hedgehog\">European Hedgehog</a> (<i><a href=\"//commons.wikimedia.org/wiki/Erinaceus_europaeus\" title=\"Erinaceus europaeus\">Erinaceus europaeus</a></i>), Chemnitz, Germany",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2007-10-13",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:LC-de\" title=\"User:LC-de\">Jörg Hempel</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:LC-de\" title=\"User:LC-de\">Jörg Hempel</a>, the copyright holder of this work, hereby publishes it under the following license:",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0 de",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0 de",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:LC-de\" title=\"User:LC-de\">Jörg Hempel</a>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0-de",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_LC0119.jpg",
+    "image_url": "/animals/hedgehog.jpg",
+    "author": "I, Jörg Hempel",
+    "license": "CC BY-SA 2.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+  },
+  {
+    "id": "fox",
+    "label": "Лисица",
+    "article": "Red fox",
+    "filename": "Portrait_of_a_red_fox_in_Rautas_fjällurskog_(cropped).jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg/960px-Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-12-16 13:25:24",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Portrait of a red fox in Rautas fjällurskog (cropped)",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Rautas fjällurskog|Self-published work|Extracted images|Vulpes vulpes in Sweden|Images from Wiki Loves Earth 2023 in Sweden|Images from Wiki Loves Earth 2023|Uploaded via Campaign:wle-se|Images from Wiki Loves Earth missing SDC source of file|Images from Wiki Loves Earth missing SDC creator|Images from Wiki Loves Earth missing SDC inception|Images from Wiki Loves Earth missing SDC participant in|Vulpes vulpes in snow|Side views of Vulpes vulpes",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Portrait of a red fox in <a href=\"https://sv.wikipedia.org/wiki/Rautas_fj%C3%A4llurskog\" class=\"extiw\" title=\"sv:Rautas fjällurskog\">Rautas fjällurskog</a> nature reserve, Sweden.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2022-11-26 12:37:00",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:ClaudiaTen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:ClaudiaTen (page does not exist)\">ClaudiaTen</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg",
+    "image_url": "/animals/fox.jpg",
+    "author": "ClaudiaTen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "wolf",
+    "label": "Вук",
+    "article": "Wolf",
+    "filename": "Eurasian_wolf_2.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Eurasian_wolf_2.jpg/960px-Eurasian_wolf_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2021-12-24 17:21:07",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Eurasian wolf 2",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Images with extracted images|Derivative versions|Wolves in snow|1 wolf|Side views of gray wolves|Canis lupus lupus in Polar Park",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Eurasian wolf at Polar Zoo in Bardu, Norway",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2016-02-24",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Eurasian_wolf.JPG\" title=\"File:Eurasian wolf.JPG\">Eurasian wolf.JPG</a><br>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mas3cf&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mas3cf (page does not exist)\">User:Mas3cf</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg",
+    "image_url": "/animals/wolf.jpg",
+    "author": "User:Mas3cf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "bear",
+    "label": "Медвед",
+    "article": "Brown bear",
+    "filename": "2010-kodiak-bear-1.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/960px-2010-kodiak-bear-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2012-12-18 04:14:51",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "2010-kodiak-bear-1",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Ursus arctos middendorffi|Taken with Canon EOS 7D|Featured pictures of Alaska|Self-published work|Featured pictures on Wikipedia, English|Commons featured widescreen desktop backgrounds|Images with extracted images|Summer in Alaska|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|Featured pictures of Ursus arctos|Featured pictures by User:Yathin sk|Bears in Kodiak National Wildlife Refuge|Carnivorous animals|Images by User:Yathin sk|Qaranbullee|Saayinsii",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/Kodiak_Bear\" class=\"extiw\" title=\"en:Kodiak Bear\">Kodiak Bear</a> (<i>Ursus arctos middendorffi</i>) in <a href=\"https://en.wikipedia.org/wiki/Kodiak_National_Wildlife_Refuge\" class=\"extiw\" title=\"en:Kodiak National Wildlife Refuge\">Kodiak National Wildlife Refuge</a>, <a href=\"//commons.wikimedia.org/wiki/Alaska\" title=\"Alaska\">Alaska</a>, <a href=\"//commons.wikimedia.org/wiki/United_States\" title=\"United States\">United States</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2010-07-21 13:11:10",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yathin_sk\" title=\"User:Yathin sk\">Yathin S Krishnappa</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg",
+    "image_url": "/animals/bear.jpg",
+    "author": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "lion",
+    "label": "Лав",
+    "article": "Lion",
+    "filename": "020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-08-09 02:54:46",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "020 The lion king Snyggve in the Serengeti National Park Photo by Giles Laurent",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Panthera leo (male)|Self-published work|Featured pictures on Wikipedia, English|Commons featured desktop backgrounds|Featured pictures by Giles Laurent|Featured pictures of Panthera leo|Images from Wiki Loves Earth 2024|Images from Wiki Loves Earth 2024 in Tanzania|Uploaded via Campaign:wle-tz|Featured pictures from Wiki Loves Earth 2024 in Tanzania|Awarded pictures by Giles Laurent|Featured pictures of animals in Tanzania|Photos by Giles Laurent|Lions of Serengeti National Park",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "-2.495294",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "34.916644",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Wild <a href=\"https://en.wikipedia.org/wiki/lion\" class=\"extiw\" title=\"en:lion\">lion</a> (<i>Panthera leo</i>) Snyggve (also known as Bob Junior), son of <a href=\"https://en.wikipedia.org/wiki/C-Boy\" class=\"extiw\" title=\"en:C-Boy\">C-Boy</a>, laying on a lava rock in the <a href=\"https://en.wikipedia.org/wiki/Serengeti_National_Park\" class=\"extiw\" title=\"en:Serengeti National Park\">Serengeti National Park</a>. Standing on top of the lava rock allows the lion to have a clear view of its territory.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2020-07-09 09:48:43",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, from <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "© <a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>, License CC BY-SA",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_url": "/animals/lion.jpg",
+    "author": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "tiger",
+    "label": "Тигар",
+    "article": "Tiger",
+    "filename": "Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg/960px-Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-03-15 23:02:21",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bengal tiger (Panthera tigris tigris) female 3 crop",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Tigers in India|Photographs by Charlesjsharp|Featured pictures on Wikipedia, English|Mammals facing left|Panthera tigris tigris in the Kanha National Park|Walking tigers|Files with Assessments template missing SDC Commons no value quality assessment|1 Panthera tigris",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Bengal tiger (<i>Panthera tigris tigris</i>) female, Kanha National Park, India",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "Crop of <a href=\"//commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg\" title=\"File:Bengal tiger (Panthera tigris tigris) female 3.jpg\">File:Bengal tiger (Panthera tigris tigris) female 3.jpg</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "Charles James Sharp",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg",
+    "image_url": "/animals/tiger.jpg",
+    "author": "Charles James Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "elephant",
+    "label": "Слон",
+    "article": "African bush elephant",
+    "filename": "178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/960px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-12-30 22:30:56",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "178 Male African bush elephant in Etosha National Park Photo by Giles Laurent",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Loxodonta africana of Etosha National Park|Self-published work|Featured pictures by Giles Laurent|Uploaded via Campaign:wsc-int|Featured pictures of animals in Namibia|Photos by Giles Laurent|Wildlife and nature images from Wiki Science Competition 2025|Images from Wiki Science Competition 2025 in the rest of the world",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Male African bush elephant in Etosha National Park, Namibia",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2025-07-29 16:04:01",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_url": "/animals/elephant.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "giraffe",
+    "label": "Жирафа",
+    "article": "Reticulated giraffe",
+    "filename": "Two_Giraffes.PNG",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Two_Giraffes.PNG/960px-Two_Giraffes.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/Two_Giraffes.PNG",
+    "metadata": {
+      "DateTime": {
+        "value": "2006-08-26 03:01:30",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Two Giraffes",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Giraffa reticulata|Unknown date|Giraffa camelopardalis in Kenya|2 mammals|Male giraffes",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Two (2) <a href=\"https://en.wikipedia.org/wiki/Giraffe\" class=\"extiw\" title=\"w:Giraffe\">Giraffes</a>, taken while on a <a href=\"https://en.wikipedia.org/wiki/Safari\" class=\"extiw\" title=\"w:Safari\">safari</a> in <a href=\"https://en.wikipedia.org/wiki/Kenya\" class=\"extiw\" title=\"w:Kenya\">Kenya</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Unknown date",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "Photo taken by a relative of <a href=\"//commons.wikimedia.org/wiki/User:Brandt_Luke_Zorn\" class=\"mw-redirect\" title=\"User:Brandt Luke Zorn\">Brandt Luke Zorn</a>, most likely his father.",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Relative of Brandt Luke Zorn, most likely his father.",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "<div class=\"responsive-license-cc layouttemplate licensetpl\" dir=\"ltr\" lang=\"en\"><div class=\"rlicense-icons\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"w:en:Creative Commons\"><img alt=\"w:en:Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/120px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"90\" height=\"36\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/CC_some_rights_reserved.svg/250px-CC_some_rights_reserved.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"744\" data-file-height=\"300\"></span></span><br>\n<span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"attribution\"><img alt=\"attribution\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/40px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/60px-Cc-by_new_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"share alike\"><img alt=\"share alike\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/40px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/60px-Cc-sa_white.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span></div><div class=\"rlicense-text\"><div class=\"rlicense-declaration\">This file is licensed under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"//creativecommons.org/licenses/by-sa/2.0/deed.en\" class=\"extiw\" title=\"creativecommons:by-sa/2.0/deed.en\">Attribution-Share Alike 2.0 Generic</a> license.</div><div class=\"rlicense-desc\" style=\"text-align:start;\" lang=\"en\">\n<dl><dd>You are free:\n<ul><li><b>to share</b> – to copy, distribute and transmit the work</li>\n<li><b>to remix</b> – to adapt the work</li></ul></dd>\n<dd>Under the following conditions:\n<ul><li><b>attribution</b> – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>\n<li><b>share alike</b> – If you remix, transform, or build upon the material, you must distribute your contributions under the <a href=\"https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses\" class=\"extiw\" title=\"ccorg:share-your-work/licensing-considerations/compatible-licenses\">same or compatible license</a> as the original.</li></ul></dd></dl></div><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/licenses/by-sa/2.0</span><span class=\"licensetpl_short\" style=\"display:none;\">CC BY-SA 2.0 </span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Attribution-Share Alike 2.0 </span><span class=\"licensetpl_link_req\" style=\"display:none;\">true</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">true</span></div></div>\nWhile I did not take this picture, I have full confidence that my relative would not oppose its use in this way.",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Two_Giraffes.PNG",
+    "image_url": "/animals/giraffe.png",
+    "author": "Relative of Brandt Luke Zorn, most likely his father.",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "zebra",
+    "label": "Зебра",
+    "article": "Plains zebra",
+    "filename": "Equus_quagga_burchellii_-_Etosha,_2014.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg/960px-Equus_quagga_burchellii_-_Etosha%2C_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2014-03-29 08:44:20",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Equus quagga burchellii - Etosha, 2014",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Canon EOS-1D Mark IV|Self-published work|Featured pictures on Wikipedia, English|Commons featured desktop backgrounds|Picture of week on the Czech Wikipedia|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Tamil|Featured pictures of Equidae|Featured pictures by User:Yathin sk|Mammals facing left|Featured pictures of animals in Namibia|Featured pictures on Wikipedia, Arabic|Equus quagga burchellii of Etosha National Park|Female zebras|Pregnant animals",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Plains zebra in Etosha National Park, Namibia",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2014-03-27 18:47:56",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yathin_sk\" title=\"User:Yathin sk\">Yathin S Krishnappa</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Equus_quagga_burchellii_-_Etosha,_2014.jpg",
+    "image_url": "/animals/zebra.jpg",
+    "author": "Yathin S Krishnappa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "hippo",
+    "label": "Нилски коњ",
+    "article": "Hippopotamus",
+    "filename": "Portrait_Hippopotamus_in_the_water.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Portrait_Hippopotamus_in_the_water.jpg/960px-Portrait_Hippopotamus_in_the_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Portrait_Hippopotamus_in_the_water.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-07-31 12:11:52",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Portrait Hippopotamus in the water",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Hippopotamus amphibius of Tanzania|Images from Wiki Loves Earth 2022|Images from Wiki Loves Earth 2022 in Tanzania|Uploaded via Campaign:wle-tz|Images from Wiki Loves Earth missing SDC location of creation|Hippopotamus amphibius in water|Mammals of Saadani National Park",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Portrait of a Hippopotamus in water in Saadani National Park",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2020-09-06 11:09:04",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Muhammad_Mahdi_Karim\" title=\"User:Muhammad Mahdi Karim\">Muhammad Mahdi Karim</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_Hippopotamus_in_the_water.jpg",
+    "image_url": "/animals/hippo.jpg",
+    "author": "Muhammad Mahdi Karim",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "rhino",
+    "label": "Носорог",
+    "article": "White rhinoceros",
+    "filename": "109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg/960px-109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-12-30 21:20:29",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "109 Male White rhinoceros walking in the Kalahari Desert of Namibia Photo by Giles Laurent",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Ceratotherium simum|Animals of Namibia|Self-published work|Files with coordinates missing SDC location of creation|Uploaded via Campaign:wsc-int|Photos by Giles Laurent|Wildlife and nature images from Wiki Science Competition 2025|Images from Wiki Science Competition 2025 in the rest of the world|Kalahari Desert of Namibia",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|valued",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "-24.241100",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "18.025498",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Male White rhinoceros walking in the Kalahari Desert of Namibia",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2025-07-23 08:11:43",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:109_Male_White_rhinoceros_walking_in_the_Kalahari_Desert_of_Namibia_Photo_by_Giles_Laurent.jpg",
+    "image_url": "/animals/rhino.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "camel",
+    "label": "Камила",
+    "article": "Dromedary",
+    "filename": "Camelus_dromedarius_in_Nuweiba.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Camelus_dromedarius_in_Nuweiba.jpg/960px-Camelus_dromedarius_in_Nuweiba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Camelus_dromedarius_in_Nuweiba.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2008-12-02 20:51:47",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Camelus dromedarius in Nuweiba",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Camelus dromedarius|GFDL|Taken with Sony DSLR-A100|License migration redundant|Self-published work|Brown mammals|Files with coordinates missing SDC location of creation|Camels in Nuweiba",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "29.148417",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "34.673833",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A <a href=\"https://en.wikipedia.org/wiki/Dromedary\" class=\"extiw\" title=\"en:Dromedary\">dromedary</a> (<i>Camelus dromedarius</i>) in a <a href=\"https://en.wikipedia.org/wiki/Wadi\" class=\"extiw\" title=\"en:Wadi\">wadi</a> near <a href=\"https://en.wikipedia.org/wiki/Nuweiba\" class=\"extiw\" title=\"en:Nuweiba\">Nuweiba</a> in Egypt. To limit the camel's movements and discourage it from escaping, it has been \"ground tied\" to a small stone. It belongs to a <a href=\"https://en.wikipedia.org/wiki/Bedouin\" class=\"extiw\" title=\"en:Bedouin\">Bedouin</a> from around Nuweiba.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2007-10-28 07:23:34",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Florian_Prischl\" title=\"User:Florian Prischl\">Florian Prischl</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Nuweiba.jpg",
+    "image_url": "/animals/camel.jpg",
+    "author": "Florian Prischl",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "kangaroo",
+    "label": "Кенгур",
+    "article": "Eastern grey kangaroo",
+    "filename": "Macropus_giganteus_-_Brunkerville.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/960px-Macropus_giganteus_-_Brunkerville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Macropus_giganteus_-_Brunkerville.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-11-06 20:54:32",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Macropus giganteus - Brunkerville",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Macropus giganteus|Retouched pictures|Self-published work|Featured pictures of New South Wales|Featured pictures on Wikipedia, Indonesian|2 mammals|Files with coordinates missing SDC location of creation|October 2019 in New South Wales|Australia photographs taken on 2019-10-06|Featured pictures by JJ Harrison|Featured pictures of Macropus giganteus|Featured pictures on Wikipedia, Arabic|Square photos of mammals|Mammals looking at viewer|Featured pictures of animals in Australia",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "-32.000000",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "151.000000",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Eastern Grey Kangaroo mother and joey, Brunkerville, New South Wales, Australia",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2019-10-06 06:30:50",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.com.au/</a>)",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Macropus_giganteus_-_Brunkerville.jpg",
+    "image_url": "/animals/kangaroo.jpg",
+    "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "koala",
+    "label": "Коала",
+    "article": "Koala",
+    "filename": "Koala_climbing_tree.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/960px-Koala_climbing_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Koala_climbing_tree.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2005-12-05 20:28:28",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Koala climbing tree",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|Great Otway National Park|License migration redundant|Self-published work|Featured pictures on Wikipedia, English|Featured pictures on Wikipedia, German|Featured pictures on Wikipedia, Croatian|Featured pictures on Wikipedia, Georgian|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Photographs by User:Diliff|July 2004 in Victoria, Australia|Files with coordinates missing SDC location of creation|Australia photographs taken on 2004-07-28|Featured pictures on Wikipedia, Arabic|Koalas climbing trees",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "-38.800378",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "143.481445",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Artist": {
+        "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Diliff\" title=\"User:Diliff\">Diliff</a></div>",
+        "source": "commons-desc-page"
+      },
+      "ImageDescription": {
+        "value": "A koala climbing up a tree, Great Otway National Park, Victoria, Australia. Canon 10D, 70-200mm f/2.8L @ f/3.2 1/200s",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "Taken on 28 July 2004",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "<div dir=\"ltr\"><b><span style=\"font-size:x-large;\">Summary:</span><div style=\"clear:both;\"></div><div style=\"clear:both;\"></div>In using this image or any subsequent derivatives of it, you are required to release the image under the same license. As such, any reproduction of this image, in any medium, must appear with a copy of, or full URL of the license.<div style=\"clear:both;\"></div>Attribution of this image to the author (DAVID ILIFF) is also required, preferably in a prominent location near the image.<div style=\"clear:both;\"></div>No other conditions may be added to, or removed from this license without the permission of the author and copyright holder.<div style=\"clear:both;\"></div><div style=\"clear:both;\"></div>Suggested attribution: \"Photo by DAVID ILIFF. License: <a rel=\"nofollow\" class=\"external free\" href=\"https://creativecommons.org/licenses/by-sa/3.0/\">https://creativecommons.org/licenses/by-sa/3.0/</a>\"</b><div style=\"clear:both;\"></div><div style=\"clear:both;\"></div>Please review the full license requirements carefully before using this image. If you would like to clarify the terms of the license or negotiate less restrictive commercial licensing outside of the bounds of GFDL/CC-BY-SA, please <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Diliff\" title=\"Special:EmailUser/Diliff\">contact me by email</a>, or if you don't have a Wikipedia account you can either <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org/w/index.php?title=User_talk:Diliff&amp;action=edit&amp;section=new\" href=\"https://en.wikipedia.org/w/index.php?title=User_talk:Diliff&amp;action=edit&amp;section=new\">leave a message on my talk page</a> with your contact details and your request, or you can <a rel=\"nofollow\" class=\"external text\" href=\"https://www.facebook.com/diliff\">contact me on Facebook</a>. Please also send a 'friend request' to ensure that I am aware of your message.</div>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree.jpg",
+    "image_url": "/animals/koala.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "panda",
+    "label": "Панда",
+    "article": "Giant panda",
+    "filename": "Grosser_Panda.JPG",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/960px-Grosser_Panda.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG",
+    "metadata": {
+      "DateTime": {
+        "value": "2024-03-21 20:22:18",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Grosser Panda",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Images by J. Patrick Fischer|Images with extracted images|Hong Kong photographs taken on 2009-09-04|Ailuropoda melanoleuca in Ocean Park, Hong Kong",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Giant Panda at Ocean Park Hong Kong",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2009-09-04",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:J._Patrick_Fischer\" title=\"User:J. Patrick Fischer\">J. Patrick Fischer</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Grosser_Panda.JPG",
+    "image_url": "/animals/panda.jpg",
+    "author": "J. Patrick Fischer",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "monkey",
+    "label": "Мајмун",
+    "article": "Tufted capuchin",
+    "filename": "Tufted_capuchin_on_a_branch_in_Singapore.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Tufted_capuchin_on_a_branch_in_Singapore.jpg/960px-Tufted_capuchin_on_a_branch_in_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tufted_capuchin_on_a_branch_in_Singapore.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-11-21 14:42:52",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Tufted capuchin on a branch in Singapore",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Canon EOS 5D Mark IV and Canon EF 100-400mm F4.5-5.6L IS II USM|Featured pictures of Singapore|Self-published work|Singapore photographs taken on 2018-06-09|Featured pictures on Wikipedia, Persian|Featured pictures of Primates|Files with coordinates missing SDC location of creation|Featured pictures by Basile Morin|Photographs by Basile Morin|Quality photographs of bokeh|Bokeh photographs of animals|Facial expressions of primates|Sapajus apella in zoos|Cebidae in Singapore Zoo|Published photographs by Basile Morin",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "1.405262",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "103.795003",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/Tufted_capuchin\" class=\"extiw\" title=\"en:Tufted capuchin\"><i>Sapajus apella</i> (Tufted capuchin)</a> staring at the horizon, on a branch, in Singapore.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2018-06-09 11:19:15",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Basile_Morin\" title=\"User:Basile Morin\">Basile Morin</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tufted_capuchin_on_a_branch_in_Singapore.jpg",
+    "image_url": "/animals/monkey.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "sloth",
+    "label": "Лењивац",
+    "article": "Brown-throated sloth",
+    "filename": "Bradypus.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Bradypus.jpg/960px-Bradypus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bradypus.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-08-12 05:12:48",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Bradypus",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Bradypus variegatus|Taken with Ricoh Caplio G3|PD-user|Featured pictures of Panama|Gatun Lake|Featured pictures on Wikipedia, Tamil|Featured pictures on Wikipedia, Turkish|Pilosa of Panama|October 2003 in Panama|Photographs taken on 2003-10-15|Featured pictures of Pilosa|Featured photographs in the public domain|Mammals in trees",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "featured|potd",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/Three-toed_sloth\" class=\"extiw\" title=\"en:Three-toed sloth\">Three-toed-sloth</a> (<i>Bradypus variegatus</i>), Lake Gatun, Republic of <a href=\"https://en.wikipedia.org/wiki/Panama\" class=\"extiw\" title=\"en:Panama\">Panama</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2003-10-15",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (Stefan Laube)<br>Originally uploaded at de.wikipedia.org: <i>2004-10-02 02:26 by <a href=\"https://de.wikipedia.org/wiki/Benutzer:Tauchgurke\" class=\"extiw\" title=\"de:Benutzer:Tauchgurke\">Tauchgurke</a> (658235 Byte) (Dreizehenfaultier (Bradypus infuscatus), Gatunsee, Republik Panama)</i>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Stefan Laube (<a href=\"https://de.wikipedia.org/wiki/Benutzer:Tauchgurke\" class=\"extiw\" title=\"de:Benutzer:Tauchgurke\">Tauchgurke</a>)",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>This work has been released into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b> by its author, <b><span class=\"licensetpl_attr\"><a href=\"https://de.wikipedia.org/wiki/User:Tauchgurke\" class=\"extiw\" title=\"de:User:Tauchgurke\">Tauchgurke</a></span></b>. This applies worldwide.<br>\n<p><small>In some countries this may not be legally possible; if so:</small><br>\n<i><span class=\"licensetpl_attr\"><a href=\"https://de.wikipedia.org/wiki/User:Tauchgurke\" class=\"extiw\" title=\"de:User:Tauchgurke\">Tauchgurke</a></span> grants anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</p>\n</td></tr></tbody></table>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bradypus.jpg",
+    "image_url": "/animals/sloth.jpg",
+    "author": "Stefan Laube ( Tauchgurke )",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "otter",
+    "label": "Видра",
+    "article": "Eurasian otter",
+    "filename": "Fischotter,_Lutra_Lutra.JPG",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Fischotter%2C_Lutra_Lutra.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Fischotter%2C_Lutra_Lutra.JPG",
+    "metadata": {
+      "DateTime": {
+        "value": "2016-01-04 16:14:13",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Fischotter, Lutra Lutra",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|License migration completed|Wikiszkoła - Zwierzęta|Lutra lutra (captive)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a rel=\"mw:WikiLink/Interwiki\" href=\"https://en.wikipedia.org/wiki/European%20Otter\" title=\"en:European Otter\" class=\"extiw\">European Otter</a> (<i><a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/Lutra_lutra\" title=\"Lutra lutra\">Lutra lutra</a></i>).",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Bernard Landgraf",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fischotter,_Lutra_Lutra.JPG",
+    "image_url": "/animals/otter.jpg",
+    "author": "Bernard Landgraf",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "seal",
+    "label": "Фока",
+    "article": "Harbor seal",
+    "filename": "Common_seal_(Phoca_vitulina)_2.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/960px-Common_seal_%28Phoca_vitulina%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-10-14 16:59:07",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Common seal (Phoca vitulina) 2",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Canon EOS 70D|Featured pictures of Scotland|Photographs by Charlesjsharp|Self-published work|Featured pictures on Wikipedia, English|Images with extracted images|Featured pictures by Charlesjsharp|Featured pictures on Wikipedia, Persian|Mammals of Argyll and Bute|August 2015 in Scotland|Files with coordinates missing SDC location of creation|United Kingdom photographs taken on 2015-08-21|Featured pictures by Charlesjsharp/UK|Featured pictures of Phoca vitulina|Featured pictures on Wikipedia, Arabic|Featured pictures on English Wikipedia by Charlesjsharp|Pictures of the Year/2018 (finalist)|Phoca vitulina of Scotland|Featured pictures of mammals by Charlesjsharp",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured|poty|potd",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "56.494408",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-5.583911",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Common Seal (<i><a href=\"https://en.wikipedia.org/wiki/Phoca_vitulina\" class=\"extiw\" title=\"w:Phoca vitulina\">Phoca vitulina vitulina</a></i>), off Lismore, Argyll",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-08-21",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.sharpphotography.co.uk/\">Sharp Photography, sharpphotography</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q54800218\" class=\"extiw\" title=\"d:Q54800218\"><span title=\"Scottish wildlife photographer\">Charles J. Sharp</span></a></bdi>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Common_seal_(Phoca_vitulina)_2.jpg",
+    "image_url": "/animals/seal.jpg",
+    "author": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "dolphin",
+    "label": "Делфин",
+    "article": "Common bottlenose dolphin",
+    "filename": "Tursiops_truncatus_01-cropped.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/960px-Tursiops_truncatus_01-cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tursiops_truncatus_01-cropped.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2015-01-05 00:05:02",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Tursiops truncatus 01-cropped",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Tursiops truncatus|PD NASA|Retouched pictures|Banana River (Florida)|Graphic Lab-fr|Extracted images|Jumping dolphins|Mammals of Martin County, Florida|Flipper (1996 film)|United States photographs taken on 2004-02-05|Files from NASA with known IDs",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/Bottlenose_Dolphin\" class=\"extiw\" title=\"w:Bottlenose Dolphin\">Bottlenose Dolphin</a> - Tursiops truncatus <i>A dolphin surfs the wake of a research boat on the <a href=\"https://en.wikipedia.org/wiki/Banana_River\" class=\"extiw\" title=\"w:Banana River\">Banana River</a></i> - near the  <a href=\"https://en.wikipedia.org/wiki/Kennedy_Space_Center\" class=\"extiw\" title=\"w:Kennedy Space Center\">Kennedy Space Center</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "5 February 2004 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<ul><li><a rel=\"nofollow\" class=\"external free\" href=\"https://images.nasa.gov/details/KSC-04pd0178\">https://images.nasa.gov/details/KSC-04pd0178</a></li>\n<li><bdi lang=\"en\" dir=\"ltr\" title=\"archived on 13 November 2005 at the Wayback Machine\"><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20051113140743/http://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=21807\">http://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=21807 on the Wayback Machine</a> at the <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Wayback_Machine\" class=\"extiw\" title=\"en:Wayback Machine\"><span lang=\"en\" dir=\"ltr\">Wayback Machine</span></a></span></bdi></li></ul>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<p>NASA\n</p>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Public domain",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Copyrighted": {
+        "value": "False",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "pd",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg",
+    "image_url": "/animals/dolphin.jpg",
+    "author": "NASA",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "id": "turtle",
+    "label": "Корњача",
+    "article": "Hermann's tortoise",
+    "filename": "Testudo_hermanni_hermanni_Mallorca_02.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Testudo_hermanni_hermanni_Mallorca_02.jpg/960px-Testudo_hermanni_hermanni_Mallorca_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Testudo_hermanni_hermanni_Mallorca_02.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2006-08-03 19:41:00",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Testudo hermanni hermanni Mallorca 02",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Testudo hermanni hermanni|GFDL|License migration redundant|Self-published work|Reptiles of Mallorca",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Artist": {
+        "value": "<div class=\"fn value\">\n<a href=\"//commons.wikimedia.org/wiki/User:Orchi\" title=\"User:Orchi\">Orchi</a></div>",
+        "source": "commons-desc-page"
+      },
+      "ImageDescription": {
+        "value": "<div class=\"description\">\n<i><b><a href=\"//commons.wikimedia.org/wiki/Testudo_hermanni\" title=\"Testudo hermanni\">Testudo hermanni</a></b></i></div>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\">Self-photographed</span>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Testudo_hermanni_hermanni_Mallorca_02.jpg",
+    "image_url": "/animals/turtle.jpg",
+    "author": "Orchi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
+    "id": "snake",
+    "label": "Змија",
+    "article": "Corn snake",
+    "filename": "CornSnake.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/CornSnake.jpg/960px-CornSnake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/CornSnake.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2020-12-16 22:55:38",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "CornSnake",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Self-published work|Creative Commons CC0 1.0 Universal Public Domain Dedication with different SDC copyright license|Carolina wildtype corn snakes",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "An orange corn snake coiled up on a white surface.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2020-05-09 13:22:12",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:EthanPo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:EthanPo (page does not exist)\">Ethan Porcaro</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:CornSnake.jpg",
+    "image_url": "/animals/snake.jpg",
+    "author": "Ethan Porcaro",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "crocodile",
+    "label": "Крокодил",
+    "article": "Nile crocodile",
+    "filename": "NileCrocodile.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NileCrocodile.jpg/960px-NileCrocodile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/NileCrocodile.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2005-02-27 09:21:07",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "NileCrocodile",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Canon PowerShot A95|Crocodile farms|Crocodylus niloticus (captive)|Images by User:Dewet|Reptiles of Stellenbosch",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/Nile_crocodile\" class=\"extiw\" title=\"en:Nile crocodile\">Nile crocodiles</a>, taken at the <b>Le Bonheur Crocodile Farm</b> near <a href=\"https://en.wikipedia.org/wiki/Stellenbosch\" class=\"extiw\" title=\"en:Stellenbosch\">Stellenbosch</a>, <a href=\"//commons.wikimedia.org/wiki/South_Africa\" class=\"mw-redirect\" title=\"South Africa\">South Africa</a>",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "circa 2005<div style=\"display: none;\">date QS:P,+2005-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dewet\" title=\"User:Dewet\">Dewet</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:NileCrocodile.jpg",
+    "image_url": "/animals/crocodile.jpg",
+    "author": "Dewet",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "lizard",
+    "label": "Гуштер",
+    "article": "European green lizard",
+    "filename": "Lacerta_viridis_-_male_01.JPG",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Lacerta_viridis_-_male_01.JPG/960px-Lacerta_viridis_-_male_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Lacerta_viridis_-_male_01.JPG",
+    "metadata": {
+      "DateTime": {
+        "value": "2015-04-28 17:17:35",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Lacerta viridis - male 01",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Self-published work|Reptiles of Lower Austria|Files with coordinates missing SDC location of creation|Austria photographs taken on 2014-04-12|Lacerta viridis in Austria|All images by Uoaei1",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "48.315092",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "15.423988",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "European green lizard (<i>Lacerta viridis</i>). This male individuum is approx. 35-40 cm long.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2014-04-12 16:24:09",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Uoaei1\" title=\"User:Uoaei1\">Uoaei1</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lacerta_viridis_-_male_01.JPG",
+    "image_url": "/animals/lizard.jpg",
+    "author": "Uoaei1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "frog",
+    "label": "Жаба",
+    "article": "European tree frog",
+    "filename": "European_tree_frog_(Hyla_arborea)_on_hemp-agrimony_(Eupatorium_cannabinum).jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg/960px-European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/European_tree_frog_%28Hyla_arborea%29_on_hemp-agrimony_%28Eupatorium_cannabinum%29.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2018-12-21 14:13:57",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "European tree frog (Hyla arborea) on hemp-agrimony (Eupatorium cannabinum)",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Hyla arborea|Self-published work|Animals with Eupatorium cannabinum|Fotowedstrijd SoortenNL2018",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "European tree frog (Hyla arborea) on hemp-agrimony (Eupatorium cannabinum)",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2018-08-12 16:06:44",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Stijn99&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Stijn99 (page does not exist)\">Stijn99</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:European_tree_frog_(Hyla_arborea)_on_hemp-agrimony_(Eupatorium_cannabinum).jpg",
+    "image_url": "/animals/frog.jpg",
+    "author": "Stijn99",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "deer",
+    "label": "Јелен",
+    "article": "Red deer",
+    "filename": "Cervus_elaphus_Luc_Viatour_6.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/960px-Cervus_elaphus_Luc_Viatour_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2011-09-19 07:32:28",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Cervus elaphus Luc Viatour 6",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Nikon D3s|Self-published work|Cervus elaphus (male)|Images with extracted images|Files with coordinates missing SDC location of creation (50° N, 5° E)|Cervus elaphus in Domaine des grottes de Han|Wikiszkoła - Zwierzęta",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "50.120705",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "5.208430",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Cervus elaphus",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2011-09-17",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lviatour\" title=\"User:Lviatour\">Lviatour</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg",
+    "image_url": "/animals/deer.jpg",
+    "author": "Lviatour",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "bat",
+    "label": "Слепи миш",
+    "article": "Indian flying fox",
+    "filename": "047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/960px-047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2025-07-10 18:18:31",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "047 Indian flying fox in Keoladeo National Park Photo by Giles Laurent",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Pteropus medius|Self-published work|Featured pictures of Rajasthan|Uploaded via Campaign:wle-in|Files with coordinates missing SDC location of creation|Featured pictures by Giles Laurent|Images from Wiki Loves Earth missing SDC location of creation|Photos by Giles Laurent|Images from Wiki Loves Earth 2025|Images from Wiki Loves Earth 2025 in India|Mammals of Keoladeo National Park|Images from Wiki Loves Earth with different SDC participant in|Featured pictures from Wiki Loves Earth 2025 in India|Featured pictures of mammals in India|Images from Wiki Loves Earth 2025 in India (Working)",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured|valued",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "27.161336",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "77.522320",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Indian flying fox in Keoladeo National Park, India",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2023-03-15 08:53:25",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, from <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "© <a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://gileslaurent.com\">gileslaurent.com</a>, License CC BY-SA",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:047_Indian_flying_fox_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+    "image_url": "/animals/bat.jpg",
+    "author": "© Giles Laurent , gileslaurent.com , License CC BY-SA",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "raccoon",
+    "label": "Ракун",
+    "article": "Raccoon",
+    "filename": "Raccoon_in_Central_Park_(35264).jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg/960px-Raccoon_in_Central_Park_%2835264%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2022-09-16 17:15:36",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Raccoon in Central Park (35264)",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Featured pictures of New York City|Retouched pictures|New York City photographs taken on 2022-09-03|Self-published work|Images with extracted images|Files uploaded by Rhododendrites (all)|Featured pictures by Rhododendrites|Files with coordinates missing SDC location of creation|Central Park in 2022|Featured pictures of Procyonidae|September 2022 in Manhattan, New York City|Photographs taken by Rhododendrites - Central Park|Files by Rhododendrites - 2022-09|Raccoons of Central Park",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "40.777651",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-73.969815",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Raccoon (<i>Procyon lotor</i>) in the Central Park Ramble",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2022-09-03 17:10:44",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rhododendrites\" title=\"User:Rhododendrites\">Rhododendrites</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Raccoon_in_Central_Park_(35264).jpg",
+    "image_url": "/animals/raccoon.jpg",
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "hamster",
+    "label": "Хрчак",
+    "article": "Golden hamster",
+    "filename": "Golden_hamster_front_1.jpg",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Golden_hamster_front_1.jpg/960px-Golden_hamster_front_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Golden_hamster_front_1.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2010-06-05 04:07:15",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Golden hamster front 1",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Mesocricetus auratus|License migration completed|GFDL-disclaimers|Self-published work",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "This photo shows a <a href=\"https://en.wikipedia.org/wiki/Golden_Hamster\" class=\"extiw\" title=\"en:Golden Hamster\">Golden Hamster</a> (she is a rescued hamster called Vince), she is a great pet.\n<p>Photo was taken 19th April 2006 when Vince was approx 1 year old.\nThis photos is my own work.\n</p>\n<a href=\"https://en.wikipedia.org/wiki/User:Adamjennison111\" class=\"extiw\" title=\"en:User:Adamjennison111\">Adamjennison111</a> 21:51, 31 August 2006 (UTC)",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "31 August 2006 (original upload date)",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Sreejithk2000\" title=\"User:Sreejithk2000\">Sreejithk2000</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/User:Adamjennison111\" class=\"extiw\" title=\"wikipedia:User:Adamjennison111\">Adamjennison111</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 2.5",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 2.5",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "<a href=\"https://en.wikipedia.org/wiki/User:Adamjennison111\" class=\"extiw\" title=\"wikipedia:User:Adamjennison111\">Adamjennison111</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/2.5",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-2.5",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "source_url": "https://commons.wikimedia.org/wiki/File:Golden_hamster_front_1.jpg",
+    "image_url": "/animals/hamster.jpg",
+    "author": "Adamjennison111 at English Wikipedia",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5"
+  }
+]

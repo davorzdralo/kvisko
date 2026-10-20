@@ -1,0 +1,1247 @@
+[
+  {
+    "id": "af",
+    "label": "Авганистан",
+    "image_url": "/flags/af.svg"
+  },
+  {
+    "id": "ax",
+    "label": "Оландска Острва",
+    "image_url": "/flags/ax.svg"
+  },
+  {
+    "id": "al",
+    "label": "Албанија",
+    "image_url": "/flags/al.svg"
+  },
+  {
+    "id": "dz",
+    "label": "Алжир",
+    "image_url": "/flags/dz.svg"
+  },
+  {
+    "id": "as",
+    "label": "Америчка Самоа",
+    "image_url": "/flags/as.svg"
+  },
+  {
+    "id": "ad",
+    "label": "Андора",
+    "image_url": "/flags/ad.svg"
+  },
+  {
+    "id": "ao",
+    "label": "Ангола",
+    "image_url": "/flags/ao.svg"
+  },
+  {
+    "id": "ai",
+    "label": "Ангвила",
+    "image_url": "/flags/ai.svg"
+  },
+  {
+    "id": "aq",
+    "label": "Антарктик",
+    "image_url": "/flags/aq.svg"
+  },
+  {
+    "id": "ag",
+    "label": "Антигва и Барбуда",
+    "image_url": "/flags/ag.svg"
+  },
+  {
+    "id": "ar",
+    "label": "Аргентина",
+    "image_url": "/flags/ar.svg"
+  },
+  {
+    "id": "am",
+    "label": "Јерменија",
+    "image_url": "/flags/am.svg"
+  },
+  {
+    "id": "aw",
+    "label": "Аруба",
+    "image_url": "/flags/aw.svg"
+  },
+  {
+    "id": "au",
+    "label": "Аустралија",
+    "image_url": "/flags/au.svg"
+  },
+  {
+    "id": "at",
+    "label": "Аустрија",
+    "image_url": "/flags/at.svg"
+  },
+  {
+    "id": "az",
+    "label": "Азербејџан",
+    "image_url": "/flags/az.svg"
+  },
+  {
+    "id": "bs",
+    "label": "Бахами",
+    "image_url": "/flags/bs.svg"
+  },
+  {
+    "id": "bh",
+    "label": "Бахреин",
+    "image_url": "/flags/bh.svg"
+  },
+  {
+    "id": "bd",
+    "label": "Бангладеш",
+    "image_url": "/flags/bd.svg"
+  },
+  {
+    "id": "bb",
+    "label": "Барбадос",
+    "image_url": "/flags/bb.svg"
+  },
+  {
+    "id": "by",
+    "label": "Белорусија",
+    "image_url": "/flags/by.svg"
+  },
+  {
+    "id": "be",
+    "label": "Белгија",
+    "image_url": "/flags/be.svg"
+  },
+  {
+    "id": "bz",
+    "label": "Белизе",
+    "image_url": "/flags/bz.svg"
+  },
+  {
+    "id": "bj",
+    "label": "Бенин",
+    "image_url": "/flags/bj.svg"
+  },
+  {
+    "id": "bm",
+    "label": "Бермуди",
+    "image_url": "/flags/bm.svg"
+  },
+  {
+    "id": "bt",
+    "label": "Бутан",
+    "image_url": "/flags/bt.svg"
+  },
+  {
+    "id": "bo",
+    "label": "Боливија",
+    "image_url": "/flags/bo.svg"
+  },
+  {
+    "id": "bq",
+    "label": "Карипска Холандија",
+    "image_url": "/flags/bq.svg"
+  },
+  {
+    "id": "ba",
+    "label": "Босна и Херцеговина",
+    "image_url": "/flags/ba.svg"
+  },
+  {
+    "id": "bw",
+    "label": "Боцвана",
+    "image_url": "/flags/bw.svg"
+  },
+  {
+    "id": "bv",
+    "label": "Острво Буве",
+    "image_url": "/flags/bv.svg"
+  },
+  {
+    "id": "br",
+    "label": "Бразил",
+    "image_url": "/flags/br.svg"
+  },
+  {
+    "id": "io",
+    "label": "Британска територија Индијског океана",
+    "image_url": "/flags/io.svg"
+  },
+  {
+    "id": "bn",
+    "label": "Брунеј",
+    "image_url": "/flags/bn.svg"
+  },
+  {
+    "id": "bg",
+    "label": "Бугарска",
+    "image_url": "/flags/bg.svg"
+  },
+  {
+    "id": "bf",
+    "label": "Буркина Фасо",
+    "image_url": "/flags/bf.svg"
+  },
+  {
+    "id": "bi",
+    "label": "Бурунди",
+    "image_url": "/flags/bi.svg"
+  },
+  {
+    "id": "cv",
+    "label": "Зеленортска Острва",
+    "image_url": "/flags/cv.svg"
+  },
+  {
+    "id": "kh",
+    "label": "Камбоџа",
+    "image_url": "/flags/kh.svg"
+  },
+  {
+    "id": "cm",
+    "label": "Камерун",
+    "image_url": "/flags/cm.svg"
+  },
+  {
+    "id": "ca",
+    "label": "Канада",
+    "image_url": "/flags/ca.svg"
+  },
+  {
+    "id": "ky",
+    "label": "Кајманска Острва",
+    "image_url": "/flags/ky.svg"
+  },
+  {
+    "id": "cf",
+    "label": "Централноафричка Република",
+    "image_url": "/flags/cf.svg"
+  },
+  {
+    "id": "td",
+    "label": "Чад",
+    "image_url": "/flags/td.svg"
+  },
+  {
+    "id": "cl",
+    "label": "Чиле",
+    "image_url": "/flags/cl.svg"
+  },
+  {
+    "id": "cn",
+    "label": "Кина",
+    "image_url": "/flags/cn.svg"
+  },
+  {
+    "id": "cx",
+    "label": "Божићно Острво",
+    "image_url": "/flags/cx.svg"
+  },
+  {
+    "id": "cc",
+    "label": "Кокосова (Килингова) Острва",
+    "image_url": "/flags/cc.svg"
+  },
+  {
+    "id": "co",
+    "label": "Колумбија",
+    "image_url": "/flags/co.svg"
+  },
+  {
+    "id": "km",
+    "label": "Коморска Острва",
+    "image_url": "/flags/km.svg"
+  },
+  {
+    "id": "ck",
+    "label": "Кукова Острва",
+    "image_url": "/flags/ck.svg"
+  },
+  {
+    "id": "cr",
+    "label": "Костарика",
+    "image_url": "/flags/cr.svg"
+  },
+  {
+    "id": "hr",
+    "label": "Хрватска",
+    "image_url": "/flags/hr.svg"
+  },
+  {
+    "id": "cu",
+    "label": "Куба",
+    "image_url": "/flags/cu.svg"
+  },
+  {
+    "id": "cw",
+    "label": "Курасао",
+    "image_url": "/flags/cw.svg"
+  },
+  {
+    "id": "cy",
+    "label": "Кипар",
+    "image_url": "/flags/cy.svg"
+  },
+  {
+    "id": "cz",
+    "label": "Чешка",
+    "image_url": "/flags/cz.svg"
+  },
+  {
+    "id": "ci",
+    "label": "Обала Слоноваче",
+    "image_url": "/flags/ci.svg"
+  },
+  {
+    "id": "cd",
+    "label": "Демократска Република Конго",
+    "image_url": "/flags/cd.svg"
+  },
+  {
+    "id": "dk",
+    "label": "Данска",
+    "image_url": "/flags/dk.svg"
+  },
+  {
+    "id": "dj",
+    "label": "Џибути",
+    "image_url": "/flags/dj.svg"
+  },
+  {
+    "id": "dm",
+    "label": "Доминика",
+    "image_url": "/flags/dm.svg"
+  },
+  {
+    "id": "do",
+    "label": "Доминиканска Република",
+    "image_url": "/flags/do.svg"
+  },
+  {
+    "id": "ec",
+    "label": "Еквадор",
+    "image_url": "/flags/ec.svg"
+  },
+  {
+    "id": "eg",
+    "label": "Египат",
+    "image_url": "/flags/eg.svg"
+  },
+  {
+    "id": "sv",
+    "label": "Салвадор",
+    "image_url": "/flags/sv.svg"
+  },
+  {
+    "id": "gq",
+    "label": "Екваторијална Гвинеја",
+    "image_url": "/flags/gq.svg"
+  },
+  {
+    "id": "er",
+    "label": "Еритреја",
+    "image_url": "/flags/er.svg"
+  },
+  {
+    "id": "ee",
+    "label": "Естонија",
+    "image_url": "/flags/ee.svg"
+  },
+  {
+    "id": "sz",
+    "label": "Есватини",
+    "image_url": "/flags/sz.svg"
+  },
+  {
+    "id": "et",
+    "label": "Етиопија",
+    "image_url": "/flags/et.svg"
+  },
+  {
+    "id": "fk",
+    "label": "Фокландска Острва",
+    "image_url": "/flags/fk.svg"
+  },
+  {
+    "id": "fo",
+    "label": "Фарска Острва",
+    "image_url": "/flags/fo.svg"
+  },
+  {
+    "id": "fm",
+    "label": "Микронезија",
+    "image_url": "/flags/fm.svg"
+  },
+  {
+    "id": "fj",
+    "label": "Фиџи",
+    "image_url": "/flags/fj.svg"
+  },
+  {
+    "id": "fi",
+    "label": "Финска",
+    "image_url": "/flags/fi.svg"
+  },
+  {
+    "id": "fr",
+    "label": "Француска",
+    "image_url": "/flags/fr.svg"
+  },
+  {
+    "id": "gf",
+    "label": "Француска Гвајана",
+    "image_url": "/flags/gf.svg"
+  },
+  {
+    "id": "pf",
+    "label": "Француска Полинезија",
+    "image_url": "/flags/pf.svg"
+  },
+  {
+    "id": "tf",
+    "label": "Француске Јужне Територије",
+    "image_url": "/flags/tf.svg"
+  },
+  {
+    "id": "ga",
+    "label": "Габон",
+    "image_url": "/flags/ga.svg"
+  },
+  {
+    "id": "gm",
+    "label": "Гамбија",
+    "image_url": "/flags/gm.svg"
+  },
+  {
+    "id": "ge",
+    "label": "Грузија",
+    "image_url": "/flags/ge.svg"
+  },
+  {
+    "id": "de",
+    "label": "Немачка",
+    "image_url": "/flags/de.svg"
+  },
+  {
+    "id": "gh",
+    "label": "Гана",
+    "image_url": "/flags/gh.svg"
+  },
+  {
+    "id": "gi",
+    "label": "Гибралтар",
+    "image_url": "/flags/gi.svg"
+  },
+  {
+    "id": "gr",
+    "label": "Грчка",
+    "image_url": "/flags/gr.svg"
+  },
+  {
+    "id": "gl",
+    "label": "Гренланд",
+    "image_url": "/flags/gl.svg"
+  },
+  {
+    "id": "gd",
+    "label": "Гренада",
+    "image_url": "/flags/gd.svg"
+  },
+  {
+    "id": "gp",
+    "label": "Гваделуп",
+    "image_url": "/flags/gp.svg"
+  },
+  {
+    "id": "gu",
+    "label": "Гуам",
+    "image_url": "/flags/gu.svg"
+  },
+  {
+    "id": "gt",
+    "label": "Гватемала",
+    "image_url": "/flags/gt.svg"
+  },
+  {
+    "id": "gg",
+    "label": "Гернзи",
+    "image_url": "/flags/gg.svg"
+  },
+  {
+    "id": "gn",
+    "label": "Гвинеја",
+    "image_url": "/flags/gn.svg"
+  },
+  {
+    "id": "gw",
+    "label": "Гвинеја-Бисао",
+    "image_url": "/flags/gw.svg"
+  },
+  {
+    "id": "gy",
+    "label": "Гвајана",
+    "image_url": "/flags/gy.svg"
+  },
+  {
+    "id": "ht",
+    "label": "Хаити",
+    "image_url": "/flags/ht.svg"
+  },
+  {
+    "id": "hm",
+    "label": "Острво Херд и Мекдоналдова острва",
+    "image_url": "/flags/hm.svg"
+  },
+  {
+    "id": "va",
+    "label": "Ватикан",
+    "image_url": "/flags/va.svg"
+  },
+  {
+    "id": "hn",
+    "label": "Хондурас",
+    "image_url": "/flags/hn.svg"
+  },
+  {
+    "id": "hk",
+    "label": "Хонгконг",
+    "image_url": "/flags/hk.svg"
+  },
+  {
+    "id": "hu",
+    "label": "Мађарска",
+    "image_url": "/flags/hu.svg"
+  },
+  {
+    "id": "is",
+    "label": "Исланд",
+    "image_url": "/flags/is.svg"
+  },
+  {
+    "id": "in",
+    "label": "Индија",
+    "image_url": "/flags/in.svg"
+  },
+  {
+    "id": "id",
+    "label": "Индонезија",
+    "image_url": "/flags/id.svg"
+  },
+  {
+    "id": "ir",
+    "label": "Иран",
+    "image_url": "/flags/ir.svg"
+  },
+  {
+    "id": "iq",
+    "label": "Ирак",
+    "image_url": "/flags/iq.svg"
+  },
+  {
+    "id": "ie",
+    "label": "Ирска",
+    "image_url": "/flags/ie.svg"
+  },
+  {
+    "id": "im",
+    "label": "Острво Ман",
+    "image_url": "/flags/im.svg"
+  },
+  {
+    "id": "il",
+    "label": "Израел",
+    "image_url": "/flags/il.svg"
+  },
+  {
+    "id": "it",
+    "label": "Италија",
+    "image_url": "/flags/it.svg"
+  },
+  {
+    "id": "jm",
+    "label": "Јамајка",
+    "image_url": "/flags/jm.svg"
+  },
+  {
+    "id": "jp",
+    "label": "Јапан",
+    "image_url": "/flags/jp.svg"
+  },
+  {
+    "id": "je",
+    "label": "Џерзи",
+    "image_url": "/flags/je.svg"
+  },
+  {
+    "id": "jo",
+    "label": "Јордан",
+    "image_url": "/flags/jo.svg"
+  },
+  {
+    "id": "kz",
+    "label": "Казахстан",
+    "image_url": "/flags/kz.svg"
+  },
+  {
+    "id": "ke",
+    "label": "Кенија",
+    "image_url": "/flags/ke.svg"
+  },
+  {
+    "id": "ki",
+    "label": "Кирибати",
+    "image_url": "/flags/ki.svg"
+  },
+  {
+    "id": "kw",
+    "label": "Кувајт",
+    "image_url": "/flags/kw.svg"
+  },
+  {
+    "id": "kg",
+    "label": "Киргистан",
+    "image_url": "/flags/kg.svg"
+  },
+  {
+    "id": "la",
+    "label": "Лаос",
+    "image_url": "/flags/la.svg"
+  },
+  {
+    "id": "lv",
+    "label": "Летонија",
+    "image_url": "/flags/lv.svg"
+  },
+  {
+    "id": "lb",
+    "label": "Либан",
+    "image_url": "/flags/lb.svg"
+  },
+  {
+    "id": "ls",
+    "label": "Лесото",
+    "image_url": "/flags/ls.svg"
+  },
+  {
+    "id": "lr",
+    "label": "Либерија",
+    "image_url": "/flags/lr.svg"
+  },
+  {
+    "id": "ly",
+    "label": "Либија",
+    "image_url": "/flags/ly.svg"
+  },
+  {
+    "id": "li",
+    "label": "Лихтенштајн",
+    "image_url": "/flags/li.svg"
+  },
+  {
+    "id": "lt",
+    "label": "Литванија",
+    "image_url": "/flags/lt.svg"
+  },
+  {
+    "id": "lu",
+    "label": "Луксембург",
+    "image_url": "/flags/lu.svg"
+  },
+  {
+    "id": "mo",
+    "label": "Макао",
+    "image_url": "/flags/mo.svg"
+  },
+  {
+    "id": "mg",
+    "label": "Мадагаскар",
+    "image_url": "/flags/mg.svg"
+  },
+  {
+    "id": "mw",
+    "label": "Малави",
+    "image_url": "/flags/mw.svg"
+  },
+  {
+    "id": "my",
+    "label": "Малезија",
+    "image_url": "/flags/my.svg"
+  },
+  {
+    "id": "mv",
+    "label": "Малдиви",
+    "image_url": "/flags/mv.svg"
+  },
+  {
+    "id": "ml",
+    "label": "Мали",
+    "image_url": "/flags/ml.svg"
+  },
+  {
+    "id": "mt",
+    "label": "Малта",
+    "image_url": "/flags/mt.svg"
+  },
+  {
+    "id": "mh",
+    "label": "Маршалска Острва",
+    "image_url": "/flags/mh.svg"
+  },
+  {
+    "id": "mq",
+    "label": "Мартиник",
+    "image_url": "/flags/mq.svg"
+  },
+  {
+    "id": "mr",
+    "label": "Мауританија",
+    "image_url": "/flags/mr.svg"
+  },
+  {
+    "id": "mu",
+    "label": "Маурицијус",
+    "image_url": "/flags/mu.svg"
+  },
+  {
+    "id": "yt",
+    "label": "Мајот",
+    "image_url": "/flags/yt.svg"
+  },
+  {
+    "id": "mx",
+    "label": "Мексико",
+    "image_url": "/flags/mx.svg"
+  },
+  {
+    "id": "md",
+    "label": "Молдавија",
+    "image_url": "/flags/md.svg"
+  },
+  {
+    "id": "mc",
+    "label": "Монако",
+    "image_url": "/flags/mc.svg"
+  },
+  {
+    "id": "mn",
+    "label": "Монголија",
+    "image_url": "/flags/mn.svg"
+  },
+  {
+    "id": "me",
+    "label": "Црна Гора",
+    "image_url": "/flags/me.svg"
+  },
+  {
+    "id": "ms",
+    "label": "Монсерат",
+    "image_url": "/flags/ms.svg"
+  },
+  {
+    "id": "ma",
+    "label": "Мароко",
+    "image_url": "/flags/ma.svg"
+  },
+  {
+    "id": "mz",
+    "label": "Мозамбик",
+    "image_url": "/flags/mz.svg"
+  },
+  {
+    "id": "mm",
+    "label": "Мијанмар (Бурма)",
+    "image_url": "/flags/mm.svg"
+  },
+  {
+    "id": "na",
+    "label": "Намибија",
+    "image_url": "/flags/na.svg"
+  },
+  {
+    "id": "nr",
+    "label": "Науру",
+    "image_url": "/flags/nr.svg"
+  },
+  {
+    "id": "np",
+    "label": "Непал",
+    "image_url": "/flags/np.svg"
+  },
+  {
+    "id": "nl",
+    "label": "Холандија",
+    "image_url": "/flags/nl.svg"
+  },
+  {
+    "id": "nc",
+    "label": "Нова Каледонија",
+    "image_url": "/flags/nc.svg"
+  },
+  {
+    "id": "nz",
+    "label": "Нови Зеланд",
+    "image_url": "/flags/nz.svg"
+  },
+  {
+    "id": "ni",
+    "label": "Никарагва",
+    "image_url": "/flags/ni.svg"
+  },
+  {
+    "id": "ne",
+    "label": "Нигер",
+    "image_url": "/flags/ne.svg"
+  },
+  {
+    "id": "ng",
+    "label": "Нигерија",
+    "image_url": "/flags/ng.svg"
+  },
+  {
+    "id": "nu",
+    "label": "Ниуе",
+    "image_url": "/flags/nu.svg"
+  },
+  {
+    "id": "nf",
+    "label": "Острво Норфок",
+    "image_url": "/flags/nf.svg"
+  },
+  {
+    "id": "kp",
+    "label": "Северна Кореја",
+    "image_url": "/flags/kp.svg"
+  },
+  {
+    "id": "mk",
+    "label": "Северна Македонија",
+    "image_url": "/flags/mk.svg"
+  },
+  {
+    "id": "mp",
+    "label": "Северна Маријанска Острва",
+    "image_url": "/flags/mp.svg"
+  },
+  {
+    "id": "no",
+    "label": "Норвешка",
+    "image_url": "/flags/no.svg"
+  },
+  {
+    "id": "om",
+    "label": "Оман",
+    "image_url": "/flags/om.svg"
+  },
+  {
+    "id": "pk",
+    "label": "Пакистан",
+    "image_url": "/flags/pk.svg"
+  },
+  {
+    "id": "pw",
+    "label": "Палау",
+    "image_url": "/flags/pw.svg"
+  },
+  {
+    "id": "pa",
+    "label": "Панама",
+    "image_url": "/flags/pa.svg"
+  },
+  {
+    "id": "pg",
+    "label": "Папуа Нова Гвинеја",
+    "image_url": "/flags/pg.svg"
+  },
+  {
+    "id": "py",
+    "label": "Парагвај",
+    "image_url": "/flags/py.svg"
+  },
+  {
+    "id": "pe",
+    "label": "Перу",
+    "image_url": "/flags/pe.svg"
+  },
+  {
+    "id": "ph",
+    "label": "Филипини",
+    "image_url": "/flags/ph.svg"
+  },
+  {
+    "id": "pn",
+    "label": "Питкерн",
+    "image_url": "/flags/pn.svg"
+  },
+  {
+    "id": "pl",
+    "label": "Пољска",
+    "image_url": "/flags/pl.svg"
+  },
+  {
+    "id": "pt",
+    "label": "Португалија",
+    "image_url": "/flags/pt.svg"
+  },
+  {
+    "id": "pr",
+    "label": "Порторико",
+    "image_url": "/flags/pr.svg"
+  },
+  {
+    "id": "qa",
+    "label": "Катар",
+    "image_url": "/flags/qa.svg"
+  },
+  {
+    "id": "cg",
+    "label": "Република Конго",
+    "image_url": "/flags/cg.svg"
+  },
+  {
+    "id": "ro",
+    "label": "Румунија",
+    "image_url": "/flags/ro.svg"
+  },
+  {
+    "id": "ru",
+    "label": "Русија",
+    "image_url": "/flags/ru.svg"
+  },
+  {
+    "id": "rw",
+    "label": "Руанда",
+    "image_url": "/flags/rw.svg"
+  },
+  {
+    "id": "re",
+    "label": "Реинион",
+    "image_url": "/flags/re.svg"
+  },
+  {
+    "id": "bl",
+    "label": "Свети Бартоломеј",
+    "image_url": "/flags/bl.svg"
+  },
+  {
+    "id": "sh",
+    "label": "Света Јелена",
+    "image_url": "/flags/sh.svg"
+  },
+  {
+    "id": "kn",
+    "label": "Сент Китс и Невис",
+    "image_url": "/flags/kn.svg"
+  },
+  {
+    "id": "lc",
+    "label": "Света Луција",
+    "image_url": "/flags/lc.svg"
+  },
+  {
+    "id": "mf",
+    "label": "Свети Мартин (Француска)",
+    "image_url": "/flags/mf.svg"
+  },
+  {
+    "id": "pm",
+    "label": "Сен Пјер и Микелон",
+    "image_url": "/flags/pm.svg"
+  },
+  {
+    "id": "vc",
+    "label": "Сент Винсент и Гренадини",
+    "image_url": "/flags/vc.svg"
+  },
+  {
+    "id": "ws",
+    "label": "Самоа",
+    "image_url": "/flags/ws.svg"
+  },
+  {
+    "id": "sm",
+    "label": "Сан Марино",
+    "image_url": "/flags/sm.svg"
+  },
+  {
+    "id": "st",
+    "label": "Сао Томе и Принципе",
+    "image_url": "/flags/st.svg"
+  },
+  {
+    "id": "sa",
+    "label": "Саудијска Арабија",
+    "image_url": "/flags/sa.svg"
+  },
+  {
+    "id": "sn",
+    "label": "Сенегал",
+    "image_url": "/flags/sn.svg"
+  },
+  {
+    "id": "rs",
+    "label": "Србија",
+    "image_url": "/flags/rs.svg"
+  },
+  {
+    "id": "sc",
+    "label": "Сејшели",
+    "image_url": "/flags/sc.svg"
+  },
+  {
+    "id": "sl",
+    "label": "Сијера Леоне",
+    "image_url": "/flags/sl.svg"
+  },
+  {
+    "id": "sg",
+    "label": "Сингапур",
+    "image_url": "/flags/sg.svg"
+  },
+  {
+    "id": "sx",
+    "label": "Свети Мартин (Холандија)",
+    "image_url": "/flags/sx.svg"
+  },
+  {
+    "id": "sk",
+    "label": "Словачка",
+    "image_url": "/flags/sk.svg"
+  },
+  {
+    "id": "si",
+    "label": "Словенија",
+    "image_url": "/flags/si.svg"
+  },
+  {
+    "id": "sb",
+    "label": "Соломонска Острва",
+    "image_url": "/flags/sb.svg"
+  },
+  {
+    "id": "so",
+    "label": "Сомалија",
+    "image_url": "/flags/so.svg"
+  },
+  {
+    "id": "za",
+    "label": "Јужноафричка Република",
+    "image_url": "/flags/za.svg"
+  },
+  {
+    "id": "gs",
+    "label": "Јужна Џорџија и Јужна Сендвичка Острва",
+    "image_url": "/flags/gs.svg"
+  },
+  {
+    "id": "kr",
+    "label": "Јужна Кореја",
+    "image_url": "/flags/kr.svg"
+  },
+  {
+    "id": "ss",
+    "label": "Јужни Судан",
+    "image_url": "/flags/ss.svg"
+  },
+  {
+    "id": "es",
+    "label": "Шпанија",
+    "image_url": "/flags/es.svg"
+  },
+  {
+    "id": "lk",
+    "label": "Шри Ланка",
+    "image_url": "/flags/lk.svg"
+  },
+  {
+    "id": "ps",
+    "label": "Палестинске територије",
+    "image_url": "/flags/ps.svg"
+  },
+  {
+    "id": "sd",
+    "label": "Судан",
+    "image_url": "/flags/sd.svg"
+  },
+  {
+    "id": "sr",
+    "label": "Суринам",
+    "image_url": "/flags/sr.svg"
+  },
+  {
+    "id": "sj",
+    "label": "Свалбард и Јан Мајен",
+    "image_url": "/flags/sj.svg"
+  },
+  {
+    "id": "se",
+    "label": "Шведска",
+    "image_url": "/flags/se.svg"
+  },
+  {
+    "id": "ch",
+    "label": "Швајцарска",
+    "image_url": "/flags/ch.svg"
+  },
+  {
+    "id": "sy",
+    "label": "Сирија",
+    "image_url": "/flags/sy.svg"
+  },
+  {
+    "id": "tw",
+    "label": "Тајван",
+    "image_url": "/flags/tw.svg"
+  },
+  {
+    "id": "tj",
+    "label": "Таџикистан",
+    "image_url": "/flags/tj.svg"
+  },
+  {
+    "id": "tz",
+    "label": "Танзанија",
+    "image_url": "/flags/tz.svg"
+  },
+  {
+    "id": "th",
+    "label": "Тајланд",
+    "image_url": "/flags/th.svg"
+  },
+  {
+    "id": "tl",
+    "label": "Источни Тимор",
+    "image_url": "/flags/tl.svg"
+  },
+  {
+    "id": "tg",
+    "label": "Того",
+    "image_url": "/flags/tg.svg"
+  },
+  {
+    "id": "tk",
+    "label": "Токелау",
+    "image_url": "/flags/tk.svg"
+  },
+  {
+    "id": "to",
+    "label": "Тонга",
+    "image_url": "/flags/to.svg"
+  },
+  {
+    "id": "tt",
+    "label": "Тринидад и Тобаго",
+    "image_url": "/flags/tt.svg"
+  },
+  {
+    "id": "tn",
+    "label": "Тунис",
+    "image_url": "/flags/tn.svg"
+  },
+  {
+    "id": "tm",
+    "label": "Туркменистан",
+    "image_url": "/flags/tm.svg"
+  },
+  {
+    "id": "tc",
+    "label": "Острва Туркс и Каикос",
+    "image_url": "/flags/tc.svg"
+  },
+  {
+    "id": "tv",
+    "label": "Тувалу",
+    "image_url": "/flags/tv.svg"
+  },
+  {
+    "id": "tr",
+    "label": "Турска",
+    "image_url": "/flags/tr.svg"
+  },
+  {
+    "id": "ug",
+    "label": "Уганда",
+    "image_url": "/flags/ug.svg"
+  },
+  {
+    "id": "ua",
+    "label": "Украјина",
+    "image_url": "/flags/ua.svg"
+  },
+  {
+    "id": "ae",
+    "label": "Уједињени Арапски Емирати",
+    "image_url": "/flags/ae.svg"
+  },
+  {
+    "id": "gb",
+    "label": "Уједињено Краљевство",
+    "image_url": "/flags/gb.svg"
+  },
+  {
+    "id": "um",
+    "label": "Удаљена острва САД",
+    "image_url": "/flags/um.svg"
+  },
+  {
+    "id": "us",
+    "label": "Сједињене Америчке Државе",
+    "image_url": "/flags/us.svg"
+  },
+  {
+    "id": "uy",
+    "label": "Уругвај",
+    "image_url": "/flags/uy.svg"
+  },
+  {
+    "id": "uz",
+    "label": "Узбекистан",
+    "image_url": "/flags/uz.svg"
+  },
+  {
+    "id": "vu",
+    "label": "Вануату",
+    "image_url": "/flags/vu.svg"
+  },
+  {
+    "id": "ve",
+    "label": "Венецуела",
+    "image_url": "/flags/ve.svg"
+  },
+  {
+    "id": "vn",
+    "label": "Вијетнам",
+    "image_url": "/flags/vn.svg"
+  },
+  {
+    "id": "vg",
+    "label": "Британска Девичанска Острва",
+    "image_url": "/flags/vg.svg"
+  },
+  {
+    "id": "vi",
+    "label": "Америчка Девичанска Острва",
+    "image_url": "/flags/vi.svg"
+  },
+  {
+    "id": "wf",
+    "label": "Валис и Футуна",
+    "image_url": "/flags/wf.svg"
+  },
+  {
+    "id": "eh",
+    "label": "Западна Сахара",
+    "image_url": "/flags/eh.svg"
+  },
+  {
+    "id": "ye",
+    "label": "Јемен",
+    "image_url": "/flags/ye.svg"
+  },
+  {
+    "id": "zm",
+    "label": "Замбија",
+    "image_url": "/flags/zm.svg"
+  },
+  {
+    "id": "zw",
+    "label": "Зимбабве",
+    "image_url": "/flags/zw.svg"
+  }
+]
