@@ -11,7 +11,7 @@ before(async () => {
     scriptPath: '.worker-build/index.js',
     compatibilityDate: '2026-10-20',
     d1Databases: ['DB'],
-    bindings: { QUIZ_LENGTH: '30', SESSION_TTL_DAYS: '30' },
+    bindings: { QUIZ_LENGTH: '20', SESSION_TTL_DAYS: '30' },
   }));
   db = await mf.getD1Database('DB');
   const migrations = (await readdir('migrations')).filter((name) => name.endsWith('.sql')).sort();
@@ -65,13 +65,13 @@ test('country flag bank upgrades remove territories without changing saved games
   assert.equal((await api(`/api/sessions/${session.id}`)).question.id, 'um');
 });
 
-test('all five packs: complete games, scoring, resume, retries and independent random samples', async () => {
+test('all seven packs: complete games, scoring, resume, retries and independent random samples', async () => {
   const quizzes = await api('/api/quizzes');
-  assert.equal(quizzes.length, 5);
+  assert.equal(quizzes.length, 7);
   for (const quiz of quizzes) {
     let state = await api('/api/sessions', { quiz_id: quiz.id }, 201);
     const path = `/api/sessions/${state.id}`;
-    assert.equal(state.total, 30);
+    assert.equal(state.total, 20);
     assert.deepEqual(await api(path), state);
     const seen = new Set();
     let score = 0;
@@ -103,6 +103,33 @@ test('all five packs: complete games, scoring, resume, retries and independent r
     const starts = await Promise.all(Array.from({ length: 6 }, () => api('/api/sessions', { quiz_id: quiz.id }, 201)));
     assert.ok(new Set(starts.map((s) => s.question.id)).size > 1);
   }
+});
+
+test('sports includes the familiar basics and can play the entire bank', async () => {
+  const sports = JSON.parse(await readFile('data/sports.json', 'utf8'));
+  assert.equal(sports.length, 45);
+  for (const id of ['basketball', 'football', 'volleyball', 'handball', 'skiing', 'swimming']) {
+    assert.ok(sports.some((sport) => sport.id === id), `Missing familiar sport: ${id}`);
+  }
+  const response = await worker.fetch(new Request('http://local/api/sessions', {
+    method: 'POST', body: JSON.stringify({ quiz_id: 'sports' }),
+  }), { DB: db, QUIZ_LENGTH: '100' });
+  assert.equal(response.status, 201);
+  let state = await response.json();
+  assert.equal(state.total, sports.length);
+  const seen = new Set();
+  while (!state.complete) {
+    const subject = sports.find((sport) => sport.id === state.question.id);
+    assert.equal(state.question.prompt, 'Који је ово спорт?');
+    assert.equal(state.question.image_url, subject.image_url);
+    assert.ok(!seen.has(subject.id));
+    seen.add(subject.id);
+    state = (await api(`/api/sessions/${state.id}/answers`, {
+      question_id: subject.id, option_id: subject.id,
+    })).state;
+  }
+  assert.equal(seen.size, sports.length);
+  assert.equal(state.score, sports.length);
 });
 
 test('simultaneous identical and competing submissions never double count or overwrite', async () => {
@@ -158,7 +185,7 @@ test('session snapshots survive content updates', async () => {
 });
 
 test('configured length caps to the bank, invalid settings fall back, expiry is fixed at creation', async () => {
-  for (const [length, days, expectedLength, expectedDays] of [['100', '1', 40, 1], ['bad', '0', 30, 30]]) {
+  for (const [length, days, expectedLength, expectedDays] of [['100', '1', 40, 1], ['bad', '0', 20, 30]]) {
     const response = await worker.fetch(new Request('http://local/api/sessions', {
       method: 'POST', body: JSON.stringify({ quiz_id: 'animals' }),
     }), { DB: db, QUIZ_LENGTH: length, SESSION_TTL_DAYS: days });

@@ -1,6 +1,6 @@
 # Traffic quiz
 
-`traffic-signs` contains 100 subjects: 94 European road signs familiar in Serbia and six original illustrations (red/yellow/green vehicle lights, red/green pedestrian signals, and a zebra crossing). Each game draws 30 subjects without repeats, using the existing configurable quiz length, four-choice answers, resume and high-score flow.
+`traffic-signs` contains 100 subjects: 94 European road signs familiar in Serbia and six original illustrations (red/yellow/green vehicle lights, red/green pedestrian signals, and a zebra crossing). Each game draws 20 subjects without repeats, using the existing configurable quiz length, four-choice answers, resume and high-score flow.
 
 The Serbian Cyrillic labels name familiar symbols in simple language. This is a recognition game, not a driving test: lights are named by colour rather than telling children to walk or drive. Warning signs retain their European red triangle, prohibitions their circular design, and pedestrian crossings their blue square. The STOP lettering is part of the real sign. Only one speed limit (40) is included; the bank avoids near-identical variants that mostly test reading numbers. The zebra road marking and crossing sign have separate, explicit labels.
 

@@ -2,7 +2,7 @@
 
 ## Product
 
-One image, a short prompt and four large answer buttons. Each game draws a random subset without replacement from a larger question bank. Five packs currently provide 451 subjects: 199 country flags, 40 animals, 72 plants/produce, 40 dog breeds and 100 European traffic signs/signals. The traffic pack uses Serbian road signs and original illustrations of vehicle/pedestrian lights and a zebra crossing; labels describe the pictured symbol rather than providing instructions to cross a road. Labels use Serbian Cyrillic and familiar child-friendly categories. There is no timer, penalty, login or requirement to enter a real identity. Mouse/touch and keys 1–4 select answers; Enter continues after gentle feedback.
+One image, a short prompt and four large answer buttons. Each game draws a random subset without replacement from a larger question bank. Seven packs currently provide 526 subjects: 199 country flags, 40 animals, 72 plants/produce, 40 dog breeds, 100 European traffic signs/signals, 45 familiar sports/events and 30 simple shape/colour pictures. The sports pack uses action photos with visible equipment and settings. The traffic pack uses Serbian road signs and original illustrations of vehicle/pedestrian lights and a zebra crossing; labels describe the pictured symbol rather than providing instructions to cross a road. Labels use Serbian Cyrillic and familiar child-friendly categories. There is no timer, penalty, login or requirement to enter a real identity. Mouse/touch and keys 1–4 select answers; Enter continues after gentle feedback.
 
 ## Cloudflare architecture
 

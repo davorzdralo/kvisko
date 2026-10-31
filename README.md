@@ -2,7 +2,7 @@
 
 Little questions, big discoveries. A picture quiz for children using **Cloudflare Workers (TypeScript), D1 (SQLite), and plain HTML/CSS/JavaScript**.
 
-Five quizzes are included: **199 country flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, and 100 traffic signs/signals**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 30 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
+Seven quizzes are included: **199 country flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, 100 traffic signs/signals, 45 familiar sports and sporting events, and 30 simple shape/colour pictures**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 20 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
 
 Play at **[kvisko.davorzdralo.workers.dev](https://kvisko.davorzdralo.workers.dev/)**. Pushes and merges to `master` run tests, migrate D1 and deploy automatically through GitHub Actions. Pull requests run tests only.
 
@@ -30,7 +30,7 @@ For a different round length:
 npm run dev -- --var QUIZ_LENGTH:10
 ```
 
-`QUIZ_LENGTH` accepts 1–100 (default 30), capped to the bank size. `SESSION_TTL_DAYS` accepts 1–365 (default 30). Invalid values fall back to defaults. Both are configured in `wrangler.jsonc` and affect new games only. Existing games retain their questions, labels, progress, and expiry. Games expire a fixed number of days after creation.
+`QUIZ_LENGTH` accepts 1–100 (default 20), capped to the bank size. `SESSION_TTL_DAYS` accepts 1–365 (default 30). Invalid values fall back to defaults. Both are configured in `wrangler.jsonc` and affect new games only. Existing games retain their questions, labels, progress, and expiry. Games expire a fixed number of days after creation.
 
 ### Docker alternative
 
@@ -70,7 +70,7 @@ This creates games in the selected database. `npm run build` only bundles and va
 
 - `src/index.ts`: Worker routing, D1 access, random games, atomic answer updates and expiry cleanup.
 - `migrations/`: ordered D1 schema migrations. Never edit a migration already applied in production; add a new numbered file.
-- `data/quizzes.json`, `data/{flags,animals,plants,dogs,traffic}.json`: source content.
+- `data/quizzes.json`, `data/{flags,animals,plants,dogs,traffic,sports,shapes}.json`: source content.
 - `data/seed.sql`: generated, repeatable content upserts, applied separately from schema migrations.
 - `web/`: frontend, photos, flags, traffic illustrations, credits and static security headers.
 - `tests/`: local Workers/D1 integration tests.
@@ -78,7 +78,7 @@ This creates games in the selected database. `npm run build` only bundles and va
 
 After editing content, run `npm run content:generate`, `npm run db:local`, then `npm test`. The generator checks unique IDs/labels and local image paths. Upserts add/update subjects; removing subjects requires an explicit migration to remove their database rows. Existing games keep their snapshots. A new quiz also needs a card in `web/index.html` and matching UI copy in `web/app.js`.
 
-See `docs/flags.md`, `docs/animals.md`, `docs/plants.md`, `docs/dogs.md` and `docs/traffic.md` for content scope. Photo attributions remain accessible from the footer and in the source manifests under `docs/`. Flags come from [flag-icons 7.3.2](https://github.com/lipis/flag-icons/tree/v7.3.2), under its bundled MIT license. Preserve image credits and licenses when redistributing.
+See `docs/shapes.md`, `docs/sports.md`, `docs/flags.md`, `docs/animals.md`, `docs/plants.md`, `docs/dogs.md` and `docs/traffic.md` for content scope. Photo attributions remain accessible from the footer and in the source manifests under `docs/`. Flags come from [flag-icons 7.3.2](https://github.com/lipis/flag-icons/tree/v7.3.2), under its bundled MIT license. Preserve image credits and licenses when redistributing.
 
 There are no accounts, analytics, advertising, or external fonts. Session IDs are bearer credentials stored per quiz in the browser. Voice, proper localization and parent controls remain future work.
 

@@ -2,7 +2,7 @@
 
 **Животиње** is aimed at preschoolers. The bank contains 40 familiar animals: mostly mammals, plus snake, turtle/tortoise, crocodile, lizard and frog. No obscure invertebrates or scientific species names. The labels deliberately mix everyday groups (snake, monkey, bear) with recognizable animals (lion, tiger, elephant). A photographed species is only an example of that everyday category. There are no overlapping options such as elephant versus African elephant, or turtle versus tortoise. Birds and additional categories can be added later.
 
-Each round draws the configured number of distinct animals (default 30), just like flags. Distractors come only from the animal bank. The question is **Која је ово животиња?**; all labels and feedback are Serbian Cyrillic. The full photo fits inside the question area without cropping its identifying features. Flags and animals have separate browser resume entries; the original flag-session key is still recognized.
+Each round draws the configured number of distinct animals (default 20), just like flags. Distractors come only from the animal bank. The question is **Која је ово животиња?**; all labels and feedback are Serbian Cyrillic. The full photo fits inside the question area without cropping its identifying features. Flags and animals have separate browser resume entries; the original flag-session key is still recognized.
 
 ## Photos
 

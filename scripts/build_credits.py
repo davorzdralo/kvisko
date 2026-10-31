@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKS = [('animals', 'Животиње', 'animal'), ('plants', 'Воће, поврће и биљке', 'plant'), ('dogs', 'Расе паса', 'dog'), ('traffic', 'Саобраћај', 'traffic')]
+PACKS = [('animals', 'Животиње', 'animal'), ('plants', 'Воће, поврће и биљке', 'plant'), ('dogs', 'Расе паса', 'dog'), ('traffic', 'Саобраћај', 'traffic'), ('sports', 'Спортови', 'sport')]
 
 def plain(value):
     return ' '.join(html.unescape(re.sub('<[^>]+>', ' ', value)).split())
@@ -38,7 +38,7 @@ def build():
         sections.append(f'<section class="credits-section" id="{esc(pack)}"><h2>{esc(title)}</h2>'
                         '<div class="credit-grid">' + '\n'.join(credits) + '</div></section>')
     page = '''<!doctype html>
-<html lang="sr-Cyrl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Фотографије и извори — Квиско</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"></head><body><main class="credits"><a class="text-button" href="/">← Назад на квизове</a><h1>Фотографије и извори</h1><p class="credits-intro">Хвала фотографима који нам помажу да упознамо свет животиња и биљака! Фотографије су преузете са Викимедијине оставе. Овде су наведени аутори, изворне датотеке и лиценце. Преузете су у мањој резолуцији; на питањима се приказују без додатног исецања или обраде. Називи у квизу су прилагођени деци. Саобраћајни знакови су изворне SVG илустрације са Викимедијине оставе; семафоре и зебру нацртали су аутори Квиска и објавили под лиценцом CC0.</p><nav><a href="#animals">Животиње</a> · <a href="#plants">Воће, поврће и биљке</a> · <a href="#dogs">Расе паса</a> · <a href="#traffic">Саобраћај</a></nav>'''
+<html lang="sr-Cyrl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Фотографије и извори — Квиско</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css"></head><body><main class="credits"><a class="text-button" href="/">← Назад на квизове</a><h1>Фотографије и извори</h1><p class="credits-intro">Хвала фотографима који нам помажу да упознамо животиње, биљке и спортове! Фотографије су преузете са Викимедијине оставе. Овде су наведени аутори, изворне датотеке и лиценце. Преузете су у мањој резолуцији; на питањима се приказују без додатног исецања или обраде. Називи у квизу су прилагођени деци. Саобраћајни знакови су изворне SVG илустрације са Викимедијине оставе; семафоре и зебру нацртали су аутори Квиска и објавили под лиценцом CC0. Облици у боји су оригиналне илустрације Квиска под лиценцом GPL-3.0-only.</p><nav><a href="#animals">Животиње</a> · <a href="#plants">Воће, поврће и биљке</a> · <a href="#dogs">Расе паса</a> · <a href="#traffic">Саобраћај</a> · <a href="#sports">Спортови</a></nav>'''
     page += '\n'.join(sections)
     page += '''<p class="credits-intro">Заставе: <a href="https://github.com/lipis/flag-icons/tree/v7.3.2">flag-icons 7.3.2</a>, Panayiotis Lipiridis, <a href="/flags/LICENSE.txt">лиценца MIT</a>.</p></main></body></html>\n'''
     (ROOT / 'web/credits.html').write_text(page)

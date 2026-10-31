@@ -79,7 +79,7 @@ async function start(env: Env, quizID: string) {
   if (!quiz) throw missing();
   const bank = await env.DB.prepare('SELECT id,label,image_url FROM questions WHERE quiz_id=?1 ORDER BY id')
     .bind(quizID).all<Subject>();
-  const rounds = buildRounds(bank.results, integer(env.QUIZ_LENGTH, 30, 100), quiz.prompt);
+  const rounds = buildRounds(bank.results, integer(env.QUIZ_LENGTH, 20, 100), quiz.prompt);
   const session: Session = {
     id: crypto.randomUUID().replaceAll('-', ''), quiz_id: quizID, quiz_title: quiz.title,
     rounds: JSON.stringify(rounds), revision: 0,
@@ -197,7 +197,7 @@ async function route(request: Request, env: Env): Promise<Response> {
   if (path === '/api/quizzes' && request.method === 'GET') {
     const result = await env.DB.prepare(`SELECT q.id,q.title,q.description,count(i.id) AS question_count
       FROM quizzes q JOIN questions i ON i.quiz_id=q.id GROUP BY q.id HAVING count(i.id)>=4 ORDER BY q.title`).all<{ question_count: number }>();
-    return json(result.results.map((quiz) => ({ ...quiz, round_length: Math.min(integer(env.QUIZ_LENGTH, 30, 100), quiz.question_count) })));
+    return json(result.results.map((quiz) => ({ ...quiz, round_length: Math.min(integer(env.QUIZ_LENGTH, 20, 100), quiz.question_count) })));
   }
   if (path === '/api/sessions' && request.method === 'POST') {
     const input = await body(request, ['quiz_id']);

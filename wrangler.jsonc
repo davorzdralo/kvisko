@@ -19,7 +19,7 @@
     "migrations_dir": "migrations"
   }],
   "vars": {
-    "QUIZ_LENGTH": "30",
+    "QUIZ_LENGTH": "20",
     "SESSION_TTL_DAYS": "30"
   },
   "triggers": { "crons": ["0 3 * * *"] }
