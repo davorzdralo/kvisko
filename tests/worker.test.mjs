@@ -105,6 +105,72 @@ test('all seven packs: complete games, scoring, resume, retries and independent 
   }
 });
 
+test('shapes cover every shape/colour pair and always require both attributes', async () => {
+  const shapes = JSON.parse(await readFile('data/shapes.json', 'utf8'));
+  const colours = ['red', 'blue', 'green', 'yellow', 'orange', 'pink', 'brown', 'black', 'white'];
+  const names = ['triangle', 'circle', 'square', 'rectangle', 'ellipse', 'star', 'heart', 'cube', 'sphere', 'cone', 'pyramid', 'rhombus', 'trapezium', 'cuboid', 'cylinder'];
+  assert.equal(shapes.length, 135);
+  assert.deepEqual(new Set(shapes.map((item) => item.id)), new Set(colours.flatMap((colour) => names.map((shape) => `${colour}-${shape}`))));
+  const quizzes = await api('/api/quizzes');
+  assert.equal(quizzes.find((quiz) => quiz.id === 'shapes-colours').question_count, 135);
+  const response = await worker.fetch(new Request('http://local/api/sessions', {
+    method: 'POST', body: JSON.stringify({ quiz_id: 'shapes-colours' }),
+  }), { DB: db, QUIZ_LENGTH: '100' });
+  assert.equal(response.status, 201);
+  let state = await response.json();
+  assert.equal(state.total, 100);
+  const seen = new Set();
+  while (!state.complete) {
+    const question = state.question;
+    const subject = shapes.find((item) => item.id === question.id);
+    assert.ok(subject);
+    assert.equal(question.image_url, subject.image_url);
+    assert.ok(!seen.has(subject.id));
+    seen.add(subject.id);
+    const [colour, shape] = subject.id.split('-');
+    const pairs = question.options.map((option) => option.id.split('-'));
+    assert.equal(new Set(question.options.map((option) => option.id)).size, 4);
+    assert.equal(pairs.filter(([c]) => c === colour).length, 2);
+    assert.equal(pairs.filter(([, s]) => s === shape).length, 2);
+    assert.equal(new Set(pairs.map(([c]) => c)).size, 2);
+    assert.equal(new Set(pairs.map(([, s]) => s)).size, 2);
+    for (const option of question.options) {
+      assert.equal(option.label, shapes.find((item) => item.id === option.id).label);
+    }
+    state = (await api(`/api/sessions/${state.id}/answers`, {
+      question_id: subject.id, option_id: subject.id,
+    })).state;
+  }
+  assert.equal(state.score, 100);
+});
+
+test('ellipse upgrade removes old oval questions while saved games remain playable', async () => {
+  const session = await api('/api/sessions', { quiz_id: 'shapes-colours' }, 201);
+  const { rounds } = await db.prepare('SELECT rounds FROM sessions WHERE id=?').bind(session.id).first();
+  const savedRounds = JSON.parse(rounds);
+  savedRounds[0] = {
+    ...savedRounds[0], id: 'red-oval', correct_id: 'red-oval', image_url: '/shapes/red-oval.svg',
+    options: [{ id: 'red-oval', label: 'Црвени овал' }, ...savedRounds[0].options.slice(1)],
+  };
+  const snapshot = JSON.stringify(savedRounds);
+  await db.prepare('UPDATE sessions SET rounds=? WHERE id=?').bind(snapshot, session.id).run();
+  for (const colour of ['red', 'orange', 'yellow']) {
+    await db.prepare('INSERT INTO questions(quiz_id,id,label,image_url) VALUES (?,?,?,?)')
+      .bind('shapes-colours', `${colour}-oval`, `${colour} овал`, `/shapes/${colour}-oval.svg`).run();
+    await readFile(`web/shapes/${colour}-oval.svg`);
+  }
+  const migration = (await readFile('migrations/0004_shapes_ellipse.sql', 'utf8')).replace(/^--.*$/gm, '');
+  await db.prepare(migration).run();
+  const { results } = await db.prepare("SELECT id FROM questions WHERE quiz_id='shapes-colours'").all();
+  assert.equal(results.length, 135);
+  assert.ok(results.every((item) => !item.id.endsWith('-oval')));
+  assert.equal((await db.prepare('SELECT rounds FROM sessions WHERE id=?').bind(session.id).first()).rounds, snapshot);
+  assert.equal((await api(`/api/sessions/${session.id}`)).question.image_url, '/shapes/red-oval.svg');
+  const answer = await api(`/api/sessions/${session.id}/answers`, { question_id: 'red-oval', option_id: 'red-oval' });
+  assert.equal(answer.correct, true);
+  assert.equal(answer.correct_label, 'Црвени овал');
+});
+
 test('sports includes the familiar basics and can play the entire bank', async () => {
   const sports = JSON.parse(await readFile('data/sports.json', 'utf8'));
   assert.equal(sports.length, 45);

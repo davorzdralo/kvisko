@@ -2,7 +2,7 @@
 
 Little questions, big discoveries. A picture quiz for children using **Cloudflare Workers (TypeScript), D1 (SQLite), and plain HTML/CSS/JavaScript**.
 
-Seven quizzes are included: **199 country flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, 100 traffic signs/signals, 45 familiar sports and sporting events, and 30 simple shape/colour pictures**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 20 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
+Seven quizzes are included: **199 country flags, 40 familiar animals, 72 fruit/vegetables/plants, 40 dog breeds, 100 traffic signs/signals, 45 familiar sports and sporting events, and 135 shape/colour pictures**. The traffic pack uses European designs familiar in Serbia, plus traffic lights, pedestrian signals and a zebra crossing; see [traffic content notes](docs/traffic.md). Each game samples 20 questions without repeats and gives four shuffled choices per question. Play by touch, mouse, or keys **1–4**; **Enter** advances after feedback. The UI and content use Serbian Cyrillic with a simple Arial font. Images are bundled locally, with no external requests during play.
 
 Play at **[kvisko.davorzdralo.workers.dev](https://kvisko.davorzdralo.workers.dev/)**. Pushes and merges to `master` run tests, migrate D1 and deploy automatically through GitHub Actions. Pull requests run tests only.
 

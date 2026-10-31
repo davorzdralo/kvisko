@@ -79,6 +79,12 @@ def check_quiz(quiz_id, filename, title, prompt):
         assert all(o['label'] == bank[o['id']]['label'] for o in q['options'])
         assert len({o['id'] for o in q['options']}) == 4
         assert any(o['id'] == q['id'] for o in q['options'])
+        if quiz_id == 'shapes-colours':
+            colour, shape = q['id'].split('-')
+            pairs = [option['id'].split('-') for option in q['options']]
+            assert sum(c == colour for c, _ in pairs) == 2
+            assert sum(s == shape for _, s in pairs) == 2
+            assert len({c for c, _ in pairs}) == len({s for _, s in pairs}) == 2
         correct = s['answered'] % 2 == 0
         choice = q['id'] if correct else next(o['id'] for o in q['options'] if o['id'] != q['id'])
         body = {'question_id': q['id'], 'option_id': choice}

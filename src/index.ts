@@ -41,16 +41,34 @@ function shuffle<T>(items: T[]): T[] {
   }
   return items;
 }
-function buildRounds(bank: Subject[], count: number, prompt: string): Round[] {
+function shapeChoices(subject: Subject, bank: Subject[]): Subject[] {
+  // Shape IDs are colour-shape pairs, generated for every combination.
+  const [colour, shape] = subject.id.split('-');
+  const sameShape = bank.filter((item) => item.id !== subject.id && item.id.split('-')[1] === shape);
+  const sameColour = bank.filter((item) => item.id !== subject.id && item.id.split('-')[0] === colour);
+  const alternateShape = sameColour[Math.floor(Math.random() * sameColour.length)];
+  const alternateColour = sameShape[Math.floor(Math.random() * sameShape.length)];
+  const corner = bank.find((item) => item.id === `${alternateColour?.id.split('-')[0]}-${alternateShape?.id.split('-')[1]}`);
+  if (!alternateShape || !alternateColour || !corner) throw missing();
+  // Two colours × two shapes: neither attribute alone reveals the answer.
+  return [subject, alternateShape, alternateColour, corner];
+}
+function buildRounds(bank: Subject[], count: number, prompt: string, quizID: string): Round[] {
   if (bank.length < 4) throw missing();
   return shuffle([...bank]).slice(0, count).map((subject) => {
-    // Partial shuffle selects three distractors without shuffling the entire bank per question.
-    const other = bank.filter((item) => item.id !== subject.id);
-    for (let i = 0; i < 3; i++) {
-      const j = i + Math.floor(Math.random() * (other.length - i));
-      [other[i], other[j]] = [other[j], other[i]];
+    let choices: Subject[];
+    if (quizID === 'shapes-colours') {
+      choices = shapeChoices(subject, bank);
+    } else {
+      // Partial shuffle selects three distractors without shuffling the entire bank per question.
+      const other = bank.filter((item) => item.id !== subject.id);
+      for (let i = 0; i < 3; i++) {
+        const j = i + Math.floor(Math.random() * (other.length - i));
+        [other[i], other[j]] = [other[j], other[i]];
+      }
+      choices = [subject, ...other.slice(0, 3)];
     }
-    const options = shuffle([subject, ...other.slice(0, 3)].map(({ id, label }) => ({ id, label })));
+    const options = shuffle(choices.map(({ id, label }) => ({ id, label })));
     return { id: subject.id, prompt, image_url: subject.image_url, options, correct_id: subject.id };
   });
 }
@@ -79,7 +97,7 @@ async function start(env: Env, quizID: string) {
   if (!quiz) throw missing();
   const bank = await env.DB.prepare('SELECT id,label,image_url FROM questions WHERE quiz_id=?1 ORDER BY id')
     .bind(quizID).all<Subject>();
-  const rounds = buildRounds(bank.results, integer(env.QUIZ_LENGTH, 20, 100), quiz.prompt);
+  const rounds = buildRounds(bank.results, integer(env.QUIZ_LENGTH, 20, 100), quiz.prompt, quizID);
   const session: Session = {
     id: crypto.randomUUID().replaceAll('-', ''), quiz_id: quizID, quiz_title: quiz.title,
     rounds: JSON.stringify(rounds), revision: 0,
