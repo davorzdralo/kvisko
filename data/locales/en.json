@@ -658,6 +658,10 @@
     "answer.shapes-colours.brown-cylinder": "Brown cylinder",
     "answer.shapes-colours.black-cylinder": "Black cylinder",
     "answer.shapes-colours.white-cylinder": "White cylinder",
-    "audio.enabled": "Read aloud"
+    "audio.enabled": "Read aloud",
+    "feedback.bravo": "Bravo!",
+    "feedback.correct": "Correct!",
+    "feedback.right": "That’s right!",
+    "feedback.correctAnswer": "The correct answer is:"
   }
 }

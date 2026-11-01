@@ -46,6 +46,7 @@ Python dependency is needed on the server or during play.
 ```sh
 python3 -m venv /tmp/kvisko-audio-venv
 /tmp/kvisko-audio-venv/bin/pip install -r scripts/requirements-audio.txt
+python3 scripts/generate-feedback-sounds.py
 npm run content:generate
 /tmp/kvisko-audio-venv/bin/python scripts/generate-audio.py --locale sr-Cyrl
 /tmp/kvisko-audio-venv/bin/python scripts/generate-audio.py --locale hr
@@ -101,3 +102,26 @@ can use `voice: null`; its read-aloud switch stays unavailable with a translated
 notice. Do not reuse another language’s recordings against translated text.
 
 No schema migration is needed for language selection.
+
+## Answer feedback
+
+Every confirmed answer plays an original gentle chime: an ascending bell for a
+correct answer and a descending bell for an incorrect answer. Dings play even
+when read-aloud is off. `scripts/generate-feedback-sounds.py` creates both WAV
+files and a short silent clip used to prepare browser audio in the answer click,
+before awaiting the server response. This keeps the same media element available
+for feedback on browsers that require a user gesture.
+
+When read-aloud is on, correct answers randomly select one of three localised
+praise recordings (`feedback.bravo`, `feedback.correct`, `feedback.right`) after
+the ding. Incorrect answers play `feedback.correctAnswer` followed by the
+correct answer's existing recording. These phrases use each language's selected
+voice and speed. The recorded answer must match the displayed localised label;
+retired or changed saved labels never play mismatched speech.
+
+Question reading stops when an answer is selected. Dings, praise, and correct
+answer speech share the same sequential player, so they cannot overlap. Players
+can continue immediately; the next question cancels unfinished feedback. Leaving
+the quiz, hiding the page, or switching language stops audio. A late API response
+after one of those actions cannot start stale feedback. Turning reading off also
+cancels spoken feedback.

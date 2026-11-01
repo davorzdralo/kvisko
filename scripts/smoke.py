@@ -55,6 +55,12 @@ for language in ['sr-Cyrl', 'hr', 'en']:
     assert translated == json.loads((ROOT / f'web/locales/{language}.json').read_text())
     assert translated['audio']
     catalogues[language] = translated
+    for key in ['feedback.bravo', 'feedback.correct', 'feedback.right', 'feedback.correctAnswer']:
+        audio_path = translated['audio'][key]
+        assert request(audio_path) == (ROOT / 'web' / audio_path.lstrip('/')).read_bytes()
+for sound in ['correct', 'incorrect', 'silence']:
+    audio_path = f'/audio/effects/{sound}.wav'
+    assert request(audio_path) == (ROOT / 'web' / audio_path.lstrip('/')).read_bytes()
 assert 'Фотографије и извори'.encode() in request('/credits.html')
 assert 'Најбољи резултати'.encode() in request('/high-scores.html')
 assert isinstance(request('/api/high-scores'), list)

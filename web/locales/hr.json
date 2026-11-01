@@ -658,7 +658,11 @@
     "answer.shapes-colours.brown-cylinder": "Smeđi valjak",
     "answer.shapes-colours.black-cylinder": "Crni valjak",
     "answer.shapes-colours.white-cylinder": "Bijeli valjak",
-    "audio.enabled": "Čitaj naglas"
+    "audio.enabled": "Čitaj naglas",
+    "feedback.bravo": "Bravo!",
+    "feedback.correct": "Točno!",
+    "feedback.right": "Tako je!",
+    "feedback.correctAnswer": "Točan odgovor je:"
   },
   "audio": {
     "quiz.world-flags.prompt": "/audio/hr/3b17a72cf371695a27e81310.mp3",
@@ -1298,6 +1302,10 @@
     "answer.shapes-colours.pink-cylinder": "/audio/hr/3941b57e399addc811182a80.mp3",
     "answer.shapes-colours.brown-cylinder": "/audio/hr/e834bf7cf9a93e60475aa608.mp3",
     "answer.shapes-colours.black-cylinder": "/audio/hr/835cce33932f1458a462c7d4.mp3",
-    "answer.shapes-colours.white-cylinder": "/audio/hr/43aad7ae4b4858869421d50c.mp3"
+    "answer.shapes-colours.white-cylinder": "/audio/hr/43aad7ae4b4858869421d50c.mp3",
+    "feedback.bravo": "/audio/hr/013ef4ab61edf9d57ca8e444.mp3",
+    "feedback.correct": "/audio/hr/2141a1c693bfeeffeaba70d4.mp3",
+    "feedback.right": "/audio/hr/d1e105fc7615906ef32820ee.mp3",
+    "feedback.correctAnswer": "/audio/hr/c538859aee415d69fdfbd10f.mp3"
   }
 }

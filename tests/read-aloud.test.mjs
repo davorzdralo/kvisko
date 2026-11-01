@@ -101,3 +101,13 @@ test('the same IDs resolve different text and audio in another locale', () => {
   ]);
   assert.deepEqual(readingClips(catalogue, 'animals', { ...question, prompt: 'Која је ово животиња?' }), []);
 });
+
+test('unlock prepares the same audio element within the answer gesture', async () => {
+  const f = fixture();
+  f.reader.unlock();
+  assert.deepEqual(f.sources, ['/audio/effects/silence.wav']);
+  const done = f.reader.play([{ url: '/audio/effects/correct.wav' }]);
+  f.audio.onended();
+  await done;
+  assert.deepEqual(f.sources, ['/audio/effects/silence.wav', '/audio/effects/correct.wav']);
+});

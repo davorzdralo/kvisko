@@ -50,7 +50,7 @@ for (const name of (await readdir(path.join(root, 'data/locales'))).filter((name
   const audio = {};
   for (const [key, value] of Object.entries(source.messages)) {
     if (!source.voice) continue;
-    if (!(key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'))) continue;
+    if (!(key.startsWith('feedback.') || key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'))) continue;
     const hash = createHash('sha256').update(JSON.stringify([source.locale, source.voice, source.rate, value])).digest('hex').slice(0, 24);
     audio[key] = `/audio/${source.locale}/${hash}.mp3`;
     if (process.argv.includes('--check') && (await stat(path.join(root, 'web', audio[key]))).size < 1000) throw new Error(`Empty audio: ${key}`);
@@ -66,3 +66,7 @@ for (const name of (await readdir(path.join(root, 'data/locales'))).filter((name
 }
 
 await import('./generate-ui.mjs');
+
+for (const name of ['correct', 'incorrect', 'silence']) {
+  if (process.argv.includes('--check') && (await stat(path.join(root, `web/audio/effects/${name}.wav`))).size < 1000) throw new Error(`Missing feedback sound: ${name}`);
+}

@@ -658,7 +658,11 @@
     "answer.shapes-colours.brown-cylinder": "Браон ваљак",
     "answer.shapes-colours.black-cylinder": "Црни ваљак",
     "answer.shapes-colours.white-cylinder": "Бели ваљак",
-    "audio.enabled": "Читај наглас"
+    "audio.enabled": "Читај наглас",
+    "feedback.bravo": "Браво!",
+    "feedback.correct": "Тачно!",
+    "feedback.right": "Тако је!",
+    "feedback.correctAnswer": "Тачан одговор је:"
   },
   "audio": {
     "quiz.world-flags.prompt": "/audio/sr-Cyrl/c47b59d1cb2cda39cb471935.mp3",
@@ -1298,6 +1302,10 @@
     "answer.shapes-colours.pink-cylinder": "/audio/sr-Cyrl/511e01ffa889afea93443394.mp3",
     "answer.shapes-colours.brown-cylinder": "/audio/sr-Cyrl/23dc417b6fc67ec070fc45d6.mp3",
     "answer.shapes-colours.black-cylinder": "/audio/sr-Cyrl/da1da4660db84aa419a50007.mp3",
-    "answer.shapes-colours.white-cylinder": "/audio/sr-Cyrl/37e1b9c24441b406df780755.mp3"
+    "answer.shapes-colours.white-cylinder": "/audio/sr-Cyrl/37e1b9c24441b406df780755.mp3",
+    "feedback.bravo": "/audio/sr-Cyrl/e383e35ac8a6639c04af3295.mp3",
+    "feedback.correct": "/audio/sr-Cyrl/1216313c9c439a6bbc6b40da.mp3",
+    "feedback.right": "/audio/sr-Cyrl/a6a777b7662301b780c1c7bc.mp3",
+    "feedback.correctAnswer": "/audio/sr-Cyrl/26f2b300f107cc1bcaf6e9f3.mp3"
   }
 }

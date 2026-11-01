@@ -8,11 +8,41 @@ export function readingClips(catalogue, quizID, question) {
   return entries.map(([key, , optionID]) => ({ url: catalogue.audio[key], optionID }));
 }
 
+export function feedbackClips(catalogue, quizID, feedback, spoken, random = Math.random) {
+  const clips = [{ url: `/audio/effects/${feedback.correct ? 'correct' : 'incorrect'}.wav`, optionID: null }];
+  if (!spoken || !catalogue) return clips;
+  if (feedback.correct) {
+    const keys = ['feedback.bravo', 'feedback.correct', 'feedback.right'];
+    const key = keys[Math.floor(random() * keys.length)];
+    if (catalogue.audio[key]) clips.push({ url: catalogue.audio[key], optionID: null });
+  } else {
+    const key = `answer.${quizID}.${feedback.correct_id}`;
+    // Do not announce current catalogue wording over a different saved label.
+    if (catalogue.messages[key] === feedback.correct_label && catalogue.audio[key] && catalogue.audio['feedback.correctAnswer']) {
+      clips.push(
+        { url: catalogue.audio['feedback.correctAnswer'], optionID: null },
+        { url: catalogue.audio[key], optionID: feedback.correct_id },
+      );
+    }
+  }
+  return clips;
+}
+
 export function createReader({ createAudio = () => new Audio(), onHighlight, onPlaying, onError }) {
   let generation = 0;
   let active = null;
   let cancelPending = null;
   let sharedAudio = null;
+  function unlock() {
+    stop();
+    try {
+      const audio = sharedAudio ||= createAudio();
+      active = audio;
+      audio.src = '/audio/effects/silence.wav';
+      // Called in the answer gesture, before awaiting server confirmation.
+      audio.play().catch(() => {});
+    } catch { /* Audio must never prevent answering. */ }
+  }
   function stop() {
     generation += 1;
     cancelPending?.();
@@ -64,5 +94,5 @@ export function createReader({ createAudio = () => new Audio(), onHighlight, onP
       if (token === generation) stop();
     }
   }
-  return { play, stop };
+  return { play, stop, unlock };
 }

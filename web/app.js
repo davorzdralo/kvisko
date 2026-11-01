@@ -1,12 +1,13 @@
 import { initializeLanguage, currentLocale, t, quizTitle, stars } from './i18n.js';
 import { localiseQuestion, answerText } from './localised-content.js';
-import { createReader, readingClips } from './read-aloud.js';
+import { createReader, readingClips, feedbackClips } from './read-aloud.js';
 
 const $ = (id) => document.getElementById(id);
 let state = null;
 let pendingState = null;
 let busy = false;
 let answered = false;
+let answering = false;
 let quizzes = new Map();
 let view = 'home';
 let savingScore = false;
@@ -16,6 +17,7 @@ let catalogue = null;
 let catalogueVersion = 0;
 let lastFeedback = null;
 let lastErrorCode = null;
+let audioContextVersion = 0;
 const readToggle = $('read-aloud');
 try { readToggle.checked = localStorage.getItem('kvisko-read-aloud') === 'true'; }
 catch { /* The toggle still works without browser storage. */ }
@@ -26,7 +28,7 @@ const reader = createReader({
       button.classList.toggle('reading', button.dataset.id === optionID);
     }
   },
-  onPlaying(playing) { $('read-aloud-label').classList.toggle('is-reading', playing); },
+  onPlaying(playing) { $('read-aloud-label').classList.toggle('is-reading', playing && readToggle.checked); },
   onError() {
     audioStatus.textContent = t('audio.unavailable');
     audioStatus.hidden = false;
@@ -37,7 +39,7 @@ function updateReading(autoRead = false) {
   readToggle.disabled = !clips.length;
   audioStatus.hidden = !!clips.length;
   audioStatus.textContent = t(catalogue && !catalogue.voice ? 'audio.pending' : 'audio.unsupported');
-  if (autoRead && readToggle.checked && clips.length && !answered && !document.hidden) reader.play(clips);
+  if (autoRead && readToggle.checked && clips.length && !answered && !answering && !document.hidden) reader.play(clips);
 }
 readToggle.addEventListener('change', () => {
   try { localStorage.setItem('kvisko-read-aloud', String(readToggle.checked)); }
@@ -45,12 +47,13 @@ readToggle.addEventListener('change', () => {
   reader.stop();
   updateReading(readToggle.checked);
 });
-document.addEventListener('visibilitychange', () => { if (document.hidden) reader.stop(); });
-window.addEventListener('pagehide', () => reader.stop());
+document.addEventListener('visibilitychange', () => { if (document.hidden) stopAudio(); });
+window.addEventListener('pagehide', () => stopAudio());
+function stopAudio() { audioContextVersion += 1; reader.stop(); }
 async function loadCatalogue() {
   const version = ++catalogueVersion;
   const language = currentLocale();
-  reader.stop();
+  stopAudio();
   catalogue = null;
   readToggle.disabled = true;
   try {
@@ -80,7 +83,7 @@ function remember(quizID, id) {
 }
 function updateResumes() { resumeButtons.forEach((button) => button.hidden = !remembered(button.dataset.resume)); }
 function show(name) {
-  reader.stop();
+  stopAudio();
   view = name;
   for (const id of ['home', 'game', 'result']) $(id).hidden = id !== name;
   $('error').hidden = true;
@@ -184,7 +187,10 @@ async function resume(quizID) {
 }
 async function answer(optionID) {
   if (busy || answered || view !== 'game') return;
-  reader.stop();
+  answering = true;
+  const audioVersion = audioContextVersion;
+  const gameID = state.id;
+  reader.unlock();
   busy = true;
   $('error').hidden = true;
   const buttons = [...$('options').children];
@@ -206,10 +212,14 @@ async function answer(optionID) {
     $('next').replaceChildren(document.createTextNode(t(feedback.state.complete ? 'game.results' : 'game.next')));
     $('next').hidden = false;
     $('next').focus();
+    if (audioVersion === audioContextVersion && view === 'game' && state.id === gameID && !document.hidden) {
+      const correctLabel = answerText(catalogue, state.quiz_id, feedback.correct_id, feedback.correct_label);
+      reader.play(feedbackClips(catalogue, state.quiz_id, { ...feedback, correct_label: correctLabel }, readToggle.checked));
+    }
   } catch (err) {
     error(err.message, err.code);
     buttons.forEach((b) => b.disabled = false);
-  } finally { busy = false; }
+  } finally { busy = false; answering = false; }
 }
 function advance() { if (!busy && pendingState) render(pendingState); }
 function home() {

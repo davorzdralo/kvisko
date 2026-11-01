@@ -28,7 +28,7 @@ test('all UI and every quiz answer have complete translations in all three langu
     }
     const expectedVoice = { 'sr-Cyrl': 'sr-RS-NicholasNeural', hr: 'hr-HR-SreckoNeural', en: 'en-GB-RyanNeural' }[locale];
     assert.equal(content.voice, expectedVoice);
-    const spokenKeys = Object.keys(content.messages).filter((key) => key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'));
+    const spokenKeys = Object.keys(content.messages).filter((key) => key.startsWith('feedback.') || key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'));
     assert.deepEqual(Object.keys(content.audio).sort(), spokenKeys.sort());
     for (const url of Object.values(content.audio)) assert.ok(url.startsWith(`/audio/${locale}/`), `Wrong language audio: ${url}`);
   }

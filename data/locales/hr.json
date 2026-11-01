@@ -658,6 +658,10 @@
     "answer.shapes-colours.brown-cylinder": "Smeđi valjak",
     "answer.shapes-colours.black-cylinder": "Crni valjak",
     "answer.shapes-colours.white-cylinder": "Bijeli valjak",
-    "audio.enabled": "Čitaj naglas"
+    "audio.enabled": "Čitaj naglas",
+    "feedback.bravo": "Bravo!",
+    "feedback.correct": "Točno!",
+    "feedback.right": "Tako je!",
+    "feedback.correctAnswer": "Točan odgovor je:"
   }
 }

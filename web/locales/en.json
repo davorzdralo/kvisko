@@ -658,7 +658,11 @@
     "answer.shapes-colours.brown-cylinder": "Brown cylinder",
     "answer.shapes-colours.black-cylinder": "Black cylinder",
     "answer.shapes-colours.white-cylinder": "White cylinder",
-    "audio.enabled": "Read aloud"
+    "audio.enabled": "Read aloud",
+    "feedback.bravo": "Bravo!",
+    "feedback.correct": "Correct!",
+    "feedback.right": "That’s right!",
+    "feedback.correctAnswer": "The correct answer is:"
   },
   "audio": {
     "quiz.world-flags.prompt": "/audio/en/5a0b96791cfc97df340adda9.mp3",
@@ -1298,6 +1302,10 @@
     "answer.shapes-colours.pink-cylinder": "/audio/en/de96c4b84e71ac597f0d4895.mp3",
     "answer.shapes-colours.brown-cylinder": "/audio/en/f24c50a735448b67b0b0a05a.mp3",
     "answer.shapes-colours.black-cylinder": "/audio/en/14cdab25850aff7a6ceb3422.mp3",
-    "answer.shapes-colours.white-cylinder": "/audio/en/a72f93c12fb503d34ef59d5d.mp3"
+    "answer.shapes-colours.white-cylinder": "/audio/en/a72f93c12fb503d34ef59d5d.mp3",
+    "feedback.bravo": "/audio/en/d0804cbf9d242a014fc6d0e0.mp3",
+    "feedback.correct": "/audio/en/53961424cd5e6fb7f0decd8b.mp3",
+    "feedback.right": "/audio/en/f80a03349e0d05a537417fdb.mp3",
+    "feedback.correctAnswer": "/audio/en/16bc208bc14896ba48a533aa.mp3"
   }
 }
