@@ -1,7 +1,7 @@
 {
   "locale": "en",
   "language": "en",
-  "voice": null,
+  "voice": "en-GB-RyanNeural",
   "rate": "-10%",
   "messages": {
     "audio.unavailable": "Reading failed. Switch read aloud off and on to try again.",

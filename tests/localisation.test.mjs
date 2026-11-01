@@ -26,7 +26,11 @@ test('all UI and every quiz answer have complete translations in all three langu
       const html = await readFile(`web/${file}`, 'utf8');
       for (const match of html.matchAll(/data-i18n(?:-[a-z-]+)?="([^"]+)"/g)) assert.ok(ui[match[1]], `Missing ${locale}/${match[1]}`);
     }
-    if (locale !== 'sr-Cyrl') assert.deepEqual(content.audio, {}, 'Unrecorded languages must not use Serbian audio');
+    const expectedVoice = { 'sr-Cyrl': 'sr-RS-NicholasNeural', hr: 'hr-HR-SreckoNeural', en: 'en-GB-RyanNeural' }[locale];
+    assert.equal(content.voice, expectedVoice);
+    const spokenKeys = Object.keys(content.messages).filter((key) => key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'));
+    assert.deepEqual(Object.keys(content.audio).sort(), spokenKeys.sort());
+    for (const url of Object.values(content.audio)) assert.ok(url.startsWith(`/audio/${locale}/`), `Wrong language audio: ${url}`);
   }
 });
 
@@ -42,7 +46,9 @@ test('language changes translate the same shuffled answers without mutating save
   assert.deepEqual(hr.options.map((option) => option.label), ['Pas', 'Konj']);
   assert.deepEqual(en.options.map((option) => option.id), question.options.map((option) => option.id));
   assert.deepEqual(question, original);
-  assert.deepEqual(readingClips(english, 'animals', en), []);
+  assert.deepEqual(readingClips(english, 'animals', en).map((clip) => clip.url), [english.audio['quiz.animals.prompt'], english.audio['answer.animals.dog'], english.audio['answer.animals.horse']]);
+  assert.deepEqual(readingClips(croatian, 'animals', hr).map((clip) => clip.url), [croatian.audio['quiz.animals.prompt'], croatian.audio['answer.animals.dog'], croatian.audio['answer.animals.horse']]);
+  assert.deepEqual(readingClips(english, 'animals', hr), [], 'Croatian text cannot play English recordings');
 });
 
 test('Serbian snapshots and retired content keep their original wording', async () => {

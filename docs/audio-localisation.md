@@ -1,7 +1,13 @@
 # Read-aloud and localisation
 
-The app supports Serbian Cyrillic (`sr-Cyrl`), Croatian (`hr`), and English (`en`). Serbian read-aloud uses the male
-`sr-RS-NicholasNeural` voice at `-10%` speed. Players switch **Читај наглас** on
+The app supports Serbian Cyrillic (`sr-Cyrl`), Croatian (`hr`), and English (`en`), with static male-voice recordings in every language. All voices use `-10%` speed:
+
+| Language | Voice | Service ID |
+| --- | --- | --- |
+| Serbian | Nicholas | `sr-RS-NicholasNeural` |
+| Croatian | Srećko | `hr-HR-SreckoNeural` |
+| English (British) | Ryan | `en-GB-RyanNeural` |
+ Players switch **Читај наглас** on
 once; each newly opened question then reads its prompt and four answers in their
 shuffled display order. The current answer is highlighted while it plays. The
 preference is stored locally; it defaults to off. Turning it off, answering,
@@ -42,6 +48,8 @@ python3 -m venv /tmp/kvisko-audio-venv
 /tmp/kvisko-audio-venv/bin/pip install -r scripts/requirements-audio.txt
 npm run content:generate
 /tmp/kvisko-audio-venv/bin/python scripts/generate-audio.py --locale sr-Cyrl
+/tmp/kvisko-audio-venv/bin/python scripts/generate-audio.py --locale hr
+/tmp/kvisko-audio-venv/bin/python scripts/generate-audio.py --locale en
 npm test
 ```
 
@@ -83,10 +91,13 @@ English `code` values alongside the existing Serbian `error` field; the UI maps
 the code to its selected language. Scores are stored and ranked independently
 of language, while quiz titles and dates are displayed in the chosen language.
 
-Croatian and English have `voice: null` and empty audio manifests. Their
-read-aloud switch is unavailable with a translated notice. Serbian recordings
-keep working. To add another language's audio, set its voice in the source
-catalogue, regenerate content, generate its clips, then run the checks. Do not
-reuse Serbian audio against translated text.
+Each language has a complete prompt-and-answer audio manifest. Switching
+language stops the current reading and uses the new language’s text and
+recordings. The read-aloud preference stays enabled across language changes.
+
+To add a future language, set its voice in the source catalogue, regenerate
+content, generate its clips, then run the checks. A language without recordings
+can use `voice: null`; its read-aloud switch stays unavailable with a translated
+notice. Do not reuse another language’s recordings against translated text.
 
 No schema migration is needed for language selection.

@@ -47,12 +47,14 @@ assert 'Квиско'.encode() in request('/')
 assert b'id="read-aloud"' in request('/')
 catalogue = request('/locales/sr-Cyrl.json')
 assert catalogue['messages'] == MESSAGES and catalogue['voice'] == LOCALE['voice']
+catalogues = {}
 for language in ['sr-Cyrl', 'hr', 'en']:
     assert request(f'/ui/{language}.json') == json.loads((ROOT / f'data/ui/{language}.json').read_text())
     translated = request(f'/locales/{language}.json')
     assert translated['messages'] == json.loads((ROOT / f'data/locales/{language}.json').read_text())['messages']
-    if language != 'sr-Cyrl':
-        assert translated['audio'] == {}
+    assert translated == json.loads((ROOT / f'web/locales/{language}.json').read_text())
+    assert translated['audio']
+    catalogues[language] = translated
 assert 'Фотографије и извори'.encode() in request('/credits.html')
 assert 'Најбољи резултати'.encode() in request('/high-scores.html')
 assert isinstance(request('/api/high-scores'), list)
@@ -76,9 +78,10 @@ def check_quiz(quiz_id, filename, title, prompt):
     assert s['total'] == quiz['round_length']
     assert request(path) == s
     first = s['question']
-    for key in [f'quiz.{quiz_id}.prompt', f'answer.{quiz_id}.{first["options"][0]["id"]}']:
-        audio_path = catalogue['audio'][key]
-        assert request(audio_path) == (ROOT / 'web' / audio_path.lstrip('/')).read_bytes()
+    for translated in catalogues.values():
+        for key in [f'quiz.{quiz_id}.prompt', f'answer.{quiz_id}.{first["options"][0]["id"]}']:
+            audio_path = translated['audio'][key]
+            assert request(audio_path) == (ROOT / 'web' / audio_path.lstrip('/')).read_bytes()
     request(path + '/answers', {'question_id': first['id'], 'option_id': 'invalid'}, 400)
     assert request(path) == s
     seen = set()

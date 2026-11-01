@@ -1,7 +1,7 @@
 {
   "locale": "hr",
   "language": "hr",
-  "voice": null,
+  "voice": "hr-HR-SreckoNeural",
   "rate": "-10%",
   "messages": {
     "audio.unavailable": "Čitanje nije uspjelo. Isključi pa ponovno uključi čitanje za novi pokušaj.",
