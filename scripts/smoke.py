@@ -10,6 +10,8 @@ import urllib.error
 
 BASE = os.environ.get('BASE_URL', 'http://localhost:8080').rstrip('/')
 ROOT = Path(__file__).resolve().parents[1]
+LOCALE = json.loads((ROOT / 'data/locales/sr-Cyrl.json').read_text())
+MESSAGES = LOCALE['messages']
 PACKS = {
     'world-flags': ('flags', 'Заставе света', 'Коме припада ова застава?'),
     'animals': ('animals', 'Животиње', 'Која је ово животиња?'),
@@ -42,6 +44,9 @@ assert request('/healthz')['status'] == 'ok'
 quizzes = {q['id']: q for q in request('/api/quizzes')}
 assert set(PACKS) <= quizzes.keys()
 assert 'Квиско'.encode() in request('/')
+assert b'id="read-aloud"' in request('/')
+catalogue = request('/locales/sr-Cyrl.json')
+assert catalogue['messages'] == MESSAGES and catalogue['voice'] == LOCALE['voice']
 assert 'Фотографије и извори'.encode() in request('/credits.html')
 assert 'Најбољи резултати'.encode() in request('/high-scores.html')
 assert isinstance(request('/api/high-scores'), list)
@@ -65,6 +70,9 @@ def check_quiz(quiz_id, filename, title, prompt):
     assert s['total'] == quiz['round_length']
     assert request(path) == s
     first = s['question']
+    for key in [f'quiz.{quiz_id}.prompt', f'answer.{quiz_id}.{first["options"][0]["id"]}']:
+        audio_path = catalogue['audio'][key]
+        assert request(audio_path) == (ROOT / 'web' / audio_path.lstrip('/')).read_bytes()
     request(path + '/answers', {'question_id': first['id'], 'option_id': 'invalid'}, 400)
     assert request(path) == s
     seen = set()
@@ -76,7 +84,7 @@ def check_quiz(quiz_id, filename, title, prompt):
         seen.add(q['id'])
         assert 'correct_id' not in q and len(q['options']) == 4
         assert q['prompt'] == prompt
-        assert all(o['label'] == bank[o['id']]['label'] for o in q['options'])
+        assert all(o['label'] == MESSAGES[f'answer.{quiz_id}.{o["id"]}'] for o in q['options'])
         assert len({o['id'] for o in q['options']}) == 4
         assert any(o['id'] == q['id'] for o in q['options'])
         if quiz_id == 'shapes-colours':
@@ -98,7 +106,7 @@ def check_quiz(quiz_id, filename, title, prompt):
         score += int(correct)
         assert result['correct'] == correct
         assert result['correct_id'] == q['id']
-        assert result['correct_label'] == bank[q['id']]['label']
+        assert result['correct_label'] == MESSAGES[f'answer.{quiz_id}.{q["id"]}']
         assert request(path + '/answers', body) == result
         different = next(o['id'] for o in q['options'] if o['id'] != choice)
         request(path + '/answers', {'question_id': q['id'], 'option_id': different}, 409)
