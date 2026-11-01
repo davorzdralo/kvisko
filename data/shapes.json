@@ -1,677 +1,542 @@
 [
   {
     "id": "red-triangle",
-    "label": "Црвени троугао",
     "image_url": "/shapes/red-triangle.svg"
   },
   {
     "id": "blue-triangle",
-    "label": "Плави троугао",
     "image_url": "/shapes/blue-triangle.svg"
   },
   {
     "id": "green-triangle",
-    "label": "Зелени троугао",
     "image_url": "/shapes/green-triangle.svg"
   },
   {
     "id": "yellow-triangle",
-    "label": "Жути троугао",
     "image_url": "/shapes/yellow-triangle.svg"
   },
   {
     "id": "orange-triangle",
-    "label": "Наранџасти троугао",
     "image_url": "/shapes/orange-triangle.svg"
   },
   {
     "id": "pink-triangle",
-    "label": "Ружичасти троугао",
     "image_url": "/shapes/pink-triangle.svg"
   },
   {
     "id": "brown-triangle",
-    "label": "Браон троугао",
     "image_url": "/shapes/brown-triangle.svg"
   },
   {
     "id": "black-triangle",
-    "label": "Црни троугао",
     "image_url": "/shapes/black-triangle.svg"
   },
   {
     "id": "white-triangle",
-    "label": "Бели троугао",
     "image_url": "/shapes/white-triangle.svg"
   },
   {
     "id": "red-circle",
-    "label": "Црвени круг",
     "image_url": "/shapes/red-circle.svg"
   },
   {
     "id": "blue-circle",
-    "label": "Плави круг",
     "image_url": "/shapes/blue-circle.svg"
   },
   {
     "id": "green-circle",
-    "label": "Зелени круг",
     "image_url": "/shapes/green-circle.svg"
   },
   {
     "id": "yellow-circle",
-    "label": "Жути круг",
     "image_url": "/shapes/yellow-circle.svg"
   },
   {
     "id": "orange-circle",
-    "label": "Наранџасти круг",
     "image_url": "/shapes/orange-circle.svg"
   },
   {
     "id": "pink-circle",
-    "label": "Ружичасти круг",
     "image_url": "/shapes/pink-circle.svg"
   },
   {
     "id": "brown-circle",
-    "label": "Браон круг",
     "image_url": "/shapes/brown-circle.svg"
   },
   {
     "id": "black-circle",
-    "label": "Црни круг",
     "image_url": "/shapes/black-circle.svg"
   },
   {
     "id": "white-circle",
-    "label": "Бели круг",
     "image_url": "/shapes/white-circle.svg"
   },
   {
     "id": "red-square",
-    "label": "Црвени квадрат",
     "image_url": "/shapes/red-square.svg"
   },
   {
     "id": "blue-square",
-    "label": "Плави квадрат",
     "image_url": "/shapes/blue-square.svg"
   },
   {
     "id": "green-square",
-    "label": "Зелени квадрат",
     "image_url": "/shapes/green-square.svg"
   },
   {
     "id": "yellow-square",
-    "label": "Жути квадрат",
     "image_url": "/shapes/yellow-square.svg"
   },
   {
     "id": "orange-square",
-    "label": "Наранџасти квадрат",
     "image_url": "/shapes/orange-square.svg"
   },
   {
     "id": "pink-square",
-    "label": "Ружичасти квадрат",
     "image_url": "/shapes/pink-square.svg"
   },
   {
     "id": "brown-square",
-    "label": "Браон квадрат",
     "image_url": "/shapes/brown-square.svg"
   },
   {
     "id": "black-square",
-    "label": "Црни квадрат",
     "image_url": "/shapes/black-square.svg"
   },
   {
     "id": "white-square",
-    "label": "Бели квадрат",
     "image_url": "/shapes/white-square.svg"
   },
   {
     "id": "red-rectangle",
-    "label": "Црвени правоугаоник",
     "image_url": "/shapes/red-rectangle.svg"
   },
   {
     "id": "blue-rectangle",
-    "label": "Плави правоугаоник",
     "image_url": "/shapes/blue-rectangle.svg"
   },
   {
     "id": "green-rectangle",
-    "label": "Зелени правоугаоник",
     "image_url": "/shapes/green-rectangle.svg"
   },
   {
     "id": "yellow-rectangle",
-    "label": "Жути правоугаоник",
     "image_url": "/shapes/yellow-rectangle.svg"
   },
   {
     "id": "orange-rectangle",
-    "label": "Наранџасти правоугаоник",
     "image_url": "/shapes/orange-rectangle.svg"
   },
   {
     "id": "pink-rectangle",
-    "label": "Ружичасти правоугаоник",
     "image_url": "/shapes/pink-rectangle.svg"
   },
   {
     "id": "brown-rectangle",
-    "label": "Браон правоугаоник",
     "image_url": "/shapes/brown-rectangle.svg"
   },
   {
     "id": "black-rectangle",
-    "label": "Црни правоугаоник",
     "image_url": "/shapes/black-rectangle.svg"
   },
   {
     "id": "white-rectangle",
-    "label": "Бели правоугаоник",
     "image_url": "/shapes/white-rectangle.svg"
   },
   {
     "id": "red-ellipse",
-    "label": "Црвена елипса",
     "image_url": "/shapes/red-ellipse.svg"
   },
   {
     "id": "blue-ellipse",
-    "label": "Плава елипса",
     "image_url": "/shapes/blue-ellipse.svg"
   },
   {
     "id": "green-ellipse",
-    "label": "Зелена елипса",
     "image_url": "/shapes/green-ellipse.svg"
   },
   {
     "id": "yellow-ellipse",
-    "label": "Жута елипса",
     "image_url": "/shapes/yellow-ellipse.svg"
   },
   {
     "id": "orange-ellipse",
-    "label": "Наранџаста елипса",
     "image_url": "/shapes/orange-ellipse.svg"
   },
   {
     "id": "pink-ellipse",
-    "label": "Ружичаста елипса",
     "image_url": "/shapes/pink-ellipse.svg"
   },
   {
     "id": "brown-ellipse",
-    "label": "Браон елипса",
     "image_url": "/shapes/brown-ellipse.svg"
   },
   {
     "id": "black-ellipse",
-    "label": "Црна елипса",
     "image_url": "/shapes/black-ellipse.svg"
   },
   {
     "id": "white-ellipse",
-    "label": "Бела елипса",
     "image_url": "/shapes/white-ellipse.svg"
   },
   {
     "id": "red-star",
-    "label": "Црвена звезда",
     "image_url": "/shapes/red-star.svg"
   },
   {
     "id": "blue-star",
-    "label": "Плава звезда",
     "image_url": "/shapes/blue-star.svg"
   },
   {
     "id": "green-star",
-    "label": "Зелена звезда",
     "image_url": "/shapes/green-star.svg"
   },
   {
     "id": "yellow-star",
-    "label": "Жута звезда",
     "image_url": "/shapes/yellow-star.svg"
   },
   {
     "id": "orange-star",
-    "label": "Наранџаста звезда",
     "image_url": "/shapes/orange-star.svg"
   },
   {
     "id": "pink-star",
-    "label": "Ружичаста звезда",
     "image_url": "/shapes/pink-star.svg"
   },
   {
     "id": "brown-star",
-    "label": "Браон звезда",
     "image_url": "/shapes/brown-star.svg"
   },
   {
     "id": "black-star",
-    "label": "Црна звезда",
     "image_url": "/shapes/black-star.svg"
   },
   {
     "id": "white-star",
-    "label": "Бела звезда",
     "image_url": "/shapes/white-star.svg"
   },
   {
     "id": "red-heart",
-    "label": "Црвено срце",
     "image_url": "/shapes/red-heart.svg"
   },
   {
     "id": "blue-heart",
-    "label": "Плаво срце",
     "image_url": "/shapes/blue-heart.svg"
   },
   {
     "id": "green-heart",
-    "label": "Зелено срце",
     "image_url": "/shapes/green-heart.svg"
   },
   {
     "id": "yellow-heart",
-    "label": "Жуто срце",
     "image_url": "/shapes/yellow-heart.svg"
   },
   {
     "id": "orange-heart",
-    "label": "Наранџасто срце",
     "image_url": "/shapes/orange-heart.svg"
   },
   {
     "id": "pink-heart",
-    "label": "Ружичасто срце",
     "image_url": "/shapes/pink-heart.svg"
   },
   {
     "id": "brown-heart",
-    "label": "Браон срце",
     "image_url": "/shapes/brown-heart.svg"
   },
   {
     "id": "black-heart",
-    "label": "Црно срце",
     "image_url": "/shapes/black-heart.svg"
   },
   {
     "id": "white-heart",
-    "label": "Бело срце",
     "image_url": "/shapes/white-heart.svg"
   },
   {
     "id": "red-cube",
-    "label": "Црвена коцка",
     "image_url": "/shapes/red-cube.svg"
   },
   {
     "id": "blue-cube",
-    "label": "Плава коцка",
     "image_url": "/shapes/blue-cube.svg"
   },
   {
     "id": "green-cube",
-    "label": "Зелена коцка",
     "image_url": "/shapes/green-cube.svg"
   },
   {
     "id": "yellow-cube",
-    "label": "Жута коцка",
     "image_url": "/shapes/yellow-cube.svg"
   },
   {
     "id": "orange-cube",
-    "label": "Наранџаста коцка",
     "image_url": "/shapes/orange-cube.svg"
   },
   {
     "id": "pink-cube",
-    "label": "Ружичаста коцка",
     "image_url": "/shapes/pink-cube.svg"
   },
   {
     "id": "brown-cube",
-    "label": "Браон коцка",
     "image_url": "/shapes/brown-cube.svg"
   },
   {
     "id": "black-cube",
-    "label": "Црна коцка",
     "image_url": "/shapes/black-cube.svg"
   },
   {
     "id": "white-cube",
-    "label": "Бела коцка",
     "image_url": "/shapes/white-cube.svg"
   },
   {
     "id": "red-sphere",
-    "label": "Црвена лопта",
     "image_url": "/shapes/red-sphere.svg"
   },
   {
     "id": "blue-sphere",
-    "label": "Плава лопта",
     "image_url": "/shapes/blue-sphere.svg"
   },
   {
     "id": "green-sphere",
-    "label": "Зелена лопта",
     "image_url": "/shapes/green-sphere.svg"
   },
   {
     "id": "yellow-sphere",
-    "label": "Жута лопта",
     "image_url": "/shapes/yellow-sphere.svg"
   },
   {
     "id": "orange-sphere",
-    "label": "Наранџаста лопта",
     "image_url": "/shapes/orange-sphere.svg"
   },
   {
     "id": "pink-sphere",
-    "label": "Ружичаста лопта",
     "image_url": "/shapes/pink-sphere.svg"
   },
   {
     "id": "brown-sphere",
-    "label": "Браон лопта",
     "image_url": "/shapes/brown-sphere.svg"
   },
   {
     "id": "black-sphere",
-    "label": "Црна лопта",
     "image_url": "/shapes/black-sphere.svg"
   },
   {
     "id": "white-sphere",
-    "label": "Бела лопта",
     "image_url": "/shapes/white-sphere.svg"
   },
   {
     "id": "red-cone",
-    "label": "Црвена купа",
     "image_url": "/shapes/red-cone.svg"
   },
   {
     "id": "blue-cone",
-    "label": "Плава купа",
     "image_url": "/shapes/blue-cone.svg"
   },
   {
     "id": "green-cone",
-    "label": "Зелена купа",
     "image_url": "/shapes/green-cone.svg"
   },
   {
     "id": "yellow-cone",
-    "label": "Жута купа",
     "image_url": "/shapes/yellow-cone.svg"
   },
   {
     "id": "orange-cone",
-    "label": "Наранџаста купа",
     "image_url": "/shapes/orange-cone.svg"
   },
   {
     "id": "pink-cone",
-    "label": "Ружичаста купа",
     "image_url": "/shapes/pink-cone.svg"
   },
   {
     "id": "brown-cone",
-    "label": "Браон купа",
     "image_url": "/shapes/brown-cone.svg"
   },
   {
     "id": "black-cone",
-    "label": "Црна купа",
     "image_url": "/shapes/black-cone.svg"
   },
   {
     "id": "white-cone",
-    "label": "Бела купа",
     "image_url": "/shapes/white-cone.svg"
   },
   {
     "id": "red-pyramid",
-    "label": "Црвена пирамида",
     "image_url": "/shapes/red-pyramid.svg"
   },
   {
     "id": "blue-pyramid",
-    "label": "Плава пирамида",
     "image_url": "/shapes/blue-pyramid.svg"
   },
   {
     "id": "green-pyramid",
-    "label": "Зелена пирамида",
     "image_url": "/shapes/green-pyramid.svg"
   },
   {
     "id": "yellow-pyramid",
-    "label": "Жута пирамида",
     "image_url": "/shapes/yellow-pyramid.svg"
   },
   {
     "id": "orange-pyramid",
-    "label": "Наранџаста пирамида",
     "image_url": "/shapes/orange-pyramid.svg"
   },
   {
     "id": "pink-pyramid",
-    "label": "Ружичаста пирамида",
     "image_url": "/shapes/pink-pyramid.svg"
   },
   {
     "id": "brown-pyramid",
-    "label": "Браон пирамида",
     "image_url": "/shapes/brown-pyramid.svg"
   },
   {
     "id": "black-pyramid",
-    "label": "Црна пирамида",
     "image_url": "/shapes/black-pyramid.svg"
   },
   {
     "id": "white-pyramid",
-    "label": "Бела пирамида",
     "image_url": "/shapes/white-pyramid.svg"
   },
   {
     "id": "red-rhombus",
-    "label": "Црвени ромб",
     "image_url": "/shapes/red-rhombus.svg"
   },
   {
     "id": "blue-rhombus",
-    "label": "Плави ромб",
     "image_url": "/shapes/blue-rhombus.svg"
   },
   {
     "id": "green-rhombus",
-    "label": "Зелени ромб",
     "image_url": "/shapes/green-rhombus.svg"
   },
   {
     "id": "yellow-rhombus",
-    "label": "Жути ромб",
     "image_url": "/shapes/yellow-rhombus.svg"
   },
   {
     "id": "orange-rhombus",
-    "label": "Наранџасти ромб",
     "image_url": "/shapes/orange-rhombus.svg"
   },
   {
     "id": "pink-rhombus",
-    "label": "Ружичасти ромб",
     "image_url": "/shapes/pink-rhombus.svg"
   },
   {
     "id": "brown-rhombus",
-    "label": "Браон ромб",
     "image_url": "/shapes/brown-rhombus.svg"
   },
   {
     "id": "black-rhombus",
-    "label": "Црни ромб",
     "image_url": "/shapes/black-rhombus.svg"
   },
   {
     "id": "white-rhombus",
-    "label": "Бели ромб",
     "image_url": "/shapes/white-rhombus.svg"
   },
   {
     "id": "red-trapezium",
-    "label": "Црвени трапез",
     "image_url": "/shapes/red-trapezium.svg"
   },
   {
     "id": "blue-trapezium",
-    "label": "Плави трапез",
     "image_url": "/shapes/blue-trapezium.svg"
   },
   {
     "id": "green-trapezium",
-    "label": "Зелени трапез",
     "image_url": "/shapes/green-trapezium.svg"
   },
   {
     "id": "yellow-trapezium",
-    "label": "Жути трапез",
     "image_url": "/shapes/yellow-trapezium.svg"
   },
   {
     "id": "orange-trapezium",
-    "label": "Наранџасти трапез",
     "image_url": "/shapes/orange-trapezium.svg"
   },
   {
     "id": "pink-trapezium",
-    "label": "Ружичасти трапез",
     "image_url": "/shapes/pink-trapezium.svg"
   },
   {
     "id": "brown-trapezium",
-    "label": "Браон трапез",
     "image_url": "/shapes/brown-trapezium.svg"
   },
   {
     "id": "black-trapezium",
-    "label": "Црни трапез",
     "image_url": "/shapes/black-trapezium.svg"
   },
   {
     "id": "white-trapezium",
-    "label": "Бели трапез",
     "image_url": "/shapes/white-trapezium.svg"
   },
   {
     "id": "red-cuboid",
-    "label": "Црвени квадар",
     "image_url": "/shapes/red-cuboid.svg"
   },
   {
     "id": "blue-cuboid",
-    "label": "Плави квадар",
     "image_url": "/shapes/blue-cuboid.svg"
   },
   {
     "id": "green-cuboid",
-    "label": "Зелени квадар",
     "image_url": "/shapes/green-cuboid.svg"
   },
   {
     "id": "yellow-cuboid",
-    "label": "Жути квадар",
     "image_url": "/shapes/yellow-cuboid.svg"
   },
   {
     "id": "orange-cuboid",
-    "label": "Наранџасти квадар",
     "image_url": "/shapes/orange-cuboid.svg"
   },
   {
     "id": "pink-cuboid",
-    "label": "Ружичасти квадар",
     "image_url": "/shapes/pink-cuboid.svg"
   },
   {
     "id": "brown-cuboid",
-    "label": "Браон квадар",
     "image_url": "/shapes/brown-cuboid.svg"
   },
   {
     "id": "black-cuboid",
-    "label": "Црни квадар",
     "image_url": "/shapes/black-cuboid.svg"
   },
   {
     "id": "white-cuboid",
-    "label": "Бели квадар",
     "image_url": "/shapes/white-cuboid.svg"
   },
   {
     "id": "red-cylinder",
-    "label": "Црвени ваљак",
     "image_url": "/shapes/red-cylinder.svg"
   },
   {
     "id": "blue-cylinder",
-    "label": "Плави ваљак",
     "image_url": "/shapes/blue-cylinder.svg"
   },
   {
     "id": "green-cylinder",
-    "label": "Зелени ваљак",
     "image_url": "/shapes/green-cylinder.svg"
   },
   {
     "id": "yellow-cylinder",
-    "label": "Жути ваљак",
     "image_url": "/shapes/yellow-cylinder.svg"
   },
   {
     "id": "orange-cylinder",
-    "label": "Наранџасти ваљак",
     "image_url": "/shapes/orange-cylinder.svg"
   },
   {
     "id": "pink-cylinder",
-    "label": "Ружичасти ваљак",
     "image_url": "/shapes/pink-cylinder.svg"
   },
   {
     "id": "brown-cylinder",
-    "label": "Браон ваљак",
     "image_url": "/shapes/brown-cylinder.svg"
   },
   {
     "id": "black-cylinder",
-    "label": "Црни ваљак",
     "image_url": "/shapes/black-cylinder.svg"
   },
   {
     "id": "white-cylinder",
-    "label": "Бели ваљак",
     "image_url": "/shapes/white-cylinder.svg"
   }
 ]

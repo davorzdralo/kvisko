@@ -107,6 +107,7 @@ test('all seven packs: complete games, scoring, resume, retries and independent 
 
 test('shapes cover every shape/colour pair and always require both attributes', async () => {
   const shapes = JSON.parse(await readFile('data/shapes.json', 'utf8'));
+  const { messages } = JSON.parse(await readFile('data/locales/sr-Cyrl.json', 'utf8'));
   const colours = ['red', 'blue', 'green', 'yellow', 'orange', 'pink', 'brown', 'black', 'white'];
   const names = ['triangle', 'circle', 'square', 'rectangle', 'ellipse', 'star', 'heart', 'cube', 'sphere', 'cone', 'pyramid', 'rhombus', 'trapezium', 'cuboid', 'cylinder'];
   assert.equal(shapes.length, 135);
@@ -135,7 +136,7 @@ test('shapes cover every shape/colour pair and always require both attributes', 
     assert.equal(new Set(pairs.map(([c]) => c)).size, 2);
     assert.equal(new Set(pairs.map(([, s]) => s)).size, 2);
     for (const option of question.options) {
-      assert.equal(option.label, shapes.find((item) => item.id === option.id).label);
+      assert.equal(option.label, messages[`answer.shapes-colours.${option.id}`]);
     }
     state = (await api(`/api/sessions/${state.id}/answers`, {
       question_id: subject.id, option_id: subject.id,

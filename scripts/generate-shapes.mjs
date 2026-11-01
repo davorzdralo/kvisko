@@ -1,5 +1,5 @@
 // Original geometric illustrations. Run with node scripts/generate-shapes.mjs.
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
 const colours = {
@@ -34,6 +34,8 @@ const shapes = [
 
 await mkdir(new URL('web/shapes/', root), { recursive: true });
 const bank = [];
+const localeURL = new URL('data/locales/sr-Cyrl.json', root);
+const locale = JSON.parse(await readFile(localeURL, 'utf8'));
 for (const [shape, noun, gender, drawing] of shapes) {
   for (const colour of Object.keys(colours)) {
     const id = `${colour}-${shape}`;
@@ -44,7 +46,9 @@ for (const [shape, noun, gender, drawing] of shapes) {
     const outline = colour === 'white' ? ' stroke="#737373" stroke-width="2.5" stroke-linejoin="round"' : '';
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320"><!-- Original Kvisko illustration. --><rect width="320" height="320" fill="white"/>${shadow}<g fill="${colours[colour][0]}"${outline}>${drawing}</g></svg>\n`;
     await writeFile(new URL(`web/shapes/${id}.svg`, root), svg);
-    bank.push({ id, label, image_url: `/shapes/${id}.svg` });
+    locale.messages[`answer.shapes-colours.${id}`] = label;
+    bank.push({ id, image_url: `/shapes/${id}.svg` });
   }
 }
 await writeFile(new URL('data/shapes.json', root), `${JSON.stringify(bank, null, 2)}\n`);
+await writeFile(localeURL, `${JSON.stringify(locale, null, 2)}\n`);

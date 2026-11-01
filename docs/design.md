@@ -22,7 +22,7 @@ Each answer loads the session, checks the offered option and the first unanswere
 
 Reading sessions filters out expired records immediately. A daily 03:00 UTC Cron Trigger deletes up to 10,000 expired sessions using an expiry index; delayed cleanup cannot make an expired game playable. Expiry is fixed at creation (30 days by default). Browser-local IDs for expired games are cleared when resuming returns 404. Scheduled cleanup runs in Cloudflare; to test it locally use Wrangler's scheduled-event endpoint (see deployment guide).
 
-Source JSON generates idempotent SQL upserts in `data/seed.sql`. Schema migrations and content seeding are explicit deployment steps, never executed on API requests. Existing sessions snapshot titles, labels and options, so content updates do not change games in progress. Original Postgres game records are not imported.
+Source JSON separates stable quiz/subject IDs and images from Serbian wording in `data/locales/sr-Cyrl.json`, then generates idempotent SQL upserts in `data/seed.sql`. The generated locale catalogue maps the same IDs to text and static male-voice recordings; see [audio and localisation](audio-localisation.md). Schema migrations and content seeding are explicit deployment steps, never executed on API requests. Existing sessions snapshot titles, labels and options, so content updates do not change games in progress. Original Postgres game records are not imported.
 
 ## High scores
 

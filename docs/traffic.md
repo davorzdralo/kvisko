@@ -8,7 +8,7 @@ The expanded bank includes bends, slopes, narrow roads, bridges, tunnels, railwa
 
 ## Assets and attribution
 
-- `data/traffic.json` is the question bank; `data/quizzes.json` supplies quiz metadata.
+- `data/traffic.json` is the question bank; `data/quizzes.json` supplies stable quiz IDs and pack filenames. Serbian wording lives in `data/locales/sr-Cyrl.json`.
 - `web/traffic/*.svg` are local assets. No third-party image requests are needed during play.
 - `docs/traffic-sources.json` records each original file, source page, author and licence. Road signs are original, unmodified Wikimedia Commons SVGs (public domain or CC BY-SA); source pages document the exact terms. Some originals contain inert Adobe Illustrator `foreignObject` metadata; they have no displayed content.
 - Kvisko's six original illustrations are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). This applies to those six images, not the application's GPL licence.

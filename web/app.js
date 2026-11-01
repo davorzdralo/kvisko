@@ -1,3 +1,5 @@
+import { createReader, readingClips } from './read-aloud.js';
+
 const $ = (id) => document.getElementById(id);
 let state = null;
 let pendingState = null;
@@ -8,6 +10,48 @@ let view = 'home';
 let savingScore = false;
 const savedScores = new Set();
 const storageKey = 'kvisko-session';
+let catalogue = null;
+const readToggle = $('read-aloud');
+try { readToggle.checked = localStorage.getItem('kvisko-read-aloud') === 'true'; }
+catch { /* The toggle still works without browser storage. */ }
+const audioStatus = $('audio-status');
+const reader = createReader({
+  onHighlight(optionID) {
+    for (const button of $('options').children) {
+      button.classList.toggle('reading', button.dataset.id === optionID);
+    }
+  },
+  onPlaying(playing) { $('read-aloud-label').classList.toggle('is-reading', playing); },
+  onError() {
+    audioStatus.textContent = catalogue.messages['audio.unavailable'];
+    audioStatus.hidden = false;
+  },
+});
+function updateReading(autoRead = false) {
+  const clips = catalogue && state?.question ? readingClips(catalogue, state.quiz_id, state.question) : [];
+  readToggle.disabled = !clips.length;
+  audioStatus.hidden = !!clips.length;
+  audioStatus.textContent = catalogue?.messages['audio.unsupported'] || 'Читање тренутно није доступно.';
+  if (autoRead && readToggle.checked && clips.length && !answered && !document.hidden) reader.play(clips);
+}
+readToggle.addEventListener('change', () => {
+  try { localStorage.setItem('kvisko-read-aloud', String(readToggle.checked)); }
+  catch { /* The preference lasts for this page when storage is unavailable. */ }
+  reader.stop();
+  updateReading(readToggle.checked);
+});
+document.addEventListener('visibilitychange', () => { if (document.hidden) reader.stop(); });
+window.addEventListener('pagehide', () => reader.stop());
+async function loadCatalogue() {
+  try {
+    const response = await fetch('/locales/sr-Cyrl.json');
+    if (!response.ok) throw new Error('Locale unavailable');
+    catalogue = await response.json();
+    $('read-aloud-text').textContent = catalogue.messages['audio.enabled'];
+  } catch { /* Quizzes remain playable when audio cannot load. */ }
+  if (state?.question && view === 'game') updateReading(true);
+}
+loadCatalogue();
 const startButtons = [...document.querySelectorAll('[data-start]')];
 const resumeButtons = [...document.querySelectorAll('[data-resume]')];
 
@@ -29,6 +73,7 @@ function remember(quizID, id) {
 }
 function updateResumes() { resumeButtons.forEach((button) => button.hidden = !remembered(button.dataset.resume)); }
 function show(name) {
+  reader.stop();
   view = name;
   for (const id of ['home', 'game', 'result']) $(id).hidden = id !== name;
   $('error').hidden = true;
@@ -48,6 +93,7 @@ async function api(path, body) {
   return response.json();
 }
 function render(nextState) {
+  reader.stop();
   state = nextState;
   pendingState = null;
   answered = false;
@@ -106,6 +152,7 @@ function render(nextState) {
     button.addEventListener('click', () => answer(option.id));
     $('options').append(button);
   });
+  updateReading(true);
   $('question-title').focus();
 }
 async function start(quizID) {
@@ -137,6 +184,7 @@ async function resume(quizID) {
 }
 async function answer(optionID) {
   if (busy || answered || view !== 'game') return;
+  reader.stop();
   busy = true;
   $('error').hidden = true;
   const buttons = [...$('options').children];

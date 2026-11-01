@@ -1,227 +1,182 @@
 [
   {
     "id": "football",
-    "label": "Фудбал",
     "image_url": "/sports/football.jpg"
   },
   {
     "id": "basketball",
-    "label": "Кошарка",
     "image_url": "/sports/basketball.jpg"
   },
   {
     "id": "volleyball",
-    "label": "Одбојка",
     "image_url": "/sports/volleyball.jpg"
   },
   {
     "id": "handball",
-    "label": "Рукомет",
     "image_url": "/sports/handball.jpg"
   },
   {
     "id": "tennis",
-    "label": "Тенис",
     "image_url": "/sports/tennis.jpg"
   },
   {
     "id": "table-tennis",
-    "label": "Стони тенис",
     "image_url": "/sports/table-tennis.jpg"
   },
   {
     "id": "badminton",
-    "label": "Бадминтон",
     "image_url": "/sports/badminton.jpg"
   },
   {
     "id": "swimming",
-    "label": "Пливање",
     "image_url": "/sports/swimming.jpg"
   },
   {
     "id": "water-polo",
-    "label": "Ватерполо",
     "image_url": "/sports/water-polo.jpg"
   },
   {
     "id": "diving",
-    "label": "Скокови у воду",
     "image_url": "/sports/diving.jpg"
   },
   {
     "id": "skiing",
-    "label": "Скијање",
     "image_url": "/sports/skiing.jpg"
   },
   {
     "id": "snowboarding",
-    "label": "Сноуборд",
     "image_url": "/sports/snowboarding.jpg"
   },
   {
     "id": "ski-jumping",
-    "label": "Скијашки скокови",
     "image_url": "/sports/ski-jumping.jpg"
   },
   {
     "id": "figure-skating",
-    "label": "Уметничко клизање",
     "image_url": "/sports/figure-skating.jpg"
   },
   {
     "id": "ice-hockey",
-    "label": "Хокеј на леду",
     "image_url": "/sports/ice-hockey.jpg"
   },
   {
     "id": "gymnastics",
-    "label": "Гимнастика",
     "image_url": "/sports/gymnastics.png"
   },
   {
     "id": "rhythmic-gymnastics",
-    "label": "Ритмичка гимнастика",
     "image_url": "/sports/rhythmic-gymnastics.jpg"
   },
   {
     "id": "running",
-    "label": "Трчање",
     "image_url": "/sports/running.jpg"
   },
   {
     "id": "hurdles",
-    "label": "Трчање с препонама",
     "image_url": "/sports/hurdles.jpg"
   },
   {
     "id": "long-jump",
-    "label": "Скок удаљ",
     "image_url": "/sports/long-jump.jpg"
   },
   {
     "id": "high-jump",
-    "label": "Скок увис",
     "image_url": "/sports/high-jump.jpg"
   },
   {
     "id": "cycling",
-    "label": "Бициклизам",
     "image_url": "/sports/cycling.jpg"
   },
   {
     "id": "boxing",
-    "label": "Бокс",
     "image_url": "/sports/boxing.jpg"
   },
   {
     "id": "judo",
-    "label": "Џудо",
     "image_url": "/sports/judo.jpg"
   },
   {
     "id": "karate",
-    "label": "Карате",
     "image_url": "/sports/karate.jpg"
   },
   {
     "id": "wrestling",
-    "label": "Рвање",
     "image_url": "/sports/wrestling.jpg"
   },
   {
     "id": "fencing",
-    "label": "Мачевање",
     "image_url": "/sports/fencing.jpg"
   },
   {
     "id": "archery",
-    "label": "Стреличарство",
     "image_url": "/sports/archery.jpg"
   },
   {
     "id": "rowing",
-    "label": "Веслање",
     "image_url": "/sports/rowing.jpg"
   },
   {
     "id": "kayaking",
-    "label": "Кајак",
     "image_url": "/sports/kayaking.jpg"
   },
   {
     "id": "sailing",
-    "label": "Једрење",
     "image_url": "/sports/sailing.jpg"
   },
   {
     "id": "surfing",
-    "label": "Сурфовање",
     "image_url": "/sports/surfing.jpg"
   },
   {
     "id": "windsurfing",
-    "label": "Једрење на дасци",
     "image_url": "/sports/windsurfing.jpg"
   },
   {
     "id": "skateboarding",
-    "label": "Скејтбординг",
     "image_url": "/sports/skateboarding.jpg"
   },
   {
     "id": "roller-skating",
-    "label": "Вожња ролера",
     "image_url": "/sports/roller-skating.jpg"
   },
   {
     "id": "horse-riding",
-    "label": "Јахање",
     "image_url": "/sports/horse-riding.jpg"
   },
   {
     "id": "golf",
-    "label": "Голф",
     "image_url": "/sports/golf.jpg"
   },
   {
     "id": "bowling",
-    "label": "Куглање",
     "image_url": "/sports/bowling.jpg"
   },
   {
     "id": "rugby",
-    "label": "Рагби",
     "image_url": "/sports/rugby.jpg"
   },
   {
     "id": "baseball",
-    "label": "Бејзбол",
     "image_url": "/sports/baseball.jpg"
   },
   {
     "id": "american-football",
-    "label": "Амерички фудбал",
     "image_url": "/sports/american-football.jpg"
   },
   {
     "id": "climbing",
-    "label": "Спортско пењање",
     "image_url": "/sports/climbing.jpg"
   },
   {
     "id": "weightlifting",
-    "label": "Дизање тегова",
     "image_url": "/sports/weightlifting.jpg"
   },
   {
     "id": "beach-volleyball",
-    "label": "Одбојка на песку",
     "image_url": "/sports/beach-volleyball.jpg"
   },
   {
     "id": "billiards",
-    "label": "Билијар",
     "image_url": "/sports/billiards.jpg"
   }
 ]

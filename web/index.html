@@ -8,7 +8,7 @@
   <title>Квиско — Мала питања, велика открића</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
-  <script src="/app.js" defer></script>
+  <script type="module" src="/app.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -54,7 +54,7 @@
     <section id="game" hidden aria-labelledby="question-title">
       <div class="game-top"><button class="text-button" id="back">← Сви квизови</button><span id="quiz-title" class="tag">ЗАСТАВЕ СВЕТА</span><span id="score">0 звездица</span></div>
       <div class="progress-label"><span id="position"></span><span>Корак по корак до нових открића</span></div><progress id="progress" value="0" max="20" aria-label="Напредак у квизу"></progress>
-      <div class="question-card"><h1 id="question-title" tabindex="-1">Коме припада ова застава?</h1><p class="question-hint">Погледај слику и изабери одговор.</p><div class="flag-stage"><img id="question-image" alt="Слика за питање"></div><p id="image-error" hidden>Слика није могла да се учита. Покушај да поново учиташ страницу.</p><div id="options" class="options" aria-label="Изабери одговор"></div><div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><button id="next" class="primary next" hidden>Следећа слика <span aria-hidden="true">→</span></button></div><p class="keyboard-hint">Кликни, додирни или притисни <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> за одговор. <kbd>Ентер</kbd> за наставак.</p>
+      <div class="question-card"><h1 id="question-title" tabindex="-1">Коме припада ова застава?</h1><p class="question-hint">Погледај слику и изабери одговор.</p><label id="read-aloud-label" class="read-aloud"><input id="read-aloud" type="checkbox" role="switch" disabled><span id="read-aloud-text">Читај наглас</span></label><p id="audio-status" class="audio-status" role="status" hidden></p><div class="flag-stage"><img id="question-image" alt="Слика за питање"></div><p id="image-error" hidden>Слика није могла да се учита. Покушај да поново учиташ страницу.</p><div id="options" class="options" aria-label="Изабери одговор"></div><div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div><button id="next" class="primary next" hidden>Следећа слика <span aria-hidden="true">→</span></button></div><p class="keyboard-hint">Кликни, додирни или притисни <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> за одговор. <kbd>Ентер</kbd> за наставак.</p>
     </section>
     <section id="result" class="result" hidden aria-labelledby="result-title"><div class="result-spark" aria-hidden="true">✦</div><span class="tag">ПУСТОЛОВИНА ЈЕ ЗАВРШЕНА</span><h1 id="result-title" tabindex="-1">Браво за истраживање!</h1><p id="result-subtitle">Још једна пустоловина пуна открића.</p><div class="result-score"><strong id="final-score"></strong><span id="final-total"></span></div><p id="result-message"></p>
       <form id="high-score-form" class="score-form">

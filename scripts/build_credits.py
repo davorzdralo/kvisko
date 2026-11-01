@@ -12,6 +12,9 @@ def plain(value):
     return ' '.join(html.unescape(re.sub('<[^>]+>', ' ', value)).split())
 
 def build():
+    messages = json.loads((ROOT / 'data/locales/sr-Cyrl.json').read_text())['messages']
+    quizzes = json.loads((ROOT / 'data/quizzes.json').read_text())
+    quiz_ids = {quiz['file']: quiz['id'] for quiz in quizzes}
     sections = []
     esc = html.escape
     for pack, title, prefix in PACKS:
@@ -21,6 +24,7 @@ def build():
         credits = []
         for source in sources:
             subject = subjects[source['id']]
+            subject['label'] = messages[f'answer.{quiz_ids[pack]}.{subject["id"]}']
             meta = source['metadata']
             license_name = meta['LicenseShortName']['value']
             assert license_name.startswith(('CC BY ', 'CC BY-SA ')) or license_name in ('Public domain', 'CC0')
