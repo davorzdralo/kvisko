@@ -353,3 +353,11 @@ test('leaderboards are bounded and equal scores keep their original submission o
   assert.equal(scores.at(-1).name, 'Играч 99');
   assert.equal((await api('/api/high-scores')).length, 100);
 });
+
+test('API errors include stable codes so clients can translate them', async () => {
+  const missing = await api('/api/sessions', { quiz_id: 'missing' }, 404);
+  assert.equal(missing.code, 'missing');
+  const session = await api('/api/sessions', { quiz_id: 'animals' }, 201);
+  const invalid = await api(`/api/sessions/${session.id}/answers`, { question_id: session.question.id, option_id: 'missing' }, 400);
+  assert.equal(invalid.code, 'invalid');
+});

@@ -47,6 +47,12 @@ assert 'Квиско'.encode() in request('/')
 assert b'id="read-aloud"' in request('/')
 catalogue = request('/locales/sr-Cyrl.json')
 assert catalogue['messages'] == MESSAGES and catalogue['voice'] == LOCALE['voice']
+for language in ['sr-Cyrl', 'hr', 'en']:
+    assert request(f'/ui/{language}.json') == json.loads((ROOT / f'data/ui/{language}.json').read_text())
+    translated = request(f'/locales/{language}.json')
+    assert translated['messages'] == json.loads((ROOT / f'data/locales/{language}.json').read_text())['messages']
+    if language != 'sr-Cyrl':
+        assert translated['audio'] == {}
 assert 'Фотографије и извори'.encode() in request('/credits.html')
 assert 'Најбољи резултати'.encode() in request('/high-scores.html')
 assert isinstance(request('/api/high-scores'), list)

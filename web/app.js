@@ -1,3 +1,5 @@
+import { initializeLanguage, currentLocale, t, quizTitle, stars } from './i18n.js';
+import { localiseQuestion, answerText } from './localised-content.js';
 import { createReader, readingClips } from './read-aloud.js';
 
 const $ = (id) => document.getElementById(id);
@@ -11,6 +13,9 @@ let savingScore = false;
 const savedScores = new Set();
 const storageKey = 'kvisko-session';
 let catalogue = null;
+let catalogueVersion = 0;
+let lastFeedback = null;
+let lastErrorCode = null;
 const readToggle = $('read-aloud');
 try { readToggle.checked = localStorage.getItem('kvisko-read-aloud') === 'true'; }
 catch { /* The toggle still works without browser storage. */ }
@@ -23,15 +28,15 @@ const reader = createReader({
   },
   onPlaying(playing) { $('read-aloud-label').classList.toggle('is-reading', playing); },
   onError() {
-    audioStatus.textContent = catalogue.messages['audio.unavailable'];
+    audioStatus.textContent = t('audio.unavailable');
     audioStatus.hidden = false;
   },
 });
 function updateReading(autoRead = false) {
-  const clips = catalogue && state?.question ? readingClips(catalogue, state.quiz_id, state.question) : [];
+  const clips = catalogue && state?.question ? readingClips(catalogue, state.quiz_id, localiseQuestion(catalogue, state.quiz_id, state.question)) : [];
   readToggle.disabled = !clips.length;
   audioStatus.hidden = !!clips.length;
-  audioStatus.textContent = catalogue?.messages['audio.unsupported'] || 'Читање тренутно није доступно.';
+  audioStatus.textContent = t(catalogue && !catalogue.voice ? 'audio.pending' : 'audio.unsupported');
   if (autoRead && readToggle.checked && clips.length && !answered && !document.hidden) reader.play(clips);
 }
 readToggle.addEventListener('change', () => {
@@ -43,23 +48,25 @@ readToggle.addEventListener('change', () => {
 document.addEventListener('visibilitychange', () => { if (document.hidden) reader.stop(); });
 window.addEventListener('pagehide', () => reader.stop());
 async function loadCatalogue() {
+  const version = ++catalogueVersion;
+  const language = currentLocale();
+  reader.stop();
+  catalogue = null;
+  readToggle.disabled = true;
   try {
-    const response = await fetch('/locales/sr-Cyrl.json');
+    const response = await fetch(`/locales/${language}.json`);
     if (!response.ok) throw new Error('Locale unavailable');
-    catalogue = await response.json();
-    $('read-aloud-text').textContent = catalogue.messages['audio.enabled'];
-  } catch { /* Quizzes remain playable when audio cannot load. */ }
+    const nextCatalogue = await response.json();
+    if (version !== catalogueVersion) return;
+    catalogue = nextCatalogue;
+  } catch { /* Saved-game text remains available if translations cannot load. */ }
+  if (version !== catalogueVersion) return;
+  updateUIText();
   if (state?.question && view === 'game') updateReading(true);
 }
-loadCatalogue();
 const startButtons = [...document.querySelectorAll('[data-start]')];
 const resumeButtons = [...document.querySelectorAll('[data-resume]')];
 
-function stars(count) {
-  const last = count % 10;
-  const lastTwo = count % 100;
-  return `${count} ${last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14) ? 'звездице' : 'звездица'}`;
-}
 function remembered(quizID) {
   try { return localStorage.getItem(`${storageKey}:${quizID}`) || (quizID === 'world-flags' ? localStorage.getItem(storageKey) : null); }
   catch { return null; }
@@ -78,16 +85,17 @@ function show(name) {
   for (const id of ['home', 'game', 'result']) $(id).hidden = id !== name;
   $('error').hidden = true;
 }
-function error(message) { $('error').textContent = message; $('error').hidden = false; }
+function error(message, code = null) { lastErrorCode = code; $('error').textContent = message; $('error').hidden = false; }
 async function api(path, body) {
   let response;
   try {
     response = await fetch(path, { method: body ? 'POST' : 'GET', headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
-  } catch { throw new Error('Веза није успела. Покушај поново.'); }
+  } catch { throw Object.assign(new Error(t('error.network')), { code: 'network' }); }
   if (!response.ok) {
     const data = await response.json().catch(() => ({}));
-    const problem = new Error(data.error || 'Веза није успела. Покушај поново.');
+    const problem = new Error(data.code ? t(`error.${data.code}`) : t('error.network'));
     problem.status = response.status;
+    problem.code = data.code || 'network';
     throw problem;
   }
   return response.json();
@@ -97,41 +105,33 @@ function render(nextState) {
   state = nextState;
   pendingState = null;
   answered = false;
+  lastFeedback = null;
   const photoQuiz = !['world-flags', 'traffic-signs', 'shapes-colours'].includes(state.quiz_id);
   $('game').classList.toggle('sign-game', state.quiz_id === 'traffic-signs');
   $('game').classList.toggle('photo-game', photoQuiz);
   $('game').classList.toggle('shape-game', state.quiz_id === 'shapes-colours');
-  $('quiz-title').textContent = state.quiz_title;
+  $('quiz-title').textContent = quizTitle(state.quiz_id);
   if (state.complete) {
     show('result');
     // Keep the finished game resumable until its optional score is saved.
     $('high-score-form').hidden = savedScores.has(state.id);
     $('player-name').value = '';
     $('score-saved').hidden = !savedScores.has(state.id);
-    $('score-saved').textContent = 'Твој резултат је сачуван!';
+    $('score-saved').textContent = t('score.saved');
     $('save-high-score').disabled = false;
     updateResumes();
     $('final-score').textContent = state.score;
-    $('final-total').textContent = `од укупно ${state.total}`;
-    $('result-subtitle').textContent = {
-      'world-flags': 'Пут око света, заставу по заставу.',
-      animals: 'Упознајемо животињски свет, слику по слику.',
-      plants: 'Од баште до ливаде, слику по слику.',
-      'dog-breeds': 'Упознајемо псе, расу по расу.',
-      'traffic-signs': 'Упознајемо знакове, семафоре и пешачке прелазе.',
-      sports: 'Од терена до базена, упознајемо свет спорта.',
-      'shapes-colours': 'Облик по облик, откривамо свет боја.'
-    }[state.quiz_id] || 'Још једна пустоловина пуна открића.';
-    $('result-message').textContent = state.score === state.total ? 'Сви одговори су тачни! Радозналост те је одвела далеко.' : 'Свако питање је прилика да научиш нешто ново. Хоћемо ли у још једну пустоловину?';
+    $('final-total').textContent = t('result.total', { total: state.total });
+    updateUIText();
     $('result-title').focus();
     return;
   }
   show('game');
-  $('position').textContent = `Питање ${state.answered + 1} од ${state.total}`;
+  $('position').textContent = t('game.position', { current: state.answered + 1, total: state.total });
   $('progress').max = state.total;
   $('progress').value = state.answered;
   $('score').textContent = `✦ ${stars(state.score)}`;
-  $('question-title').textContent = state.question.prompt;
+  $('question-title').textContent = localiseQuestion(catalogue, state.quiz_id, state.question).prompt;
   $('image-error').hidden = true;
   $('question-image').src = state.question.image_url;
   $('feedback').hidden = true;
@@ -147,7 +147,7 @@ function render(nextState) {
     number.textContent = index + 1;
     number.setAttribute('aria-hidden', 'true');
     const label = document.createElement('span');
-    label.textContent = option.label;
+    label.textContent = answerText(catalogue, state.quiz_id, option.id, option.label);
     button.append(number, label);
     button.addEventListener('click', () => answer(option.id));
     $('options').append(button);
@@ -165,7 +165,7 @@ async function start(quizID) {
     const nextState = await api('/api/sessions', { quiz_id: quizID });
     remember(quizID, nextState.id);
     render(nextState);
-  } catch (err) { error(err.message); }
+  } catch (err) { error(err.message, err.code); }
   finally {
     busy = false;
     startButtons.forEach((b) => b.disabled = !quizzes.has(b.dataset.start));
@@ -179,7 +179,7 @@ async function resume(quizID) {
   try { render(await api(`/api/sessions/${encodeURIComponent(id)}`)); }
   catch (err) {
     if (err.status === 404) { remember(quizID, null); updateResumes(); }
-    error(err.message);
+    error(err.message, err.code);
   } finally { busy = false; }
 }
 async function answer(optionID) {
@@ -192,6 +192,7 @@ async function answer(optionID) {
   try {
     const feedback = await api(`/api/sessions/${encodeURIComponent(state.id)}/answers`, { question_id: state.question.id, option_id: optionID });
     answered = true;
+    lastFeedback = feedback;
     pendingState = feedback.state;
     buttons.forEach((button) => {
       if (button.dataset.id === feedback.correct_id) { button.classList.add('correct'); button.firstChild.textContent = '✓'; }
@@ -200,13 +201,13 @@ async function answer(optionID) {
     $('score').textContent = `✦ ${stars(feedback.state.score)}`;
     $('progress').value = feedback.state.answered;
     $('feedback').className = `feedback${feedback.correct ? '' : ' try'}`;
-    $('feedback').textContent = feedback.correct ? `Браво! Тачан одговор: ${feedback.correct_label}.` : `Ново откриће! Тачан одговор: ${feedback.correct_label}.`;
+    $('feedback').textContent = t(feedback.correct ? 'game.correct' : 'game.incorrect', { answer: answerText(catalogue, state.quiz_id, feedback.correct_id, feedback.correct_label) });
     $('feedback').hidden = false;
-    $('next').replaceChildren(document.createTextNode(feedback.state.complete ? 'Погледај мој резултат →' : 'Следећа слика →'));
+    $('next').replaceChildren(document.createTextNode(t(feedback.state.complete ? 'game.results' : 'game.next')));
     $('next').hidden = false;
     $('next').focus();
   } catch (err) {
-    error(err.message);
+    error(err.message, err.code);
     buttons.forEach((b) => b.disabled = false);
   } finally { busy = false; }
 }
@@ -223,7 +224,7 @@ $('high-score-form').addEventListener('submit', async (event) => {
   event.preventDefault();
   if (savingScore || !state?.complete) return;
   const name = $('player-name').value.normalize('NFC').trim().replace(/\s+/gu, ' ');
-  if (!name || Array.from(name).length > 30) { error('Унеси име или надимак од 1 до 30 знакова.'); return; }
+  if (!name || Array.from(name).length > 30) { error(t('error.name'), 'name'); return; }
   const game = state;
   savingScore = true;
   $('save-high-score').disabled = true;
@@ -236,10 +237,10 @@ $('high-score-form').addEventListener('submit', async (event) => {
     updateResumes();
     if (state.id === game.id && view === 'result') {
       $('high-score-form').hidden = true;
-      $('score-saved').textContent = `Браво, ${entry.name}! Твој резултат је сачуван.`;
+      $('score-saved').textContent = t('score.savedName', { name: entry.name });
       $('score-saved').hidden = false;
     }
-  } catch (err) { if (state.id === game.id && view === 'result') error(err.message); }
+  } catch (err) { if (state.id === game.id && view === 'result') error(err.message, err.code); }
   finally {
     savingScore = false;
     $('save-high-score').disabled = false;
@@ -251,6 +252,7 @@ $('back').addEventListener('click', home);
 $('result-home').addEventListener('click', home);
 $('question-image').addEventListener('error', () => $('image-error').hidden = false);
 document.addEventListener('keydown', (event) => {
+  if (event.target.closest('input, select, textarea, .language-picker')) return;
   if (view !== 'game' || busy || event.repeat || event.altKey || event.ctrlKey || event.metaKey) return;
   if (/^[1-4]$/.test(event.key) && !answered) {
     event.preventDefault();
@@ -263,20 +265,48 @@ async function initialize() {
     quizzes = new Map((await api('/api/quizzes')).map((q) => [q.id, q]));
     for (const button of startButtons) {
       const quiz = quizzes.get(button.dataset.start);
-      if (!quiz) { button.textContent = 'Ускоро'; continue; }
+      if (!quiz) { button.textContent = t('home.soon'); continue; }
       const count = document.querySelector(`[data-count="${quiz.id}"]`);
-      const noun = quiz.round_length % 10 === 1 && quiz.round_length % 100 !== 11 ? 'питање' : 'питања';
-      const forms = { animals: ['животиња', 'животиње', 'животиња'], 'world-flags': ['застава', 'заставе', 'застава'], plants: ['појам', 'појма', 'појмова'], 'dog-breeds': ['раса', 'расе', 'раса'], 'traffic-signs': ['појам', 'појма', 'појмова'], sports: ['спорт', 'спорта', 'спортова'], 'shapes-colours': ['слика', 'слике', 'слика'] }[quiz.id];
-      const last = quiz.question_count % 10, lastTwo = quiz.question_count % 100;
-      const form = last === 1 && lastTwo !== 11 ? 0 : last >= 2 && last <= 4 && (lastTwo < 12 || lastTwo > 14) ? 1 : 2;
-      count.textContent = `${quiz.round_length} ${noun} · ${quiz.question_count} ${forms[form]}`;
-      button.replaceChildren(document.createTextNode('Хајде да играмо'), Object.assign(document.createElement('span'), { textContent: '↗' }));
+      count.textContent = t('home.count', { rounds: quiz.round_length, count: quiz.question_count });
+      button.replaceChildren(document.createTextNode(t('home.play')), Object.assign(document.createElement('span'), { textContent: '↗' }));
       button.disabled = false;
     }
     updateResumes();
   } catch (err) {
-    startButtons.forEach((button) => button.textContent = 'Поново учитај страницу');
-    error(err.message);
+    startButtons.forEach((button) => button.textContent = t('home.reload'));
+    error(err.message, err.code);
   }
 }
+function updateUIText() {
+  if (lastErrorCode && !$('error').hidden) $('error').textContent = t(`error.${lastErrorCode}`);
+  $('read-aloud-text').textContent = t('audio.enabled');
+  for (const button of startButtons) {
+    const quiz = quizzes.get(button.dataset.start);
+    if (!quiz) continue;
+    document.querySelector(`[data-count="${quiz.id}"]`).textContent = t('home.count', { rounds: quiz.round_length, count: quiz.question_count });
+    button.replaceChildren(document.createTextNode(t('home.play')), Object.assign(document.createElement('span'), { textContent: '↗' }));
+  }
+  if (!state) return;
+  $('quiz-title').textContent = quizTitle(state.quiz_id);
+  $('score').textContent = `✦ ${stars(lastFeedback ? lastFeedback.state.score : state.score)}`;
+  $('position').textContent = t('game.position', { current: state.answered + 1, total: state.total });
+  if (state.question) {
+    $('question-title').textContent = localiseQuestion(catalogue, state.quiz_id, state.question).prompt;
+    for (const button of $('options').children) {
+      const option = state.question.options.find((item) => item.id === button.dataset.id);
+      button.lastChild.textContent = answerText(catalogue, state.quiz_id, option.id, option.label);
+    }
+  }
+  if (lastFeedback) {
+    $('feedback').textContent = t(lastFeedback.correct ? 'game.correct' : 'game.incorrect', { answer: answerText(catalogue, state.quiz_id, lastFeedback.correct_id, lastFeedback.correct_label) });
+    $('next').textContent = t(lastFeedback.state.complete ? 'game.results' : 'game.next');
+  }
+  $('final-total').textContent = t('result.total', { total: state.total });
+  $('result-subtitle').textContent = t('result.subtitle');
+  $('result-message').textContent = t(state.score === state.total ? 'result.perfect' : 'result.message');
+  if (savedScores.has(state.id)) $('score-saved').textContent = t('score.saved');
+}
+await initializeLanguage();
+document.addEventListener('languagechange', () => { loadCatalogue(); });
+await loadCatalogue();
 initialize();

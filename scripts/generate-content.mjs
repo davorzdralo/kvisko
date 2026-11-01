@@ -49,6 +49,7 @@ for (const name of (await readdir(path.join(root, 'data/locales'))).filter((name
   }
   const audio = {};
   for (const [key, value] of Object.entries(source.messages)) {
+    if (!source.voice) continue;
     if (!(key.startsWith('answer.') || key.startsWith('quiz.') && key.endsWith('.prompt'))) continue;
     const hash = createHash('sha256').update(JSON.stringify([source.locale, source.voice, source.rate, value])).digest('hex').slice(0, 24);
     audio[key] = `/audio/${source.locale}/${hash}.mp3`;
@@ -63,3 +64,5 @@ for (const name of (await readdir(path.join(root, 'data/locales'))).filter((name
     await writeFile(output, generated);
   }
 }
+
+await import('./generate-ui.mjs');

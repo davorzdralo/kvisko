@@ -22,11 +22,11 @@ interface Session {
   revision: number;
 }
 class Problem extends Error {
-  constructor(public status: number, message: string) { super(message); }
+  constructor(public status: number, message: string, public code = 'internal') { super(message); }
 }
-const missing = () => new Problem(404, 'Квиз или игра нису пронађени.');
-const invalid = () => new Problem(400, 'Изабери један од четири понуђена одговора.');
-const conflict = () => new Problem(409, 'На ово питање је већ одговорено или још није на реду. Поново учитај страницу за наставак.');
+const missing = () => new Problem(404, 'Квиз или игра нису пронађени.', 'missing');
+const invalid = () => new Problem(400, 'Изабери један од четири понуђена одговора.', 'invalid');
+const conflict = () => new Problem(409, 'На ово питање је већ одговорено или још није на реду. Поново учитај страницу за наставак.', 'conflict');
 const now = () => Math.floor(Date.now() / 1000);
 
 function integer(value: string, fallback: number, max: number): number {
@@ -136,7 +136,7 @@ async function answer(db: D1Database, id: string, questionID: string, optionID: 
 async function saveHighScore(db: D1Database, sessionID: string, input: string) {
   const name = input.normalize('NFC').trim().replace(/\s+/gu, ' ');
   if (!name || Array.from(name).length > 30 || /[\p{Cc}\p{Cf}]/u.test(input)) {
-    throw new Problem(400, 'Унеси име или надимак од 1 до 30 знакова.');
+    throw new Problem(400, 'Унеси име или надимак од 1 до 30 знакова.', 'name');
   }
   // Compute the score from stored answers and gate on completion/expiry in the
   // same INSERT. A unique session key makes concurrent retries idempotent.
@@ -150,11 +150,11 @@ async function saveHighScore(db: D1Database, sessionID: string, input: string) {
   const entry = await db.prepare('SELECT id,player_name FROM high_scores WHERE session_id=?1')
     .bind(sessionID).first<{ id: number; player_name: string }>();
   if (entry) {
-    if (entry.player_name !== name) throw new Problem(409, 'Резултат ове игре је већ сачуван.');
+    if (entry.player_name !== name) throw new Problem(409, 'Резултат ове игре је већ сачуван.', 'saved');
     return { id: entry.id, name: entry.player_name };
   }
   await load(db, sessionID); // Distinguish missing/expired from unfinished games.
-  throw new Problem(409, 'Прво заврши квиз да сачуваш резултат.');
+  throw new Problem(409, 'Прво заврши квиз да сачуваш резултат.', 'unfinished');
 }
 async function highScores(db: D1Database, quizID: string) {
   if (quizID && !await db.prepare('SELECT id FROM quizzes WHERE id=?1').bind(quizID).first()) throw missing();
@@ -165,7 +165,7 @@ async function highScores(db: D1Database, quizID: string) {
   return (await (quizID ? result.bind(quizID) : result).all()).results;
 }
 async function body(request: Request, fields: string[]): Promise<Record<string, string>> {
-  const bad = () => new Problem(400, 'Захтев није исправан.');
+  const bad = () => new Problem(400, 'Захтев није исправан.', 'request');
   // Bound the actual stream, not just the untrusted Content-Length header.
   const reader = request.body?.getReader();
   if (!reader) throw bad();
@@ -175,7 +175,7 @@ async function body(request: Request, fields: string[]): Promise<Record<string, 
     const { value, done } = await reader.read();
     if (done) break;
     size += value.length;
-    if (size > 4096) { await reader.cancel(); throw new Problem(413, 'Захтев је превелик.'); }
+    if (size > 4096) { await reader.cancel(); throw new Problem(413, 'Захтев је превелик.', 'large'); }
     chunks.push(value);
   }
   const bytes = new Uint8Array(size);
@@ -230,7 +230,7 @@ async function route(request: Request, env: Env): Promise<Response> {
     const input = await body(request, ['question_id', 'option_id']);
     return json(await answer(env.DB, match[1], input.question_id, input.option_id));
   }
-  if (path.startsWith('/api/') || path === '/healthz') throw new Problem(404, 'Није пронађено.');
+  if (path.startsWith('/api/') || path === '/healthz') throw new Problem(404, 'Није пронађено.', 'notFound');
   return env.ASSETS.fetch(request);
 }
 
@@ -238,10 +238,10 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     try { return await route(request, env); }
     catch (error) {
-      if (error instanceof Problem) return json({ error: error.message }, error.status);
+      if (error instanceof Problem) return json({ error: error.message, code: error.code }, error.status);
       // Avoid logging session credentials or submitted content.
       console.error('Database or internal request failure', error instanceof Error ? error.message : 'unknown error');
-      return json({ error: 'Нешто није у реду. Покушај поново.' }, 500);
+      return json({ error: 'Нешто није у реду. Покушај поново.', code: 'internal' }, 500);
     }
   },
   async scheduled(_event: ScheduledController, env: Env): Promise<void> {

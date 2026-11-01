@@ -4,26 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f9f7f2">
-  <title>Најбољи резултати — Квиско</title>
+  <title data-i18n="scores.pageTitle">Најбољи резултати — Квиско</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
-  <script src="/high-scores.js" defer></script>
+  <script type="module" src="/high-scores.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="/" aria-label="Квиско — почетна"><span class="brand-icon" aria-hidden="true">к<span>✦</span></span>квиско<span class="brand-dot">.</span></a>
-    <a class="text-button" href="/">← Сви квизови</a>
+    <a class="brand" href="/" aria-label="Квиско — почетна" data-i18n-aria-label="nav.home"><span class="brand-icon" aria-hidden="true">к<span>✦</span></span>квиско<span class="brand-dot">.</span></a>
+    <nav class="header-actions"><a class="text-button" href="/"><span data-i18n="nav.all">← Сви квизови</span></a></nav>
   </header>
   <main class="leaderboard">
-    <div class="intro"><div class="eyebrow">✦ НАША МАЛА ОТКРИЋА</div><h1>Најбољи резултати</h1><p>Свака игра је прилика да научиш нешто ново.</p></div>
-    <div class="score-filter"><label for="quiz-filter">Изабери квиз</label><select id="quiz-filter"><option value="">Сви квизови</option></select></div>
-    <p class="ranking-note">Најбољих 100 резултата. Редослед је по проценту тачних одговора, затим по броју тачних одговора. Код једнаког резултата, раније сачувана игра има предност.</p>
-    <p id="scores-status" role="status" aria-live="polite">Учитавање резултата…</p>
-    <button id="scores-retry" class="text-button" hidden>Покушај поново</button>
+    <div class="intro"><div class="eyebrow"><span data-i18n="scores.eyebrow">✦ НАША МАЛА ОТКРИЋА</span></div><h1><span data-i18n="nav.scores">Најбољи резултати</span></h1><p><span data-i18n="scores.intro">Свака игра је прилика да научиш нешто ново.</span></p></div>
+    <div class="score-filter"><label for="quiz-filter"><span data-i18n="scores.filter">Изабери квиз</span></label><select id="quiz-filter"><option value="" data-i18n="scores.all">Сви квизови</option></select></div>
+    <p class="ranking-note"><span data-i18n="scores.ranking">Најбољих 100 резултата. Редослед је по проценту тачних одговора, затим по броју тачних одговора. Код једнаког резултата, раније сачувана игра има предност.</span></p>
+    <p id="scores-status" role="status" aria-live="polite"><span data-i18n="scores.loading">Учитавање резултата…</span></p>
+    <button id="scores-retry" class="text-button" hidden><span data-i18n="scores.retry">Покушај поново</span></button>
     <div id="scores-table-wrap" class="scores-table-wrap" hidden>
-      <table class="scores-table"><caption class="sr-only">Најбољи резултати у изабраним квизовима</caption><thead><tr><th scope="col">Место</th><th scope="col">Надимак</th><th scope="col">Резултат</th><th scope="col">Квиз</th><th scope="col">Датум</th></tr></thead><tbody id="scores-rows"></tbody></table>
+      <table class="scores-table"><caption class="sr-only"><span data-i18n="scores.caption">Најбољи резултати у изабраним квизовима</span></caption><thead><tr><th scope="col"><span data-i18n="scores.rank">Место</span></th><th scope="col"><span data-i18n="scores.nickname">Надимак</span></th><th scope="col"><span data-i18n="scores.score">Резултат</span></th><th scope="col"><span data-i18n="scores.quiz">Квиз</span></th><th scope="col"><span data-i18n="scores.date">Датум</span></th></tr></thead><tbody id="scores-rows"></tbody></table>
     </div>
   </main>
-  <footer><span>За радознале главице. · <a href="/credits.html">Фотографије и извори</a></span><span>Мали кораци. Велики свет. ✦</span></footer>
+  <footer><span><span data-i18n="footer.curious">За радознале главице.</span> · <a href="/credits.html"><span data-i18n="footer.credits">Фотографије и извори</span></a></span><span><span data-i18n="footer.world">Мали кораци. Велики свет.</span> ✦</span></footer>
 </body>
 </html>
